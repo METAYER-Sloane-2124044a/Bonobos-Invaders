@@ -1,0 +1,20 @@
+<map id="src/waveManager/waveManager.cpp" name="src/waveManager/waveManager.cpp">
+<area shape="rect" id="node2" href="$wave_manager_8h.html" title="Gestion des vagues. " alt="" coords="35,80,269,107"/>
+<area shape="rect" id="node6" href="$enemy_8h.html" title="Permet de gérer les enemies. " alt="" coords="624,155,779,181"/>
+<area shape="rect" id="node7" href="$mingl_8h.html" title="La bête. " alt="" coords="640,379,739,405"/>
+<area shape="rect" id="node23" href="$rectangle_8h.html" title="Représente un rectangle. " alt="" coords="920,304,1080,331"/>
+<area shape="rect" id="node26" href="$config_reader_8h.html" title="Gestion de la lecture du fichier de configuration. " alt="" coords="227,304,405,331"/>
+<area shape="rect" id="node27" href="$torpedo_8h.html" title="game/entities/torpedo.h" alt="" coords="505,229,663,256"/>
+<area shape="rect" id="node31" href="$baobab_8h.html" title="Représente un baobab. " alt="" coords="1104,304,1261,331"/>
+<area shape="rect" id="node14" href="$idrawable_8h.html" title="Interface pour un objet affichable. " alt="" coords="777,453,919,480"/>
+<area shape="rect" id="node15" href="$rgbacolor_8h.html" title="Représente une couleur RGBA. " alt="" coords="943,453,1081,480"/>
+<area shape="rect" id="node19" href="$vec2d_8h.html" title="Représente un vecteur sur deux dimensions. " alt="" coords="1106,453,1227,480"/>
+<area shape="rect" id="node21" href="$event__manager_8h.html" title="Gestionnaire d&#39;événements de minGL. " alt="" coords="363,453,522,480"/>
+<area shape="rect" id="node16" href="$ieditable_8h.html" title="declaration de la classe CEditable dans nsUtil " alt="" coords="949,528,1075,555"/>
+<area shape="rect" id="node18" href="$ieditable_8hpp.html" title="ieditable.hpp" alt="" coords="922,603,1017,629"/>
+<area shape="rect" id="node22" href="$event_8hpp.html" title="Différents types utile pour le gestionnaire d&#39;événements. " alt="" coords="403,528,482,555"/>
+<area shape="rect" id="node24" href="$shape_8h.html" title="Représente une forme. " alt="" coords="971,379,1039,405"/>
+<area shape="rect" id="node25" href="$itransitionable_8h.html" title="Interface pour objet &quot;transitionable&quot;. " alt="" coords="1079,379,1262,405"/>
+<area shape="rect" id="node28" href="$branch_8h.html" title="Représente une branche. " alt="" coords="459,304,613,331"/>
+<area shape="rect" id="node29" href="$banana_8h.html" title="Représente une banane. " alt="" coords="739,304,896,331"/>
+</map>

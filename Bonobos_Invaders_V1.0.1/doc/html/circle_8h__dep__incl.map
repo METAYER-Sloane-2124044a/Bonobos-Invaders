@@ -1,0 +1,7 @@
+<map id="libs/mingl/shape/circle.h" name="libs/mingl/shape/circle.h">
+<area shape="rect" id="node2" href="$banana_8cpp.html" title="Représente une banane. " alt="" coords="5,80,163,107"/>
+<area shape="rect" id="node3" href="$baobab_8cpp.html" title="Représente un baobab. " alt="" coords="187,80,344,107"/>
+<area shape="rect" id="node4" href="$bonobo_8cpp.html" title="Représente un bonobo. " alt="" coords="368,80,525,107"/>
+<area shape="rect" id="node5" href="$life_8cpp.html" title="Représente une vie d&#39;un joueur. " alt="" coords="550,80,682,107"/>
+<area shape="rect" id="node6" href="$shield_g_8cpp.html" title="Représente un bouclier en forme de feuille. " alt="" coords="706,80,865,107"/>
+</map>

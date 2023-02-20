@@ -1,0 +1,169 @@
+\hypertarget{classns_shape_1_1_shape}{}\section{ns\+Shape\+:\+:Shape Class Reference}
+\label{classns_shape_1_1_shape}\index{ns\+Shape\+::\+Shape@{ns\+Shape\+::\+Shape}}
+
+
+Classe de base pour une forme.  
+
+
+
+
+{\ttfamily \#include $<$shape.\+h$>$}
+
+
+
+Inheritance diagram for ns\+Shape\+:\+:Shape\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classns_shape_1_1_shape__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for ns\+Shape\+:\+:Shape\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{classns_shape_1_1_shape__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classns_shape_1_1_shape_a879f450649c23c83dee576234703951d}{Shape} (const \hyperlink{classns_graphics_1_1_r_g_b_acolor}{ns\+Graphics\+::\+R\+G\+B\+Acolor} \&fill\+Color, const \hyperlink{classns_graphics_1_1_r_g_b_acolor}{ns\+Graphics\+::\+R\+G\+B\+Acolor} \&border\+Color)
+\begin{DoxyCompactList}\small\item\em Constructeur pour la classe \hyperlink{classns_shape_1_1_shape}{Shape}. \end{DoxyCompactList}\item 
+virtual \hyperlink{classns_shape_1_1_shape_aaa22752af0d45c4e219e3870baf899d4}{$\sim$\+Shape} ()=default
+\begin{DoxyCompactList}\small\item\em Destructeur virtuel pour la classe \hyperlink{classns_shape_1_1_shape}{Shape}. \end{DoxyCompactList}\item 
+const \hyperlink{classns_graphics_1_1_r_g_b_acolor}{ns\+Graphics\+::\+R\+G\+B\+Acolor} \& \hyperlink{classns_shape_1_1_shape_a8efbd1ac47497b188edeb019557ef754}{get\+Fill\+Color} () const
+\begin{DoxyCompactList}\small\item\em Retourne la couleur de remplissage. \end{DoxyCompactList}\item 
+void \hyperlink{classns_shape_1_1_shape_aa0e9b22c076b83c4d5014b0213e5ce07}{set\+Fill\+Color} (const \hyperlink{classns_graphics_1_1_r_g_b_acolor}{ns\+Graphics\+::\+R\+G\+B\+Acolor} \&fill\+Color)
+\begin{DoxyCompactList}\small\item\em Règle la couleur de remplissage. \end{DoxyCompactList}\item 
+const \hyperlink{classns_graphics_1_1_r_g_b_acolor}{ns\+Graphics\+::\+R\+G\+B\+Acolor} \& \hyperlink{classns_shape_1_1_shape_aca75f4b06e8e5b04d0271d191210299d}{get\+Border\+Color} () const
+\begin{DoxyCompactList}\small\item\em Retourne la couleur de bord. \end{DoxyCompactList}\item 
+void \hyperlink{classns_shape_1_1_shape_a48821100aa1856f188bdba257505adc3}{set\+Border\+Color} (const \hyperlink{classns_graphics_1_1_r_g_b_acolor}{ns\+Graphics\+::\+R\+G\+B\+Acolor} \&border\+Color)
+\begin{DoxyCompactList}\small\item\em Règle la couleur de bord. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classns_graphics_1_1_r_g_b_acolor}{ns\+Graphics\+::\+R\+G\+B\+Acolor} \hyperlink{classns_shape_1_1_shape_a68841e117adddc95734dcbaa62f68832}{m\+\_\+fill\+Color}
+\begin{DoxyCompactList}\small\item\em m\+\_\+fill\+Color \+: Couleur de remplissage \end{DoxyCompactList}\item 
+\hyperlink{classns_graphics_1_1_r_g_b_acolor}{ns\+Graphics\+::\+R\+G\+B\+Acolor} \hyperlink{classns_shape_1_1_shape_a0444014e3ee0fa1e6ba5295e530a4f82}{m\+\_\+border\+Color}
+\begin{DoxyCompactList}\small\item\em m\+\_\+border\+Color \+: Couleur de bord \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Classe de base pour une forme. 
+
+Definition at line 29 of file shape.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classns_shape_1_1_shape_a879f450649c23c83dee576234703951d}\label{classns_shape_1_1_shape_a879f450649c23c83dee576234703951d}} 
+\index{ns\+Shape\+::\+Shape@{ns\+Shape\+::\+Shape}!Shape@{Shape}}
+\index{Shape@{Shape}!ns\+Shape\+::\+Shape@{ns\+Shape\+::\+Shape}}
+\subsubsection{\texorpdfstring{Shape()}{Shape()}}
+{\footnotesize\ttfamily ns\+Shape\+::\+Shape\+::\+Shape (\begin{DoxyParamCaption}\item[{const \hyperlink{classns_graphics_1_1_r_g_b_acolor}{ns\+Graphics\+::\+R\+G\+B\+Acolor} \&}]{fill\+Color,  }\item[{const \hyperlink{classns_graphics_1_1_r_g_b_acolor}{ns\+Graphics\+::\+R\+G\+B\+Acolor} \&}]{border\+Color }\end{DoxyParamCaption})}
+
+
+
+Constructeur pour la classe \hyperlink{classns_shape_1_1_shape}{Shape}. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em fill\+Color} & \+: Couleur de remplissage de la forme \\
+\hline
+\mbox{\tt in}  & {\em border\+Color} & \+: Couleur de bord de la forme \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classns_shape_1_1_shape_aaa22752af0d45c4e219e3870baf899d4}\label{classns_shape_1_1_shape_aaa22752af0d45c4e219e3870baf899d4}} 
+\index{ns\+Shape\+::\+Shape@{ns\+Shape\+::\+Shape}!````~Shape@{$\sim$\+Shape}}
+\index{````~Shape@{$\sim$\+Shape}!ns\+Shape\+::\+Shape@{ns\+Shape\+::\+Shape}}
+\subsubsection{\texorpdfstring{$\sim$\+Shape()}{~Shape()}}
+{\footnotesize\ttfamily ns\+Shape\+::\+Shape\+::$\sim$\+Shape (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}, {\ttfamily [default]}}
+
+
+
+Destructeur virtuel pour la classe \hyperlink{classns_shape_1_1_shape}{Shape}. 
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classns_shape_1_1_shape_aca75f4b06e8e5b04d0271d191210299d}\label{classns_shape_1_1_shape_aca75f4b06e8e5b04d0271d191210299d}} 
+\index{ns\+Shape\+::\+Shape@{ns\+Shape\+::\+Shape}!get\+Border\+Color@{get\+Border\+Color}}
+\index{get\+Border\+Color@{get\+Border\+Color}!ns\+Shape\+::\+Shape@{ns\+Shape\+::\+Shape}}
+\subsubsection{\texorpdfstring{get\+Border\+Color()}{getBorderColor()}}
+{\footnotesize\ttfamily const \hyperlink{classns_graphics_1_1_r_g_b_acolor}{ns\+Graphics\+::\+R\+G\+B\+Acolor} \& ns\+Shape\+::\+Shape\+::get\+Border\+Color (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Retourne la couleur de bord. 
+
+\mbox{\Hypertarget{classns_shape_1_1_shape_a8efbd1ac47497b188edeb019557ef754}\label{classns_shape_1_1_shape_a8efbd1ac47497b188edeb019557ef754}} 
+\index{ns\+Shape\+::\+Shape@{ns\+Shape\+::\+Shape}!get\+Fill\+Color@{get\+Fill\+Color}}
+\index{get\+Fill\+Color@{get\+Fill\+Color}!ns\+Shape\+::\+Shape@{ns\+Shape\+::\+Shape}}
+\subsubsection{\texorpdfstring{get\+Fill\+Color()}{getFillColor()}}
+{\footnotesize\ttfamily const \hyperlink{classns_graphics_1_1_r_g_b_acolor}{ns\+Graphics\+::\+R\+G\+B\+Acolor} \& ns\+Shape\+::\+Shape\+::get\+Fill\+Color (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Retourne la couleur de remplissage. 
+
+\mbox{\Hypertarget{classns_shape_1_1_shape_a48821100aa1856f188bdba257505adc3}\label{classns_shape_1_1_shape_a48821100aa1856f188bdba257505adc3}} 
+\index{ns\+Shape\+::\+Shape@{ns\+Shape\+::\+Shape}!set\+Border\+Color@{set\+Border\+Color}}
+\index{set\+Border\+Color@{set\+Border\+Color}!ns\+Shape\+::\+Shape@{ns\+Shape\+::\+Shape}}
+\subsubsection{\texorpdfstring{set\+Border\+Color()}{setBorderColor()}}
+{\footnotesize\ttfamily void ns\+Shape\+::\+Shape\+::set\+Border\+Color (\begin{DoxyParamCaption}\item[{const \hyperlink{classns_graphics_1_1_r_g_b_acolor}{ns\+Graphics\+::\+R\+G\+B\+Acolor} \&}]{border\+Color }\end{DoxyParamCaption})}
+
+
+
+Règle la couleur de bord. 
+
+\mbox{\Hypertarget{classns_shape_1_1_shape_aa0e9b22c076b83c4d5014b0213e5ce07}\label{classns_shape_1_1_shape_aa0e9b22c076b83c4d5014b0213e5ce07}} 
+\index{ns\+Shape\+::\+Shape@{ns\+Shape\+::\+Shape}!set\+Fill\+Color@{set\+Fill\+Color}}
+\index{set\+Fill\+Color@{set\+Fill\+Color}!ns\+Shape\+::\+Shape@{ns\+Shape\+::\+Shape}}
+\subsubsection{\texorpdfstring{set\+Fill\+Color()}{setFillColor()}}
+{\footnotesize\ttfamily cvoid ns\+Shape\+::\+Shape\+::set\+Fill\+Color (\begin{DoxyParamCaption}\item[{const \hyperlink{classns_graphics_1_1_r_g_b_acolor}{ns\+Graphics\+::\+R\+G\+B\+Acolor} \&}]{fill\+Color }\end{DoxyParamCaption})}
+
+
+
+Règle la couleur de remplissage. 
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classns_shape_1_1_shape_a0444014e3ee0fa1e6ba5295e530a4f82}\label{classns_shape_1_1_shape_a0444014e3ee0fa1e6ba5295e530a4f82}} 
+\index{ns\+Shape\+::\+Shape@{ns\+Shape\+::\+Shape}!m\+\_\+border\+Color@{m\+\_\+border\+Color}}
+\index{m\+\_\+border\+Color@{m\+\_\+border\+Color}!ns\+Shape\+::\+Shape@{ns\+Shape\+::\+Shape}}
+\subsubsection{\texorpdfstring{m\+\_\+border\+Color}{m\_borderColor}}
+{\footnotesize\ttfamily \hyperlink{classns_graphics_1_1_r_g_b_acolor}{ns\+Graphics\+::\+R\+G\+B\+Acolor} ns\+Shape\+::\+Shape\+::m\+\_\+border\+Color\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+m\+\_\+border\+Color \+: Couleur de bord 
+
+
+
+Definition at line 80 of file shape.\+h.
+
+\mbox{\Hypertarget{classns_shape_1_1_shape_a68841e117adddc95734dcbaa62f68832}\label{classns_shape_1_1_shape_a68841e117adddc95734dcbaa62f68832}} 
+\index{ns\+Shape\+::\+Shape@{ns\+Shape\+::\+Shape}!m\+\_\+fill\+Color@{m\+\_\+fill\+Color}}
+\index{m\+\_\+fill\+Color@{m\+\_\+fill\+Color}!ns\+Shape\+::\+Shape@{ns\+Shape\+::\+Shape}}
+\subsubsection{\texorpdfstring{m\+\_\+fill\+Color}{m\_fillColor}}
+{\footnotesize\ttfamily \hyperlink{classns_graphics_1_1_r_g_b_acolor}{ns\+Graphics\+::\+R\+G\+B\+Acolor} ns\+Shape\+::\+Shape\+::m\+\_\+fill\+Color\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+m\+\_\+fill\+Color \+: Couleur de remplissage 
+
+
+
+Definition at line 75 of file shape.\+h.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+libs/mingl/shape/\hyperlink{shape_8h}{shape.\+h}\end{DoxyCompactItemize}

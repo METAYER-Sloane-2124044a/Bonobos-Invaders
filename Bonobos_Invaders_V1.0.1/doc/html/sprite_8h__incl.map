@@ -1,0 +1,8 @@
+<map id="libs/mingl/gui/sprite.h" name="libs/mingl/gui/sprite.h">
+<area shape="rect" id="node4" href="$idrawable_8h.html" title="Interface pour un objet affichable. " alt="" coords="349,80,502,107"/>
+<area shape="rect" id="node6" href="$rgbacolor_8h.html" title="Représente une couleur RGBA. " alt="" coords="526,80,677,107"/>
+<area shape="rect" id="node11" href="$vec2d_8h.html" title="Représente un vecteur sur deux dimensions. " alt="" coords="701,80,835,107"/>
+<area shape="rect" id="node13" href="$itransitionable_8h.html" title="Interface pour objet &quot;transitionable&quot;. " alt="" coords="142,80,325,107"/>
+<area shape="rect" id="node8" href="$ieditable_8h.html" title="declaration de la classe CEditable dans nsUtil " alt="" coords="640,155,765,181"/>
+<area shape="rect" id="node10" href="$ieditable_8hpp.html" title="ieditable.hpp" alt="" coords="655,229,750,256"/>
+</map>

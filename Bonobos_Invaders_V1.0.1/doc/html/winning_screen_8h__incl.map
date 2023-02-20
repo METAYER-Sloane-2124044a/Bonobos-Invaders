@@ -1,0 +1,35 @@
+<map id="libs/game/scenes/winningScreen.h" name="libs/game/scenes/winningScreen.h">
+<area shape="rect" id="node2" href="$multi_8h.html" title="Gestion du mode de jeu multi. " alt="" coords="952,95,1013,121"/>
+<area shape="rect" id="node3" href="$get_pseudo_8h.html" title="Scene du choix des pseudos. " alt="" coords="1105,244,1282,271"/>
+<area shape="rect" id="node33" href="$sprite_8h.html" title="Image pouvant être chargé depuis un fichier. " alt="" coords="2163,475,2285,502"/>
+<area shape="rect" id="node35" href="$start_game_8h.html" title="Permet de gérer le départ d&#39;une partie. " alt="" coords="1417,393,1593,420"/>
+<area shape="rect" id="node37" href="$score_8h.html" title="gestion du score des joueurs " alt="" coords="711,244,849,271"/>
+<area shape="rect" id="node42" href="$collision_8h.html" title="Permet de gérer les collisions. " alt="" coords="899,244,1066,271"/>
+<area shape="rect" id="node43" href="$shield_8h.html" title="Permet de gérer les boucliers. " alt="" coords="1244,393,1393,420"/>
+<area shape="rect" id="node45" href="$wave_manager_8h.html" title="Gestion des vagues. " alt="" coords="72,169,307,196"/>
+<area shape="rect" id="node48" href="$high_score_8h.html" title="Scène du high score. " alt="" coords="693,169,867,196"/>
+<area shape="rect" id="node4" href="$text_8h.html" title="Du texte. " alt="" coords="910,475,1021,502"/>
+<area shape="rect" id="node17" href="$player_8h.html" title="Permet de gérer les joueurs. " alt="" coords="967,319,1118,345"/>
+<area shape="rect" id="node5" href="$glut__font_8h.html" title="Classe utilitaire pour utiliser facilement les polices de Glut. " alt="" coords="1003,557,1085,584"/>
+<area shape="rect" id="node6" href="$idrawable_8h.html" title="Interface pour un objet affichable. " alt="" coords="909,632,1062,659"/>
+<area shape="rect" id="node8" href="$rgbacolor_8h.html" title="Représente une couleur RGBA. " alt="" coords="1086,632,1237,659"/>
+<area shape="rect" id="node13" href="$vec2d_8h.html" title="Représente un vecteur sur deux dimensions. " alt="" coords="1351,632,1484,659"/>
+<area shape="rect" id="node15" href="$itransitionable_8h.html" title="Interface pour objet &quot;transitionable&quot;. " alt="" coords="1214,557,1397,584"/>
+<area shape="rect" id="node10" href="$ieditable_8h.html" title="declaration de la classe CEditable dans nsUtil " alt="" coords="1099,707,1224,733"/>
+<area shape="rect" id="node12" href="$ieditable_8hpp.html" title="ieditable.hpp" alt="" coords="1114,781,1209,808"/>
+<area shape="rect" id="node18" href="$torpedo_8h.html" title="game/entities/torpedo.h" alt="" coords="670,393,829,420"/>
+<area shape="rect" id="node27" href="$config_reader_8h.html" title="Gestion de la lecture du fichier de configuration. " alt="" coords="275,475,453,502"/>
+<area shape="rect" id="node31" href="$bonobo_8h.html" title="Représente un bonobo. " alt="" coords="1592,475,1749,502"/>
+<area shape="rect" id="node32" href="$life_8h.html" title="Représente une coeur. " alt="" coords="1037,393,1169,420"/>
+<area shape="rect" id="node19" href="$mingl_8h.html" title="La bête. " alt="" coords="772,557,871,584"/>
+<area shape="rect" id="node25" href="$rectangle_8h.html" title="Représente un rectangle. " alt="" coords="1408,475,1568,502"/>
+<area shape="rect" id="node29" href="$branch_8h.html" title="Représente une branche. " alt="" coords="629,475,784,502"/>
+<area shape="rect" id="node30" href="$banana_8h.html" title="Représente une banane. " alt="" coords="1227,475,1384,502"/>
+<area shape="rect" id="node23" href="$event__manager_8h.html" title="Gestionnaire d&#39;événements de minGL. " alt="" coords="569,632,727,659"/>
+<area shape="rect" id="node24" href="$event_8hpp.html" title="Différents types utile pour le gestionnaire d&#39;événements. " alt="" coords="609,707,687,733"/>
+<area shape="rect" id="node26" href="$shape_8h.html" title="Représente une forme. " alt="" coords="1438,557,1506,584"/>
+<area shape="rect" id="node36" href="$start__button_8h.html" title="Représente un bouton de début de jeu. " alt="" coords="2008,468,2139,509"/>
+<area shape="rect" id="node39" href="$enemy_8h.html" title="Permet de gérer les enemies. " alt="" coords="537,319,692,345"/>
+<area shape="rect" id="node41" href="$baobab_8h.html" title="Représente un baobab. " alt="" coords="1045,475,1203,502"/>
+<area shape="rect" id="node44" href="$shield_g_8h.html" title="Représente un bouclier en forme de feuille. " alt="" coords="1825,475,1983,502"/>
+</map>

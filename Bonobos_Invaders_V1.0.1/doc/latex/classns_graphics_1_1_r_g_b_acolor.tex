@@ -1,0 +1,307 @@
+\hypertarget{classns_graphics_1_1_r_g_b_acolor}{}\section{ns\+Graphics\+:\+:R\+G\+B\+Acolor Class Reference}
+\label{classns_graphics_1_1_r_g_b_acolor}\index{ns\+Graphics\+::\+R\+G\+B\+Acolor@{ns\+Graphics\+::\+R\+G\+B\+Acolor}}
+
+
+Classe représentant un couleur R\+G\+B\+A8888.  
+
+
+
+
+{\ttfamily \#include $<$rgbacolor.\+h$>$}
+
+
+
+Inheritance diagram for ns\+Graphics\+:\+:R\+G\+B\+Acolor\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=202pt]{classns_graphics_1_1_r_g_b_acolor__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for ns\+Graphics\+:\+:R\+G\+B\+Acolor\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=202pt]{classns_graphics_1_1_r_g_b_acolor__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classns_graphics_1_1_r_g_b_acolor_a6f91976b2d83414329608564615f27b1}{R\+G\+B\+Acolor} (const G\+Lubyte \&red=0, const G\+Lubyte \&green=0, const G\+Lubyte \&blue=0, const G\+Lubyte \&\hyperlink{get_pseudo_8cpp_a91dd017bd061f2dac37ce9b6e37cb360}{alpha}=255)
+\begin{DoxyCompactList}\small\item\em Constructeur pour la classe \hyperlink{classns_graphics_1_1_r_g_b_acolor}{R\+G\+B\+Acolor}. \end{DoxyCompactList}\item 
+virtual \hyperlink{classns_graphics_1_1_r_g_b_acolor_a229faf986de81a508c37103ca013ad70}{$\sim$\+R\+G\+B\+Acolor} () override=default
+\begin{DoxyCompactList}\small\item\em Destructeur virtuel pour la classe \hyperlink{classns_graphics_1_1_r_g_b_acolor}{R\+G\+B\+Acolor}. \end{DoxyCompactList}\item 
+bool \hyperlink{classns_graphics_1_1_r_g_b_acolor_a685b4a48d19594bd29f136e1f74fee85}{operator==} (const \hyperlink{classns_graphics_1_1_r_g_b_acolor}{R\+G\+B\+Acolor} \&col) const
+\begin{DoxyCompactList}\small\item\em Opérateur d\textquotesingle{}égalité \end{DoxyCompactList}\item 
+bool \hyperlink{classns_graphics_1_1_r_g_b_acolor_a2cf7ff27443450c18368d521546f4e9e}{operator!=} (const \hyperlink{classns_graphics_1_1_r_g_b_acolor}{R\+G\+B\+Acolor} \&col) const
+\begin{DoxyCompactList}\small\item\em Opérateur d\textquotesingle{}inégalité \end{DoxyCompactList}\item 
+\hyperlink{classns_graphics_1_1_r_g_b_acolor}{R\+G\+B\+Acolor} \hyperlink{classns_graphics_1_1_r_g_b_acolor_abb3832c60bec568d1b357955e6be2300}{operator+} (const \hyperlink{classns_graphics_1_1_r_g_b_acolor}{R\+G\+B\+Acolor} \&rhs) const
+\begin{DoxyCompactList}\small\item\em Opérateur de décalage. \end{DoxyCompactList}\item 
+\hyperlink{classns_graphics_1_1_r_g_b_acolor}{R\+G\+B\+Acolor} \hyperlink{classns_graphics_1_1_r_g_b_acolor_a1be35bff76dd3859cc714b87db0a1193}{operator$\ast$} (const float \&rhs) const
+\begin{DoxyCompactList}\small\item\em Opérateur de réduction. \end{DoxyCompactList}\item 
+G\+Lubyte \hyperlink{classns_graphics_1_1_r_g_b_acolor_a55e40085f904b696a0bc63aed6258b79}{get\+Red} () const
+\begin{DoxyCompactList}\small\item\em Récupère le taux de rouge. \end{DoxyCompactList}\item 
+void \hyperlink{classns_graphics_1_1_r_g_b_acolor_ade94fb53d92392f80a316a2370c8991c}{set\+Red} (const G\+Lubyte \&red)
+\begin{DoxyCompactList}\small\item\em Définit le nouveau taux de rouge. \end{DoxyCompactList}\item 
+G\+Lubyte \hyperlink{classns_graphics_1_1_r_g_b_acolor_a5f2dc1550c34149fc5cbc1629b54d7e4}{get\+Green} () const
+\begin{DoxyCompactList}\small\item\em Récupère le taux de vert. \end{DoxyCompactList}\item 
+void \hyperlink{classns_graphics_1_1_r_g_b_acolor_a28674ba0fa5f7abc8afb4023c1d0cf25}{set\+Green} (const G\+Lubyte \&green)
+\begin{DoxyCompactList}\small\item\em Définit le nouveau taux de vert. \end{DoxyCompactList}\item 
+G\+Lubyte \hyperlink{classns_graphics_1_1_r_g_b_acolor_a9ac0893426cce20a177d6ea7af1d7129}{get\+Blue} () const
+\begin{DoxyCompactList}\small\item\em Récupère le taux de bleu. \end{DoxyCompactList}\item 
+void \hyperlink{classns_graphics_1_1_r_g_b_acolor_ac6f522de2f51788d98846034174fb16a}{set\+Blue} (const G\+Lubyte \&blue)
+\begin{DoxyCompactList}\small\item\em Définit le nouveau taux de bleu. \end{DoxyCompactList}\item 
+G\+Lubyte \hyperlink{classns_graphics_1_1_r_g_b_acolor_a76299c507a113e326c01fe4b0bca2b1e}{get\+Alpha} () const
+\begin{DoxyCompactList}\small\item\em Récupère le taux de transparence. \end{DoxyCompactList}\item 
+void \hyperlink{classns_graphics_1_1_r_g_b_acolor_aa478d3c5b8b56f590a12461fe2ab4bbf}{set\+Alpha} (const G\+Lubyte \&\hyperlink{get_pseudo_8cpp_a91dd017bd061f2dac37ce9b6e37cb360}{alpha})
+\begin{DoxyCompactList}\small\item\em Définit le nouveau taux de transparence. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual std\+::ostream \& \hyperlink{classns_graphics_1_1_r_g_b_acolor_add0c76f970c8617971ef8c5512335e88}{\+\_\+\+Edit} (std\+::ostream \&os=std\+::cout) const override
+\begin{DoxyCompactList}\small\item\em Fonction appelée pour injecter l\textquotesingle{}objet courant dans un flux. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Classe représentant un couleur R\+G\+B\+A8888. 
+
+Definition at line 25 of file rgbacolor.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classns_graphics_1_1_r_g_b_acolor_a6f91976b2d83414329608564615f27b1}\label{classns_graphics_1_1_r_g_b_acolor_a6f91976b2d83414329608564615f27b1}} 
+\index{ns\+Graphics\+::\+R\+G\+B\+Acolor@{ns\+Graphics\+::\+R\+G\+B\+Acolor}!R\+G\+B\+Acolor@{R\+G\+B\+Acolor}}
+\index{R\+G\+B\+Acolor@{R\+G\+B\+Acolor}!ns\+Graphics\+::\+R\+G\+B\+Acolor@{ns\+Graphics\+::\+R\+G\+B\+Acolor}}
+\subsubsection{\texorpdfstring{R\+G\+B\+Acolor()}{RGBAcolor()}}
+{\footnotesize\ttfamily ns\+Graphics\+::\+R\+G\+B\+Acolor\+::\+R\+G\+B\+Acolor (\begin{DoxyParamCaption}\item[{const G\+Lubyte \&}]{red = {\ttfamily 0},  }\item[{const G\+Lubyte \&}]{green = {\ttfamily 0},  }\item[{const G\+Lubyte \&}]{blue = {\ttfamily 0},  }\item[{const G\+Lubyte \&}]{alpha = {\ttfamily 255} }\end{DoxyParamCaption})}
+
+
+
+Constructeur pour la classe \hyperlink{classns_graphics_1_1_r_g_b_acolor}{R\+G\+B\+Acolor}. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em red} & \+: Taux de rouge (0-\/255) \\
+\hline
+\mbox{\tt in}  & {\em green} & \+: Taux de vert (0-\/255) \\
+\hline
+\mbox{\tt in}  & {\em blue} & \+: Taux de bleu (0-\/255) \\
+\hline
+\mbox{\tt in}  & {\em alpha} & \+: Taux de transparence (0-\/255) \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classns_graphics_1_1_r_g_b_acolor_a229faf986de81a508c37103ca013ad70}\label{classns_graphics_1_1_r_g_b_acolor_a229faf986de81a508c37103ca013ad70}} 
+\index{ns\+Graphics\+::\+R\+G\+B\+Acolor@{ns\+Graphics\+::\+R\+G\+B\+Acolor}!````~R\+G\+B\+Acolor@{$\sim$\+R\+G\+B\+Acolor}}
+\index{````~R\+G\+B\+Acolor@{$\sim$\+R\+G\+B\+Acolor}!ns\+Graphics\+::\+R\+G\+B\+Acolor@{ns\+Graphics\+::\+R\+G\+B\+Acolor}}
+\subsubsection{\texorpdfstring{$\sim$\+R\+G\+B\+Acolor()}{~RGBAcolor()}}
+{\footnotesize\ttfamily ns\+Graphics\+::\+R\+G\+B\+Acolor\+::$\sim$\+R\+G\+B\+Acolor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}, {\ttfamily [default]}}
+
+
+
+Destructeur virtuel pour la classe \hyperlink{classns_graphics_1_1_r_g_b_acolor}{R\+G\+B\+Acolor}. 
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classns_graphics_1_1_r_g_b_acolor_add0c76f970c8617971ef8c5512335e88}\label{classns_graphics_1_1_r_g_b_acolor_add0c76f970c8617971ef8c5512335e88}} 
+\index{ns\+Graphics\+::\+R\+G\+B\+Acolor@{ns\+Graphics\+::\+R\+G\+B\+Acolor}!\+\_\+\+Edit@{\+\_\+\+Edit}}
+\index{\+\_\+\+Edit@{\+\_\+\+Edit}!ns\+Graphics\+::\+R\+G\+B\+Acolor@{ns\+Graphics\+::\+R\+G\+B\+Acolor}}
+\subsubsection{\texorpdfstring{\+\_\+\+Edit()}{\_Edit()}}
+{\footnotesize\ttfamily virtual std\+::ostream\& ns\+Graphics\+::\+R\+G\+B\+Acolor\+::\+\_\+\+Edit (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os = {\ttfamily std\+:\+:cout} }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Fonction appelée pour injecter l\textquotesingle{}objet courant dans un flux. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em os} & \+: Flux dans lequel injecter \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{classns_util_1_1_i_editable_ab20bbe582b95383ed3f1453109035853}{ns\+Util\+::\+I\+Editable}.
+
+\mbox{\Hypertarget{classns_graphics_1_1_r_g_b_acolor_a76299c507a113e326c01fe4b0bca2b1e}\label{classns_graphics_1_1_r_g_b_acolor_a76299c507a113e326c01fe4b0bca2b1e}} 
+\index{ns\+Graphics\+::\+R\+G\+B\+Acolor@{ns\+Graphics\+::\+R\+G\+B\+Acolor}!get\+Alpha@{get\+Alpha}}
+\index{get\+Alpha@{get\+Alpha}!ns\+Graphics\+::\+R\+G\+B\+Acolor@{ns\+Graphics\+::\+R\+G\+B\+Acolor}}
+\subsubsection{\texorpdfstring{get\+Alpha()}{getAlpha()}}
+{\footnotesize\ttfamily G\+Lubyte ns\+Graphics\+::\+R\+G\+B\+Acolor\+::get\+Alpha (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Récupère le taux de transparence. 
+
+\begin{DoxyReturn}{Returns}
+Une référence constante vers m\+\_\+alpha 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classns_graphics_1_1_r_g_b_acolor_a9ac0893426cce20a177d6ea7af1d7129}\label{classns_graphics_1_1_r_g_b_acolor_a9ac0893426cce20a177d6ea7af1d7129}} 
+\index{ns\+Graphics\+::\+R\+G\+B\+Acolor@{ns\+Graphics\+::\+R\+G\+B\+Acolor}!get\+Blue@{get\+Blue}}
+\index{get\+Blue@{get\+Blue}!ns\+Graphics\+::\+R\+G\+B\+Acolor@{ns\+Graphics\+::\+R\+G\+B\+Acolor}}
+\subsubsection{\texorpdfstring{get\+Blue()}{getBlue()}}
+{\footnotesize\ttfamily G\+Lubyte ns\+Graphics\+::\+R\+G\+B\+Acolor\+::get\+Blue (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Récupère le taux de bleu. 
+
+\begin{DoxyReturn}{Returns}
+Une référence constante vers m\+\_\+blue 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classns_graphics_1_1_r_g_b_acolor_a5f2dc1550c34149fc5cbc1629b54d7e4}\label{classns_graphics_1_1_r_g_b_acolor_a5f2dc1550c34149fc5cbc1629b54d7e4}} 
+\index{ns\+Graphics\+::\+R\+G\+B\+Acolor@{ns\+Graphics\+::\+R\+G\+B\+Acolor}!get\+Green@{get\+Green}}
+\index{get\+Green@{get\+Green}!ns\+Graphics\+::\+R\+G\+B\+Acolor@{ns\+Graphics\+::\+R\+G\+B\+Acolor}}
+\subsubsection{\texorpdfstring{get\+Green()}{getGreen()}}
+{\footnotesize\ttfamily G\+Lubyte ns\+Graphics\+::\+R\+G\+B\+Acolor\+::get\+Green (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Récupère le taux de vert. 
+
+\begin{DoxyReturn}{Returns}
+Une référence constante vers m\+\_\+green 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classns_graphics_1_1_r_g_b_acolor_a55e40085f904b696a0bc63aed6258b79}\label{classns_graphics_1_1_r_g_b_acolor_a55e40085f904b696a0bc63aed6258b79}} 
+\index{ns\+Graphics\+::\+R\+G\+B\+Acolor@{ns\+Graphics\+::\+R\+G\+B\+Acolor}!get\+Red@{get\+Red}}
+\index{get\+Red@{get\+Red}!ns\+Graphics\+::\+R\+G\+B\+Acolor@{ns\+Graphics\+::\+R\+G\+B\+Acolor}}
+\subsubsection{\texorpdfstring{get\+Red()}{getRed()}}
+{\footnotesize\ttfamily G\+Lubyte ns\+Graphics\+::\+R\+G\+B\+Acolor\+::get\+Red (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Récupère le taux de rouge. 
+
+\begin{DoxyReturn}{Returns}
+Une référence constante vers m\+\_\+red 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classns_graphics_1_1_r_g_b_acolor_a2cf7ff27443450c18368d521546f4e9e}\label{classns_graphics_1_1_r_g_b_acolor_a2cf7ff27443450c18368d521546f4e9e}} 
+\index{ns\+Graphics\+::\+R\+G\+B\+Acolor@{ns\+Graphics\+::\+R\+G\+B\+Acolor}!operator"!=@{operator"!=}}
+\index{operator"!=@{operator"!=}!ns\+Graphics\+::\+R\+G\+B\+Acolor@{ns\+Graphics\+::\+R\+G\+B\+Acolor}}
+\subsubsection{\texorpdfstring{operator"!=()}{operator!=()}}
+{\footnotesize\ttfamily bool ns\+Graphics\+::\+R\+G\+B\+Acolor\+::operator!= (\begin{DoxyParamCaption}\item[{const \hyperlink{classns_graphics_1_1_r_g_b_acolor}{R\+G\+B\+Acolor} \&}]{col }\end{DoxyParamCaption}) const}
+
+
+
+Opérateur d\textquotesingle{}inégalité 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em col} & \+: Couleur a vérifier \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classns_graphics_1_1_r_g_b_acolor_a1be35bff76dd3859cc714b87db0a1193}\label{classns_graphics_1_1_r_g_b_acolor_a1be35bff76dd3859cc714b87db0a1193}} 
+\index{ns\+Graphics\+::\+R\+G\+B\+Acolor@{ns\+Graphics\+::\+R\+G\+B\+Acolor}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!ns\+Graphics\+::\+R\+G\+B\+Acolor@{ns\+Graphics\+::\+R\+G\+B\+Acolor}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}}
+{\footnotesize\ttfamily \hyperlink{classns_graphics_1_1_r_g_b_acolor}{R\+G\+B\+Acolor} ns\+Graphics\+::\+R\+G\+B\+Acolor\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const float \&}]{rhs }\end{DoxyParamCaption}) const}
+
+
+
+Opérateur de réduction. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em rhs} & \+: Couleur avec laquelle multiplier la couleur actuelle \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classns_graphics_1_1_r_g_b_acolor_abb3832c60bec568d1b357955e6be2300}\label{classns_graphics_1_1_r_g_b_acolor_abb3832c60bec568d1b357955e6be2300}} 
+\index{ns\+Graphics\+::\+R\+G\+B\+Acolor@{ns\+Graphics\+::\+R\+G\+B\+Acolor}!operator+@{operator+}}
+\index{operator+@{operator+}!ns\+Graphics\+::\+R\+G\+B\+Acolor@{ns\+Graphics\+::\+R\+G\+B\+Acolor}}
+\subsubsection{\texorpdfstring{operator+()}{operator+()}}
+{\footnotesize\ttfamily \hyperlink{classns_graphics_1_1_r_g_b_acolor}{R\+G\+B\+Acolor} ns\+Graphics\+::\+R\+G\+B\+Acolor\+::operator+ (\begin{DoxyParamCaption}\item[{const \hyperlink{classns_graphics_1_1_r_g_b_acolor}{R\+G\+B\+Acolor} \&}]{rhs }\end{DoxyParamCaption}) const}
+
+
+
+Opérateur de décalage. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em rhs} & \+: Couleur a additionner \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classns_graphics_1_1_r_g_b_acolor_a685b4a48d19594bd29f136e1f74fee85}\label{classns_graphics_1_1_r_g_b_acolor_a685b4a48d19594bd29f136e1f74fee85}} 
+\index{ns\+Graphics\+::\+R\+G\+B\+Acolor@{ns\+Graphics\+::\+R\+G\+B\+Acolor}!operator==@{operator==}}
+\index{operator==@{operator==}!ns\+Graphics\+::\+R\+G\+B\+Acolor@{ns\+Graphics\+::\+R\+G\+B\+Acolor}}
+\subsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily bool ns\+Graphics\+::\+R\+G\+B\+Acolor\+::operator== (\begin{DoxyParamCaption}\item[{const \hyperlink{classns_graphics_1_1_r_g_b_acolor}{R\+G\+B\+Acolor} \&}]{col }\end{DoxyParamCaption}) const}
+
+
+
+Opérateur d\textquotesingle{}égalité 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em col} & \+: Couleur a vérifier \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classns_graphics_1_1_r_g_b_acolor_aa478d3c5b8b56f590a12461fe2ab4bbf}\label{classns_graphics_1_1_r_g_b_acolor_aa478d3c5b8b56f590a12461fe2ab4bbf}} 
+\index{ns\+Graphics\+::\+R\+G\+B\+Acolor@{ns\+Graphics\+::\+R\+G\+B\+Acolor}!set\+Alpha@{set\+Alpha}}
+\index{set\+Alpha@{set\+Alpha}!ns\+Graphics\+::\+R\+G\+B\+Acolor@{ns\+Graphics\+::\+R\+G\+B\+Acolor}}
+\subsubsection{\texorpdfstring{set\+Alpha()}{setAlpha()}}
+{\footnotesize\ttfamily void ns\+Graphics\+::\+R\+G\+B\+Acolor\+::set\+Alpha (\begin{DoxyParamCaption}\item[{const G\+Lubyte \&}]{alpha }\end{DoxyParamCaption})}
+
+
+
+Définit le nouveau taux de transparence. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em red} & \+: Nouveau taux de transparence \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classns_graphics_1_1_r_g_b_acolor_ac6f522de2f51788d98846034174fb16a}\label{classns_graphics_1_1_r_g_b_acolor_ac6f522de2f51788d98846034174fb16a}} 
+\index{ns\+Graphics\+::\+R\+G\+B\+Acolor@{ns\+Graphics\+::\+R\+G\+B\+Acolor}!set\+Blue@{set\+Blue}}
+\index{set\+Blue@{set\+Blue}!ns\+Graphics\+::\+R\+G\+B\+Acolor@{ns\+Graphics\+::\+R\+G\+B\+Acolor}}
+\subsubsection{\texorpdfstring{set\+Blue()}{setBlue()}}
+{\footnotesize\ttfamily void ns\+Graphics\+::\+R\+G\+B\+Acolor\+::set\+Blue (\begin{DoxyParamCaption}\item[{const G\+Lubyte \&}]{blue }\end{DoxyParamCaption})}
+
+
+
+Définit le nouveau taux de bleu. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em red} & \+: Nouveau taux de bleu \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classns_graphics_1_1_r_g_b_acolor_a28674ba0fa5f7abc8afb4023c1d0cf25}\label{classns_graphics_1_1_r_g_b_acolor_a28674ba0fa5f7abc8afb4023c1d0cf25}} 
+\index{ns\+Graphics\+::\+R\+G\+B\+Acolor@{ns\+Graphics\+::\+R\+G\+B\+Acolor}!set\+Green@{set\+Green}}
+\index{set\+Green@{set\+Green}!ns\+Graphics\+::\+R\+G\+B\+Acolor@{ns\+Graphics\+::\+R\+G\+B\+Acolor}}
+\subsubsection{\texorpdfstring{set\+Green()}{setGreen()}}
+{\footnotesize\ttfamily void ns\+Graphics\+::\+R\+G\+B\+Acolor\+::set\+Green (\begin{DoxyParamCaption}\item[{const G\+Lubyte \&}]{green }\end{DoxyParamCaption})}
+
+
+
+Définit le nouveau taux de vert. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em red} & \+: Nouveau taux de vert \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classns_graphics_1_1_r_g_b_acolor_ade94fb53d92392f80a316a2370c8991c}\label{classns_graphics_1_1_r_g_b_acolor_ade94fb53d92392f80a316a2370c8991c}} 
+\index{ns\+Graphics\+::\+R\+G\+B\+Acolor@{ns\+Graphics\+::\+R\+G\+B\+Acolor}!set\+Red@{set\+Red}}
+\index{set\+Red@{set\+Red}!ns\+Graphics\+::\+R\+G\+B\+Acolor@{ns\+Graphics\+::\+R\+G\+B\+Acolor}}
+\subsubsection{\texorpdfstring{set\+Red()}{setRed()}}
+{\footnotesize\ttfamily void ns\+Graphics\+::\+R\+G\+B\+Acolor\+::set\+Red (\begin{DoxyParamCaption}\item[{const G\+Lubyte \&}]{red }\end{DoxyParamCaption})}
+
+
+
+Définit le nouveau taux de rouge. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em red} & \+: Nouveau taux de rouge \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+libs/mingl/graphics/\hyperlink{rgbacolor_8h}{rgbacolor.\+h}\end{DoxyCompactItemize}

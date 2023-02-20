@@ -1,0 +1,86 @@
+\hypertarget{namespaceget_pseudo}{}\section{get\+Pseudo Namespace Reference}
+\label{namespaceget_pseudo}\index{get\+Pseudo@{get\+Pseudo}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{namespaceget_pseudo_a2118924f3d3476ec90731262ec241f3f}{init} (unsigned number)
+\item 
+unsigned \hyperlink{namespaceget_pseudo_a16ca01380e0e64dfd93ca957ed916d79}{update} (\hyperlink{class_min_g_l}{Min\+GL} \&window)
+\begin{DoxyCompactList}\small\item\em Permet de traiter les entrées claviers des joueurs. \end{DoxyCompactList}\item 
+void \hyperlink{namespaceget_pseudo_ab63637cb902211344de3d87e00e3758b}{render} (\hyperlink{class_min_g_l}{Min\+GL} \&window, \hyperlink{classns_gui_1_1_sprite}{ns\+Gui\+::\+Sprite} \&background)
+\begin{DoxyCompactList}\small\item\em Permet d\textquotesingle{}injecter le flux la scene dans la fenêtre de jeu. \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::string $>$ \hyperlink{namespaceget_pseudo_adbd3aef743008ec70be6367604f99b1b}{get\+Pseudo} ()
+\begin{DoxyCompactList}\small\item\em fonction qui renvoie les pseudos \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{namespaceget_pseudo_adbd3aef743008ec70be6367604f99b1b}\label{namespaceget_pseudo_adbd3aef743008ec70be6367604f99b1b}} 
+\index{get\+Pseudo@{get\+Pseudo}!get\+Pseudo@{get\+Pseudo}}
+\index{get\+Pseudo@{get\+Pseudo}!get\+Pseudo@{get\+Pseudo}}
+\subsubsection{\texorpdfstring{get\+Pseudo()}{getPseudo()}}
+{\footnotesize\ttfamily std\+::vector$<$ std\+::string $>$ get\+Pseudo\+::get\+Pseudo (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+fonction qui renvoie les pseudos 
+
+\begin{DoxyReturn}{Returns}
+std\+::vector$<$std\+::string$>$ \+: Vecteur contenant les pseudos des joeurs 
+\end{DoxyReturn}
+
+
+Definition at line 50 of file get\+Pseudo.\+cpp.
+
+\mbox{\Hypertarget{namespaceget_pseudo_a2118924f3d3476ec90731262ec241f3f}\label{namespaceget_pseudo_a2118924f3d3476ec90731262ec241f3f}} 
+\index{get\+Pseudo@{get\+Pseudo}!init@{init}}
+\index{init@{init}!get\+Pseudo@{get\+Pseudo}}
+\subsubsection{\texorpdfstring{init()}{init()}}
+{\footnotesize\ttfamily void get\+Pseudo\+::init (\begin{DoxyParamCaption}\item[{unsigned}]{number }\end{DoxyParamCaption})}
+
+
+
+Definition at line 10 of file get\+Pseudo.\+cpp.
+
+\mbox{\Hypertarget{namespaceget_pseudo_ab63637cb902211344de3d87e00e3758b}\label{namespaceget_pseudo_ab63637cb902211344de3d87e00e3758b}} 
+\index{get\+Pseudo@{get\+Pseudo}!render@{render}}
+\index{render@{render}!get\+Pseudo@{get\+Pseudo}}
+\subsubsection{\texorpdfstring{render()}{render()}}
+{\footnotesize\ttfamily void get\+Pseudo\+::render (\begin{DoxyParamCaption}\item[{\hyperlink{class_min_g_l}{Min\+GL} \&}]{window,  }\item[{\hyperlink{classns_gui_1_1_sprite}{ns\+Gui\+::\+Sprite} \&}]{background }\end{DoxyParamCaption})}
+
+
+
+Permet d\textquotesingle{}injecter le flux la scene dans la fenêtre de jeu. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em window\mbox{[}in,out\mbox{]}} & \+: La fenêtre de jeu \\
+\hline
+{\em background\mbox{[}in,out\mbox{]}} & \+: Le fond de la scene \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 44 of file get\+Pseudo.\+cpp.
+
+\mbox{\Hypertarget{namespaceget_pseudo_a16ca01380e0e64dfd93ca957ed916d79}\label{namespaceget_pseudo_a16ca01380e0e64dfd93ca957ed916d79}} 
+\index{get\+Pseudo@{get\+Pseudo}!update@{update}}
+\index{update@{update}!get\+Pseudo@{get\+Pseudo}}
+\subsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily unsigned get\+Pseudo\+::update (\begin{DoxyParamCaption}\item[{\hyperlink{class_min_g_l}{Min\+GL} \&}]{window }\end{DoxyParamCaption})}
+
+
+
+Permet de traiter les entrées claviers des joueurs. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in,out}  & {\em window} & \+: fenêtre de jeu \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+unsigned \+: 1 pour aller sur la scene du multi quand les pseudos sont rentré, sinon 4 
+\end{DoxyReturn}
+
+
+Definition at line 16 of file get\+Pseudo.\+cpp.
+

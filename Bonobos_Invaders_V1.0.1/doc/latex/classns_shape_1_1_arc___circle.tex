@@ -1,0 +1,319 @@
+\hypertarget{classns_shape_1_1_arc___circle}{}\section{ns\+Shape\+:\+:Arc\+\_\+\+Circle Class Reference}
+\label{classns_shape_1_1_arc___circle}\index{ns\+Shape\+::\+Arc\+\_\+\+Circle@{ns\+Shape\+::\+Arc\+\_\+\+Circle}}
+
+
+Classe représentant un arc de cercle.  
+
+
+
+
+{\ttfamily \#include $<$arc\+\_\+circle.\+h$>$}
+
+
+
+Inheritance diagram for ns\+Shape\+:\+:Arc\+\_\+\+Circle\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=341pt]{classns_shape_1_1_arc___circle__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for ns\+Shape\+:\+:Arc\+\_\+\+Circle\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classns_shape_1_1_arc___circle__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{classns_shape_1_1_arc___circle_aa6db8d435868af65e4ea134f37118415}{Transition\+Ids} \{ \newline
+\hyperlink{classns_shape_1_1_arc___circle_aa6db8d435868af65e4ea134f37118415a86b008799c3b04b2ecc53c9093fe0ea8}{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+F\+I\+L\+L\+\_\+\+C\+O\+L\+O\+R\+\_\+\+R\+GB}, 
+\hyperlink{classns_shape_1_1_arc___circle_aa6db8d435868af65e4ea134f37118415a519c50ae75ad4fc08870d40fc26f067a}{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+F\+I\+L\+L\+\_\+\+C\+O\+L\+O\+R\+\_\+\+A\+L\+P\+HA}, 
+\hyperlink{classns_shape_1_1_arc___circle_aa6db8d435868af65e4ea134f37118415aadff30b38ed1e4ed7c407c9e632c4e87}{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+B\+O\+R\+D\+E\+R\+\_\+\+C\+O\+L\+O\+R\+\_\+\+R\+GB}, 
+\hyperlink{classns_shape_1_1_arc___circle_aa6db8d435868af65e4ea134f37118415a000e5f7ac686f30aa86a276cd96a018b}{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+B\+O\+R\+D\+E\+R\+\_\+\+C\+O\+L\+O\+R\+\_\+\+A\+L\+P\+HA}, 
+\newline
+\hyperlink{classns_shape_1_1_arc___circle_aa6db8d435868af65e4ea134f37118415a8e5bcd350d6ffee20b2865f94695aa57}{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+P\+O\+S\+I\+T\+I\+ON}, 
+\hyperlink{classns_shape_1_1_arc___circle_aa6db8d435868af65e4ea134f37118415a21d8c256199f323e30e7ad870c9cba50}{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+R\+A\+D\+I\+US}
+ \}\begin{DoxyCompactList}\small\item\em Transition\+Ids \+: Liste de toutes les transitions que cet élément peut exécuter. \end{DoxyCompactList}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classns_shape_1_1_arc___circle_a76dafed8fb69902ca33b784cce0a7975}{Arc\+\_\+\+Circle} (const \hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D} \&position, const unsigned \&radius, const unsigned \&height, const char \&direction, const \hyperlink{classns_graphics_1_1_r_g_b_acolor}{ns\+Graphics\+::\+R\+G\+B\+Acolor} \&fill\+Color, const \hyperlink{classns_graphics_1_1_r_g_b_acolor}{ns\+Graphics\+::\+R\+G\+B\+Acolor} \&border\+Color=\hyperlink{namespacens_graphics_ab2001ad03cceb2565849e04465618c1e}{ns\+Graphics\+::\+K\+Transparent})
+\begin{DoxyCompactList}\small\item\em Constructeur pour la classe \hyperlink{classns_shape_1_1_arc___circle}{Arc\+\_\+\+Circle}. \end{DoxyCompactList}\item 
+virtual \hyperlink{classns_shape_1_1_arc___circle_a8b53fe0e24f1d0b1ad47331b8c66d289}{$\sim$\+Arc\+\_\+\+Circle} () override=default
+\begin{DoxyCompactList}\small\item\em Destructeur virtuel pour la classe \hyperlink{classns_shape_1_1_arc___circle}{Arc\+\_\+\+Circle}. \end{DoxyCompactList}\item 
+virtual void \hyperlink{classns_shape_1_1_arc___circle_a1e789ca962aeefd7dfd861eb0f75a6d7}{draw} (\hyperlink{class_min_g_l}{Min\+GL} \&window) const override
+\begin{DoxyCompactList}\small\item\em Fonction pour afficher l\textquotesingle{}objet. \end{DoxyCompactList}\item 
+virtual void \hyperlink{classns_shape_1_1_arc___circle_a11a5569112bf39b90192c7d7e0678736}{get\+Values} (const int \&id, std\+::vector$<$ float $>$ \&values) override
+\begin{DoxyCompactList}\small\item\em Récupère des valeurs dans un vecteur de float pour l\textquotesingle{}ID spécifié \end{DoxyCompactList}\item 
+virtual void \hyperlink{classns_shape_1_1_arc___circle_aa59b45d2a10ec5f8fd030d4ec46721b6}{set\+Values} (const int \&id, const std\+::vector$<$ float $>$ \&values) override
+\begin{DoxyCompactList}\small\item\em Définit les nouvelles valeurs pour l\textquotesingle{}ID spécifié \end{DoxyCompactList}\item 
+\hyperlink{classns_shape_1_1_arc___circle}{Arc\+\_\+\+Circle} \hyperlink{classns_shape_1_1_arc___circle_ac29fef537e801cbf80c148452772c770}{operator+} (const \hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D} \&\hyperlink{classns_shape_1_1_arc___circle_a931e29f1d186676dd84e376dc6576254}{get\+Position}) const
+\begin{DoxyCompactList}\small\item\em Opérateur de décalage. \end{DoxyCompactList}\item 
+\hyperlink{classns_shape_1_1_arc___circle}{Arc\+\_\+\+Circle} \hyperlink{classns_shape_1_1_arc___circle_aa048e6ac6e09a351d78a2f9f6ebe0430}{operator$\ast$} (const float \&f) const
+\begin{DoxyCompactList}\small\item\em Opérateur de réduction. \end{DoxyCompactList}\item 
+const \hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D} \& \hyperlink{classns_shape_1_1_arc___circle_a931e29f1d186676dd84e376dc6576254}{get\+Position} () const
+\begin{DoxyCompactList}\small\item\em Récupère la position de l\textquotesingle{}arc de cercle. \end{DoxyCompactList}\item 
+void \hyperlink{classns_shape_1_1_arc___circle_a52fa998838188e80ff97f96ad514cfe6}{set\+Position} (const \hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D} \&position)
+\begin{DoxyCompactList}\small\item\em Définit la nouvelle position de l\textquotesingle{}arc de cercle. \end{DoxyCompactList}\item 
+unsigned \hyperlink{classns_shape_1_1_arc___circle_a7fbd0dc94a0a3de9fcb9352156e50d3b}{get\+Radius} () const
+\begin{DoxyCompactList}\small\item\em Récupère le rayon de l\textquotesingle{}arc de cercle. \end{DoxyCompactList}\item 
+void \hyperlink{classns_shape_1_1_arc___circle_ac0dac107441139a53881faa0be110eaa}{set\+Radius} (const unsigned \&radius)
+\begin{DoxyCompactList}\small\item\em Définit le nouveau rayon de l\textquotesingle{}arc de cercle. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Classe représentant un arc de cercle. 
+
+Definition at line 27 of file arc\+\_\+circle.\+h.
+
+
+
+\subsection{Member Enumeration Documentation}
+\mbox{\Hypertarget{classns_shape_1_1_arc___circle_aa6db8d435868af65e4ea134f37118415}\label{classns_shape_1_1_arc___circle_aa6db8d435868af65e4ea134f37118415}} 
+\index{ns\+Shape\+::\+Arc\+\_\+\+Circle@{ns\+Shape\+::\+Arc\+\_\+\+Circle}!Transition\+Ids@{Transition\+Ids}}
+\index{Transition\+Ids@{Transition\+Ids}!ns\+Shape\+::\+Arc\+\_\+\+Circle@{ns\+Shape\+::\+Arc\+\_\+\+Circle}}
+\subsubsection{\texorpdfstring{Transition\+Ids}{TransitionIds}}
+{\footnotesize\ttfamily enum \hyperlink{classns_shape_1_1_arc___circle_aa6db8d435868af65e4ea134f37118415}{ns\+Shape\+::\+Arc\+\_\+\+Circle\+::\+Transition\+Ids}}
+
+
+
+Transition\+Ids \+: Liste de toutes les transitions que cet élément peut exécuter. 
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+F\+I\+L\+L\+\_\+\+C\+O\+L\+O\+R\+\_\+\+R\+GB@{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+F\+I\+L\+L\+\_\+\+C\+O\+L\+O\+R\+\_\+\+R\+GB}!ns\+Shape\+::\+Arc\+\_\+\+Circle@{ns\+Shape\+::\+Arc\+\_\+\+Circle}}\index{ns\+Shape\+::\+Arc\+\_\+\+Circle@{ns\+Shape\+::\+Arc\+\_\+\+Circle}!T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+F\+I\+L\+L\+\_\+\+C\+O\+L\+O\+R\+\_\+\+R\+GB@{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+F\+I\+L\+L\+\_\+\+C\+O\+L\+O\+R\+\_\+\+R\+GB}}}\mbox{\Hypertarget{classns_shape_1_1_arc___circle_aa6db8d435868af65e4ea134f37118415a86b008799c3b04b2ecc53c9093fe0ea8}\label{classns_shape_1_1_arc___circle_aa6db8d435868af65e4ea134f37118415a86b008799c3b04b2ecc53c9093fe0ea8}} 
+T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+F\+I\+L\+L\+\_\+\+C\+O\+L\+O\+R\+\_\+\+R\+GB&Transition pour la couleur de remplissage \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+F\+I\+L\+L\+\_\+\+C\+O\+L\+O\+R\+\_\+\+A\+L\+P\+HA@{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+F\+I\+L\+L\+\_\+\+C\+O\+L\+O\+R\+\_\+\+A\+L\+P\+HA}!ns\+Shape\+::\+Arc\+\_\+\+Circle@{ns\+Shape\+::\+Arc\+\_\+\+Circle}}\index{ns\+Shape\+::\+Arc\+\_\+\+Circle@{ns\+Shape\+::\+Arc\+\_\+\+Circle}!T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+F\+I\+L\+L\+\_\+\+C\+O\+L\+O\+R\+\_\+\+A\+L\+P\+HA@{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+F\+I\+L\+L\+\_\+\+C\+O\+L\+O\+R\+\_\+\+A\+L\+P\+HA}}}\mbox{\Hypertarget{classns_shape_1_1_arc___circle_aa6db8d435868af65e4ea134f37118415a519c50ae75ad4fc08870d40fc26f067a}\label{classns_shape_1_1_arc___circle_aa6db8d435868af65e4ea134f37118415a519c50ae75ad4fc08870d40fc26f067a}} 
+T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+F\+I\+L\+L\+\_\+\+C\+O\+L\+O\+R\+\_\+\+A\+L\+P\+HA&Transition pour la transparence de remplissage \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+B\+O\+R\+D\+E\+R\+\_\+\+C\+O\+L\+O\+R\+\_\+\+R\+GB@{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+B\+O\+R\+D\+E\+R\+\_\+\+C\+O\+L\+O\+R\+\_\+\+R\+GB}!ns\+Shape\+::\+Arc\+\_\+\+Circle@{ns\+Shape\+::\+Arc\+\_\+\+Circle}}\index{ns\+Shape\+::\+Arc\+\_\+\+Circle@{ns\+Shape\+::\+Arc\+\_\+\+Circle}!T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+B\+O\+R\+D\+E\+R\+\_\+\+C\+O\+L\+O\+R\+\_\+\+R\+GB@{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+B\+O\+R\+D\+E\+R\+\_\+\+C\+O\+L\+O\+R\+\_\+\+R\+GB}}}\mbox{\Hypertarget{classns_shape_1_1_arc___circle_aa6db8d435868af65e4ea134f37118415aadff30b38ed1e4ed7c407c9e632c4e87}\label{classns_shape_1_1_arc___circle_aa6db8d435868af65e4ea134f37118415aadff30b38ed1e4ed7c407c9e632c4e87}} 
+T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+B\+O\+R\+D\+E\+R\+\_\+\+C\+O\+L\+O\+R\+\_\+\+R\+GB&Transition pour la couleur de bord \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+B\+O\+R\+D\+E\+R\+\_\+\+C\+O\+L\+O\+R\+\_\+\+A\+L\+P\+HA@{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+B\+O\+R\+D\+E\+R\+\_\+\+C\+O\+L\+O\+R\+\_\+\+A\+L\+P\+HA}!ns\+Shape\+::\+Arc\+\_\+\+Circle@{ns\+Shape\+::\+Arc\+\_\+\+Circle}}\index{ns\+Shape\+::\+Arc\+\_\+\+Circle@{ns\+Shape\+::\+Arc\+\_\+\+Circle}!T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+B\+O\+R\+D\+E\+R\+\_\+\+C\+O\+L\+O\+R\+\_\+\+A\+L\+P\+HA@{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+B\+O\+R\+D\+E\+R\+\_\+\+C\+O\+L\+O\+R\+\_\+\+A\+L\+P\+HA}}}\mbox{\Hypertarget{classns_shape_1_1_arc___circle_aa6db8d435868af65e4ea134f37118415a000e5f7ac686f30aa86a276cd96a018b}\label{classns_shape_1_1_arc___circle_aa6db8d435868af65e4ea134f37118415a000e5f7ac686f30aa86a276cd96a018b}} 
+T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+B\+O\+R\+D\+E\+R\+\_\+\+C\+O\+L\+O\+R\+\_\+\+A\+L\+P\+HA&Transition pour la transparence de bord \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+P\+O\+S\+I\+T\+I\+ON@{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+P\+O\+S\+I\+T\+I\+ON}!ns\+Shape\+::\+Arc\+\_\+\+Circle@{ns\+Shape\+::\+Arc\+\_\+\+Circle}}\index{ns\+Shape\+::\+Arc\+\_\+\+Circle@{ns\+Shape\+::\+Arc\+\_\+\+Circle}!T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+P\+O\+S\+I\+T\+I\+ON@{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+P\+O\+S\+I\+T\+I\+ON}}}\mbox{\Hypertarget{classns_shape_1_1_arc___circle_aa6db8d435868af65e4ea134f37118415a8e5bcd350d6ffee20b2865f94695aa57}\label{classns_shape_1_1_arc___circle_aa6db8d435868af65e4ea134f37118415a8e5bcd350d6ffee20b2865f94695aa57}} 
+T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+P\+O\+S\+I\+T\+I\+ON&Transition pour la position \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+R\+A\+D\+I\+US@{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+R\+A\+D\+I\+US}!ns\+Shape\+::\+Arc\+\_\+\+Circle@{ns\+Shape\+::\+Arc\+\_\+\+Circle}}\index{ns\+Shape\+::\+Arc\+\_\+\+Circle@{ns\+Shape\+::\+Arc\+\_\+\+Circle}!T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+R\+A\+D\+I\+US@{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+R\+A\+D\+I\+US}}}\mbox{\Hypertarget{classns_shape_1_1_arc___circle_aa6db8d435868af65e4ea134f37118415a21d8c256199f323e30e7ad870c9cba50}\label{classns_shape_1_1_arc___circle_aa6db8d435868af65e4ea134f37118415a21d8c256199f323e30e7ad870c9cba50}} 
+T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+R\+A\+D\+I\+US&Transition pour le rayon \\
+\hline
+
+\end{DoxyEnumFields}
+
+
+Definition at line 34 of file arc\+\_\+circle.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classns_shape_1_1_arc___circle_a76dafed8fb69902ca33b784cce0a7975}\label{classns_shape_1_1_arc___circle_a76dafed8fb69902ca33b784cce0a7975}} 
+\index{ns\+Shape\+::\+Arc\+\_\+\+Circle@{ns\+Shape\+::\+Arc\+\_\+\+Circle}!Arc\+\_\+\+Circle@{Arc\+\_\+\+Circle}}
+\index{Arc\+\_\+\+Circle@{Arc\+\_\+\+Circle}!ns\+Shape\+::\+Arc\+\_\+\+Circle@{ns\+Shape\+::\+Arc\+\_\+\+Circle}}
+\subsubsection{\texorpdfstring{Arc\+\_\+\+Circle()}{Arc\_Circle()}}
+{\footnotesize\ttfamily ns\+Shape\+::\+Arc\+\_\+\+Circle\+::\+Arc\+\_\+\+Circle (\begin{DoxyParamCaption}\item[{const \hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D} \&}]{position,  }\item[{const unsigned \&}]{radius,  }\item[{const unsigned \&}]{height,  }\item[{const char \&}]{direction,  }\item[{const \hyperlink{classns_graphics_1_1_r_g_b_acolor}{ns\+Graphics\+::\+R\+G\+B\+Acolor} \&}]{fill\+Color,  }\item[{const \hyperlink{classns_graphics_1_1_r_g_b_acolor}{ns\+Graphics\+::\+R\+G\+B\+Acolor} \&}]{border\+Color = {\ttfamily \hyperlink{namespacens_graphics_ab2001ad03cceb2565849e04465618c1e}{ns\+Graphics\+::\+K\+Transparent}} }\end{DoxyParamCaption})}
+
+
+
+Constructeur pour la classe \hyperlink{classns_shape_1_1_arc___circle}{Arc\+\_\+\+Circle}. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em first\+Position} & \+: Position du centre \\
+\hline
+\mbox{\tt in}  & {\em radius} & \+: Rayon de l\textquotesingle{}arc de cercle \\
+\hline
+\mbox{\tt in}  & {\em height} & \+: Hauteur de l\textquotesingle{}arc de cercle \\
+\hline
+\mbox{\tt in}  & {\em direction} & \+: Direction de l\textquotesingle{}arc de cercle \\
+\hline
+\mbox{\tt in}  & {\em fill\+Color} & \+: Couleur de remplissage \\
+\hline
+\mbox{\tt in}  & {\em border\+Color} & \+: Couleur de bord \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 13 of file arc\+\_\+circle.\+cpp.
+
+\mbox{\Hypertarget{classns_shape_1_1_arc___circle_a8b53fe0e24f1d0b1ad47331b8c66d289}\label{classns_shape_1_1_arc___circle_a8b53fe0e24f1d0b1ad47331b8c66d289}} 
+\index{ns\+Shape\+::\+Arc\+\_\+\+Circle@{ns\+Shape\+::\+Arc\+\_\+\+Circle}!````~Arc\+\_\+\+Circle@{$\sim$\+Arc\+\_\+\+Circle}}
+\index{````~Arc\+\_\+\+Circle@{$\sim$\+Arc\+\_\+\+Circle}!ns\+Shape\+::\+Arc\+\_\+\+Circle@{ns\+Shape\+::\+Arc\+\_\+\+Circle}}
+\subsubsection{\texorpdfstring{$\sim$\+Arc\+\_\+\+Circle()}{~Arc\_Circle()}}
+{\footnotesize\ttfamily ns\+Shape\+::\+Arc\+\_\+\+Circle\+::$\sim$\+Arc\+\_\+\+Circle (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}, {\ttfamily [default]}}
+
+
+
+Destructeur virtuel pour la classe \hyperlink{classns_shape_1_1_arc___circle}{Arc\+\_\+\+Circle}. 
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classns_shape_1_1_arc___circle_a1e789ca962aeefd7dfd861eb0f75a6d7}\label{classns_shape_1_1_arc___circle_a1e789ca962aeefd7dfd861eb0f75a6d7}} 
+\index{ns\+Shape\+::\+Arc\+\_\+\+Circle@{ns\+Shape\+::\+Arc\+\_\+\+Circle}!draw@{draw}}
+\index{draw@{draw}!ns\+Shape\+::\+Arc\+\_\+\+Circle@{ns\+Shape\+::\+Arc\+\_\+\+Circle}}
+\subsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void ns\+Shape\+::\+Arc\+\_\+\+Circle\+::draw (\begin{DoxyParamCaption}\item[{\hyperlink{class_min_g_l}{Min\+GL} \&}]{window }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Fonction pour afficher l\textquotesingle{}objet. 
+
+
+
+Implements \hyperlink{classns_graphics_1_1_i_drawable_abed8a61e1d507d31e76f0891f3bf9c51}{ns\+Graphics\+::\+I\+Drawable}.
+
+
+
+Definition at line 21 of file arc\+\_\+circle.\+cpp.
+
+\mbox{\Hypertarget{classns_shape_1_1_arc___circle_a931e29f1d186676dd84e376dc6576254}\label{classns_shape_1_1_arc___circle_a931e29f1d186676dd84e376dc6576254}} 
+\index{ns\+Shape\+::\+Arc\+\_\+\+Circle@{ns\+Shape\+::\+Arc\+\_\+\+Circle}!get\+Position@{get\+Position}}
+\index{get\+Position@{get\+Position}!ns\+Shape\+::\+Arc\+\_\+\+Circle@{ns\+Shape\+::\+Arc\+\_\+\+Circle}}
+\subsubsection{\texorpdfstring{get\+Position()}{getPosition()}}
+{\footnotesize\ttfamily const \hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D} \& ns\+Shape\+::\+Arc\+\_\+\+Circle\+::get\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Récupère la position de l\textquotesingle{}arc de cercle. 
+
+\mbox{\Hypertarget{classns_shape_1_1_arc___circle_a7fbd0dc94a0a3de9fcb9352156e50d3b}\label{classns_shape_1_1_arc___circle_a7fbd0dc94a0a3de9fcb9352156e50d3b}} 
+\index{ns\+Shape\+::\+Arc\+\_\+\+Circle@{ns\+Shape\+::\+Arc\+\_\+\+Circle}!get\+Radius@{get\+Radius}}
+\index{get\+Radius@{get\+Radius}!ns\+Shape\+::\+Arc\+\_\+\+Circle@{ns\+Shape\+::\+Arc\+\_\+\+Circle}}
+\subsubsection{\texorpdfstring{get\+Radius()}{getRadius()}}
+{\footnotesize\ttfamily unsigned ns\+Shape\+::\+Arc\+\_\+\+Circle\+::get\+Radius (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Récupère le rayon de l\textquotesingle{}arc de cercle. 
+
+\mbox{\Hypertarget{classns_shape_1_1_arc___circle_a11a5569112bf39b90192c7d7e0678736}\label{classns_shape_1_1_arc___circle_a11a5569112bf39b90192c7d7e0678736}} 
+\index{ns\+Shape\+::\+Arc\+\_\+\+Circle@{ns\+Shape\+::\+Arc\+\_\+\+Circle}!get\+Values@{get\+Values}}
+\index{get\+Values@{get\+Values}!ns\+Shape\+::\+Arc\+\_\+\+Circle@{ns\+Shape\+::\+Arc\+\_\+\+Circle}}
+\subsubsection{\texorpdfstring{get\+Values()}{getValues()}}
+{\footnotesize\ttfamily void ns\+Shape\+::\+Arc\+\_\+\+Circle\+::get\+Values (\begin{DoxyParamCaption}\item[{const int \&}]{id,  }\item[{std\+::vector$<$ float $>$ \&}]{values }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Récupère des valeurs dans un vecteur de float pour l\textquotesingle{}ID spécifié 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em id} & ID des valeurs a récupérer \\
+\hline
+\mbox{\tt in,out}  & {\em values} & Vecteur de valeurs a peupler \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{classns_transition_1_1_i_transitionable_a5871a16fd47c1e5c8bacdd5da8597ed9}{ns\+Transition\+::\+I\+Transitionable}.
+
+
+
+Definition at line 56 of file arc\+\_\+circle.\+cpp.
+
+\mbox{\Hypertarget{classns_shape_1_1_arc___circle_aa048e6ac6e09a351d78a2f9f6ebe0430}\label{classns_shape_1_1_arc___circle_aa048e6ac6e09a351d78a2f9f6ebe0430}} 
+\index{ns\+Shape\+::\+Arc\+\_\+\+Circle@{ns\+Shape\+::\+Arc\+\_\+\+Circle}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!ns\+Shape\+::\+Arc\+\_\+\+Circle@{ns\+Shape\+::\+Arc\+\_\+\+Circle}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}}
+{\footnotesize\ttfamily \hyperlink{classns_shape_1_1_arc___circle}{Arc\+\_\+\+Circle} ns\+Shape\+::\+Arc\+\_\+\+Circle\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const float \&}]{f }\end{DoxyParamCaption}) const}
+
+
+
+Opérateur de réduction. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em f} & \+: Nombre avec lequel multiplier la position actuelle \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classns_shape_1_1_arc___circle_ac29fef537e801cbf80c148452772c770}\label{classns_shape_1_1_arc___circle_ac29fef537e801cbf80c148452772c770}} 
+\index{ns\+Shape\+::\+Arc\+\_\+\+Circle@{ns\+Shape\+::\+Arc\+\_\+\+Circle}!operator+@{operator+}}
+\index{operator+@{operator+}!ns\+Shape\+::\+Arc\+\_\+\+Circle@{ns\+Shape\+::\+Arc\+\_\+\+Circle}}
+\subsubsection{\texorpdfstring{operator+()}{operator+()}}
+{\footnotesize\ttfamily \hyperlink{classns_shape_1_1_arc___circle}{Arc\+\_\+\+Circle} ns\+Shape\+::\+Arc\+\_\+\+Circle\+::operator+ (\begin{DoxyParamCaption}\item[{const \hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D} \&}]{position }\end{DoxyParamCaption}) const}
+
+
+
+Opérateur de décalage. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em position} & \+: Position a additionner \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classns_shape_1_1_arc___circle_a52fa998838188e80ff97f96ad514cfe6}\label{classns_shape_1_1_arc___circle_a52fa998838188e80ff97f96ad514cfe6}} 
+\index{ns\+Shape\+::\+Arc\+\_\+\+Circle@{ns\+Shape\+::\+Arc\+\_\+\+Circle}!set\+Position@{set\+Position}}
+\index{set\+Position@{set\+Position}!ns\+Shape\+::\+Arc\+\_\+\+Circle@{ns\+Shape\+::\+Arc\+\_\+\+Circle}}
+\subsubsection{\texorpdfstring{set\+Position()}{setPosition()}}
+{\footnotesize\ttfamily ns\+Shape\+::\+Arc\+\_\+\+Circle\+::set\+Position (\begin{DoxyParamCaption}\item[{const \hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D} \&}]{position }\end{DoxyParamCaption})}
+
+
+
+Définit la nouvelle position de l\textquotesingle{}arc de cercle. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em position} & \+: Nouvelle position \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classns_shape_1_1_arc___circle_ac0dac107441139a53881faa0be110eaa}\label{classns_shape_1_1_arc___circle_ac0dac107441139a53881faa0be110eaa}} 
+\index{ns\+Shape\+::\+Arc\+\_\+\+Circle@{ns\+Shape\+::\+Arc\+\_\+\+Circle}!set\+Radius@{set\+Radius}}
+\index{set\+Radius@{set\+Radius}!ns\+Shape\+::\+Arc\+\_\+\+Circle@{ns\+Shape\+::\+Arc\+\_\+\+Circle}}
+\subsubsection{\texorpdfstring{set\+Radius()}{setRadius()}}
+{\footnotesize\ttfamily ns\+Shape\+::\+Arc\+\_\+\+Circle\+::set\+Radius (\begin{DoxyParamCaption}\item[{const unsigned \&}]{radius }\end{DoxyParamCaption})}
+
+
+
+Définit le nouveau rayon de l\textquotesingle{}arc de cercle. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em radius} & \+: Nouveau rayon \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classns_shape_1_1_arc___circle_aa59b45d2a10ec5f8fd030d4ec46721b6}\label{classns_shape_1_1_arc___circle_aa59b45d2a10ec5f8fd030d4ec46721b6}} 
+\index{ns\+Shape\+::\+Arc\+\_\+\+Circle@{ns\+Shape\+::\+Arc\+\_\+\+Circle}!set\+Values@{set\+Values}}
+\index{set\+Values@{set\+Values}!ns\+Shape\+::\+Arc\+\_\+\+Circle@{ns\+Shape\+::\+Arc\+\_\+\+Circle}}
+\subsubsection{\texorpdfstring{set\+Values()}{setValues()}}
+{\footnotesize\ttfamily void ns\+Shape\+::\+Arc\+\_\+\+Circle\+::set\+Values (\begin{DoxyParamCaption}\item[{const int \&}]{id,  }\item[{const std\+::vector$<$ float $>$ \&}]{values }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Définit les nouvelles valeurs pour l\textquotesingle{}ID spécifié 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em id} & ID des valeurs a définir \\
+\hline
+\mbox{\tt in}  & {\em values} & Vecteur des nouvelles valeurs a appliquer \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{classns_transition_1_1_i_transitionable_ade37d29f7f2ca4890ed0e2e64d033197}{ns\+Transition\+::\+I\+Transitionable}.
+
+
+
+Definition at line 96 of file arc\+\_\+circle.\+cpp.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+libs/game/graphic/\hyperlink{arc__circle_8h}{arc\+\_\+circle.\+h}\item 
+src/graphic/\hyperlink{arc__circle_8cpp}{arc\+\_\+circle.\+cpp}\end{DoxyCompactItemize}

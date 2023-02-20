@@ -1,0 +1,72 @@
+\hypertarget{menu_8h}{}\section{libs/game/scenes/menu.h File Reference}
+\label{menu_8h}\index{libs/game/scenes/menu.\+h@{libs/game/scenes/menu.\+h}}
+
+
+Scène du menu.  
+
+
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include \char`\"{}mingl/mingl.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}mingl/gui/text.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}mingl/shape/rectangle.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}game/yaml/config\+Reader.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}mingl/gui/sprite.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}game/graphic/exit\+\_\+button.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}game/graphic/credit\+\_\+button.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}game/graphic/highscore\+\_\+button.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}game/graphic/play\+\_\+button.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$cstdlib$>$}\newline
+Include dependency graph for menu.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{menu_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=282pt]{menu_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \hyperlink{namespacemenu}{menu}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{namespacemenu_a6ed0d40d52a1289a0500959d2e7d8a96}{menu\+::init} (std\+::map$<$ std\+::string, std\+::string $>$ \&\hyperlink{main_8cpp_ada2160bcc2082e595d02f0eb5a318dd5}{config\+Map}, \hyperlink{classns_gui_1_1_sprite}{ns\+Gui\+::\+Sprite} \&background)
+\begin{DoxyCompactList}\small\item\em Initialisaition de la scène. \end{DoxyCompactList}\item 
+unsigned \hyperlink{namespacemenu_afbcc14456a55b6670fff8690f2d2e3c6}{menu\+::update} (\hyperlink{class_min_g_l}{Min\+GL} \&window)
+\begin{DoxyCompactList}\small\item\em Permet de traiter les entrées claviers de l\textquotesingle{}utilisateur. \end{DoxyCompactList}\item 
+void \hyperlink{namespacemenu_a6f05b2393e356d0d869a5628f5ce6cfc}{menu\+::show\+Multi\+Button} (\hyperlink{class_min_g_l}{Min\+GL} \&window)
+\begin{DoxyCompactList}\small\item\em Permet d\textquotesingle{}afficher le bouton de lancement d\textquotesingle{}une partie. \end{DoxyCompactList}\item 
+void \hyperlink{namespacemenu_a119e883604e235e4ab1756bfe3e8dfca}{menu\+::show\+High\+Score} (\hyperlink{class_min_g_l}{Min\+GL} \&window)
+\begin{DoxyCompactList}\small\item\em Permet d\textquotesingle{}afficher le bouton pour acceder au high score. \end{DoxyCompactList}\item 
+void \hyperlink{namespacemenu_aae0e9f6825309dcf954f9d175d46d750}{menu\+::show\+Credit\+Button} (\hyperlink{class_min_g_l}{Min\+GL} \&window)
+\begin{DoxyCompactList}\small\item\em Permet d\textquotesingle{}afficher le bouton pour acceder au crédits. \end{DoxyCompactList}\item 
+void \hyperlink{namespacemenu_aeb814531cb10df0204e99514d4d8646a}{menu\+::show\+Exit\+Button} (\hyperlink{class_min_g_l}{Min\+GL} \&window)
+\begin{DoxyCompactList}\small\item\em Permet d\textquotesingle{}afficher le bouton pour quitter le jeu. \end{DoxyCompactList}\item 
+\hyperlink{classns_gui_1_1_text}{ns\+Gui\+::\+Text} \hyperlink{namespacemenu_a21d691d0add1d6f576dd31dd77104005}{menu\+::show\+Version} (\hyperlink{class_min_g_l}{Min\+GL} \&window)
+\begin{DoxyCompactList}\small\item\em Permet de générer graphiquement la version du jeu. \end{DoxyCompactList}\item 
+void \hyperlink{namespacemenu_a36909d583ee0b8fd45d25570c921a2b8}{menu\+::render} (\hyperlink{class_min_g_l}{Min\+GL} \&window)
+\begin{DoxyCompactList}\small\item\em Permet d\textquotesingle{}injecter le flux de la scène de la fenêtre de jeu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Scène du menu. 
+
+\begin{DoxyAuthor}{Author}
+Marius P\+I\+S\+T\+O\+R\+E\+SI 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+Decembre 2021 
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}

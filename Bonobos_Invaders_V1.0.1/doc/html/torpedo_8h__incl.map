@@ -1,0 +1,16 @@
+<map id="libs/game/entities/torpedo.h" name="libs/game/entities/torpedo.h">
+<area shape="rect" id="node2" href="$mingl_8h.html" title="La bête. " alt="" coords="513,169,611,196"/>
+<area shape="rect" id="node18" href="$rectangle_8h.html" title="Représente un rectangle. " alt="" coords="717,95,877,121"/>
+<area shape="rect" id="node21" href="$config_reader_8h.html" title="Gestion de la lecture du fichier de configuration. " alt="" coords="7,169,186,196"/>
+<area shape="rect" id="node23" href="$branch_8h.html" title="Représente une branche. " alt="" coords="485,95,639,121"/>
+<area shape="rect" id="node24" href="$banana_8h.html" title="Représente une banane. " alt="" coords="901,95,1058,121"/>
+<area shape="rect" id="node9" href="$idrawable_8h.html" title="Interface pour un objet affichable. " alt="" coords="599,244,741,271"/>
+<area shape="rect" id="node10" href="$rgbacolor_8h.html" title="Représente une couleur RGBA. " alt="" coords="765,244,903,271"/>
+<area shape="rect" id="node14" href="$vec2d_8h.html" title="Représente un vecteur sur deux dimensions. " alt="" coords="928,244,1049,271"/>
+<area shape="rect" id="node16" href="$event__manager_8h.html" title="Gestionnaire d&#39;événements de minGL. " alt="" coords="264,244,423,271"/>
+<area shape="rect" id="node11" href="$ieditable_8h.html" title="declaration de la classe CEditable dans nsUtil " alt="" coords="771,319,897,345"/>
+<area shape="rect" id="node13" href="$ieditable_8hpp.html" title="ieditable.hpp" alt="" coords="744,393,839,420"/>
+<area shape="rect" id="node17" href="$event_8hpp.html" title="Différents types utile pour le gestionnaire d&#39;événements. " alt="" coords="304,319,383,345"/>
+<area shape="rect" id="node19" href="$shape_8h.html" title="Représente une forme. " alt="" coords="797,169,865,196"/>
+<area shape="rect" id="node20" href="$itransitionable_8h.html" title="Interface pour objet &quot;transitionable&quot;. " alt="" coords="889,169,1072,196"/>
+</map>

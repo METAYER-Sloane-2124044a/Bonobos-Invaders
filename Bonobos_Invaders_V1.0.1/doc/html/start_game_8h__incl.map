@@ -1,0 +1,14 @@
+<map id="libs/game/entities/startGame.h" name="libs/game/entities/startGame.h">
+<area shape="rect" id="node2" href="$mingl_8h.html" title="La bête. " alt="" coords="406,184,505,211"/>
+<area shape="rect" id="node18" href="$rectangle_8h.html" title="Représente un rectangle. " alt="" coords="765,102,925,129"/>
+<area shape="rect" id="node21" href="$start__button_8h.html" title="Représente un bouton de début de jeu. " alt="" coords="610,95,741,136"/>
+<area shape="rect" id="node9" href="$idrawable_8h.html" title="Interface pour un objet affichable. " alt="" coords="493,259,634,285"/>
+<area shape="rect" id="node10" href="$rgbacolor_8h.html" title="Représente une couleur RGBA. " alt="" coords="658,259,797,285"/>
+<area shape="rect" id="node14" href="$vec2d_8h.html" title="Représente un vecteur sur deux dimensions. " alt="" coords="821,259,943,285"/>
+<area shape="rect" id="node16" href="$event__manager_8h.html" title="Gestionnaire d&#39;événements de minGL. " alt="" coords="136,259,295,285"/>
+<area shape="rect" id="node11" href="$ieditable_8h.html" title="declaration de la classe CEditable dans nsUtil " alt="" coords="681,333,806,360"/>
+<area shape="rect" id="node13" href="$ieditable_8hpp.html" title="ieditable.hpp" alt="" coords="696,408,791,435"/>
+<area shape="rect" id="node17" href="$event_8hpp.html" title="Différents types utile pour le gestionnaire d&#39;événements. " alt="" coords="176,333,255,360"/>
+<area shape="rect" id="node19" href="$shape_8h.html" title="Représente une forme. " alt="" coords="693,184,761,211"/>
+<area shape="rect" id="node20" href="$itransitionable_8h.html" title="Interface pour objet &quot;transitionable&quot;. " alt="" coords="795,184,977,211"/>
+</map>

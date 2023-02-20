@@ -1,0 +1,18 @@
+<map id="libs/game/entities/enemy.h" name="libs/game/entities/enemy.h">
+<area shape="rect" id="node2" href="$mingl_8h.html" title="La bête. " alt="" coords="337,244,435,271"/>
+<area shape="rect" id="node18" href="$rectangle_8h.html" title="Représente un rectangle. " alt="" coords="657,169,817,196"/>
+<area shape="rect" id="node21" href="$config_reader_8h.html" title="Gestion de la lecture du fichier de configuration. " alt="" coords="1022,169,1201,196"/>
+<area shape="rect" id="node23" href="$torpedo_8h.html" title="game/entities/torpedo.h" alt="" coords="507,95,665,121"/>
+<area shape="rect" id="node27" href="$baobab_8h.html" title="Représente un baobab. " alt="" coords="841,169,998,196"/>
+<area shape="rect" id="node9" href="$idrawable_8h.html" title="Interface pour un objet affichable. " alt="" coords="506,319,647,345"/>
+<area shape="rect" id="node10" href="$rgbacolor_8h.html" title="Représente une couleur RGBA. " alt="" coords="671,319,810,345"/>
+<area shape="rect" id="node14" href="$vec2d_8h.html" title="Représente un vecteur sur deux dimensions. " alt="" coords="835,319,956,345"/>
+<area shape="rect" id="node16" href="$event__manager_8h.html" title="Gestionnaire d&#39;événements de minGL. " alt="" coords="59,319,217,345"/>
+<area shape="rect" id="node11" href="$ieditable_8h.html" title="declaration de la classe CEditable dans nsUtil " alt="" coords="759,393,885,420"/>
+<area shape="rect" id="node13" href="$ieditable_8hpp.html" title="ieditable.hpp" alt="" coords="775,468,869,495"/>
+<area shape="rect" id="node17" href="$event_8hpp.html" title="Différents types utile pour le gestionnaire d&#39;événements. " alt="" coords="99,393,177,420"/>
+<area shape="rect" id="node19" href="$shape_8h.html" title="Représente une forme. " alt="" coords="704,244,772,271"/>
+<area shape="rect" id="node20" href="$itransitionable_8h.html" title="Interface pour objet &quot;transitionable&quot;. " alt="" coords="480,244,663,271"/>
+<area shape="rect" id="node24" href="$branch_8h.html" title="Représente une branche. " alt="" coords="246,169,401,196"/>
+<area shape="rect" id="node25" href="$banana_8h.html" title="Représente une banane. " alt="" coords="475,169,633,196"/>
+</map>

@@ -1,0 +1,35 @@
+digraph "libs/game" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_6719ab1f1f7655efc2fa43f7eb574fd1 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="libs" fontname="Helvetica", fontsize="10", URL="dir_6719ab1f1f7655efc2fa43f7eb574fd1.html"]
+  subgraph clusterdir_10c992a5ad9d681edc7d46cf538bcb51 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_10c992a5ad9d681edc7d46cf538bcb51.html"];
+    dir_10c992a5ad9d681edc7d46cf538bcb51 [shape=plaintext label="game"];
+    dir_43b41cf3b0884659abbfac1c2aebc9f5 [shape=box label="collision" color="black" fillcolor="white" style="filled" URL="dir_43b41cf3b0884659abbfac1c2aebc9f5.html"];
+    dir_18fcc25ff4e5fe0e8c5503018f848eb6 [shape=box label="entities" color="black" fillcolor="white" style="filled" URL="dir_18fcc25ff4e5fe0e8c5503018f848eb6.html"];
+    dir_a93e348ba5fc0576115edf167d276b1c [shape=box label="graphic" color="black" fillcolor="white" style="filled" URL="dir_a93e348ba5fc0576115edf167d276b1c.html"];
+    dir_2142ca991eeae29bbfbdf0c92df65416 [shape=box label="scenes" color="black" fillcolor="white" style="filled" URL="dir_2142ca991eeae29bbfbdf0c92df65416.html"];
+    dir_1ee3d38b8c204615d580f52482947026 [shape=box label="score" color="black" fillcolor="white" style="filled" URL="dir_1ee3d38b8c204615d580f52482947026.html"];
+    dir_309aa899a2231687fb22ab826b52b39c [shape=box label="waveManager" color="black" fillcolor="white" style="filled" URL="dir_309aa899a2231687fb22ab826b52b39c.html"];
+    dir_08bf7e3e3bbc62e59be05efc7049ea8f [shape=box label="yaml" color="black" fillcolor="white" style="filled" URL="dir_08bf7e3e3bbc62e59be05efc7049ea8f.html"];
+  }
+  }
+  dir_d4c5b6fad7562fcd9ee8f60dc5abf3ff [shape=box label="mingl" fillcolor="white" style="filled" color="red" URL="dir_d4c5b6fad7562fcd9ee8f60dc5abf3ff.html"];
+  dir_1ee3d38b8c204615d580f52482947026->dir_d4c5b6fad7562fcd9ee8f60dc5abf3ff [headlabel="1", labeldistance=1.5 headhref="dir_000021_000024.html"];
+  dir_1ee3d38b8c204615d580f52482947026->dir_18fcc25ff4e5fe0e8c5503018f848eb6 [headlabel="3", labeldistance=1.5 headhref="dir_000021_000018.html"];
+  dir_18fcc25ff4e5fe0e8c5503018f848eb6->dir_08bf7e3e3bbc62e59be05efc7049ea8f [headlabel="3", labeldistance=1.5 headhref="dir_000018_000023.html"];
+  dir_18fcc25ff4e5fe0e8c5503018f848eb6->dir_d4c5b6fad7562fcd9ee8f60dc5abf3ff [headlabel="8", labeldistance=1.5 headhref="dir_000018_000024.html"];
+  dir_18fcc25ff4e5fe0e8c5503018f848eb6->dir_a93e348ba5fc0576115edf167d276b1c [headlabel="7", labeldistance=1.5 headhref="dir_000018_000019.html"];
+  dir_2142ca991eeae29bbfbdf0c92df65416->dir_1ee3d38b8c204615d580f52482947026 [headlabel="2", labeldistance=1.5 headhref="dir_000020_000021.html"];
+  dir_2142ca991eeae29bbfbdf0c92df65416->dir_08bf7e3e3bbc62e59be05efc7049ea8f [headlabel="3", labeldistance=1.5 headhref="dir_000020_000023.html"];
+  dir_2142ca991eeae29bbfbdf0c92df65416->dir_d4c5b6fad7562fcd9ee8f60dc5abf3ff [headlabel="12", labeldistance=1.5 headhref="dir_000020_000024.html"];
+  dir_2142ca991eeae29bbfbdf0c92df65416->dir_18fcc25ff4e5fe0e8c5503018f848eb6 [headlabel="3", labeldistance=1.5 headhref="dir_000020_000018.html"];
+  dir_2142ca991eeae29bbfbdf0c92df65416->dir_a93e348ba5fc0576115edf167d276b1c [headlabel="4", labeldistance=1.5 headhref="dir_000020_000019.html"];
+  dir_2142ca991eeae29bbfbdf0c92df65416->dir_43b41cf3b0884659abbfac1c2aebc9f5 [headlabel="1", labeldistance=1.5 headhref="dir_000020_000017.html"];
+  dir_2142ca991eeae29bbfbdf0c92df65416->dir_309aa899a2231687fb22ab826b52b39c [headlabel="1", labeldistance=1.5 headhref="dir_000020_000022.html"];
+  dir_a93e348ba5fc0576115edf167d276b1c->dir_d4c5b6fad7562fcd9ee8f60dc5abf3ff [headlabel="23", labeldistance=1.5 headhref="dir_000019_000024.html"];
+  dir_43b41cf3b0884659abbfac1c2aebc9f5->dir_18fcc25ff4e5fe0e8c5503018f848eb6 [headlabel="5", labeldistance=1.5 headhref="dir_000017_000018.html"];
+  dir_309aa899a2231687fb22ab826b52b39c->dir_18fcc25ff4e5fe0e8c5503018f848eb6 [headlabel="1", labeldistance=1.5 headhref="dir_000022_000018.html"];
+}

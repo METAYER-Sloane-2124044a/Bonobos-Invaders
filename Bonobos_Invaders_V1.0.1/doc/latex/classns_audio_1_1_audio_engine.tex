@@ -1,0 +1,171 @@
+\hypertarget{classns_audio_1_1_audio_engine}{}\section{ns\+Audio\+:\+:Audio\+Engine Class Reference}
+\label{classns_audio_1_1_audio_engine}\index{ns\+Audio\+::\+Audio\+Engine@{ns\+Audio\+::\+Audio\+Engine}}
+
+
+Une classe de gestion des effets audio et de la musique.  
+
+
+
+
+{\ttfamily \#include $<$audioengine.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classns_audio_1_1_audio_engine_a6ef72eb80bef2c1b0764c40f629d2536}{set\+Music} (const std\+::string \&file\+Name, bool loop=true)
+\begin{DoxyCompactList}\small\item\em Définit le fichier audio de la musique. \end{DoxyCompactList}\item 
+void \hyperlink{classns_audio_1_1_audio_engine_aba89263fc9f810bee40dcae229313883}{toggle\+Music\+Playing} ()
+\begin{DoxyCompactList}\small\item\em Met en pause ou relance la musique. \end{DoxyCompactList}\item 
+void \hyperlink{classns_audio_1_1_audio_engine_ac21b2c1be9590a0f702c48220c59f8c9}{set\+Music\+Playing} (bool playing)
+\begin{DoxyCompactList}\small\item\em Règle l\textquotesingle{}état de lecture de la musique. \end{DoxyCompactList}\item 
+bool \hyperlink{classns_audio_1_1_audio_engine_a57e13380a3039e546a5f1b9242f8709b}{is\+Music\+Playing} () const
+\begin{DoxyCompactList}\small\item\em Récupère l\textquotesingle{}état de lecture de la musique. \end{DoxyCompactList}\item 
+void \hyperlink{classns_audio_1_1_audio_engine_a4c88595136327b3805c0322a9a8d2a0f}{load\+Sound} (const std\+::string \&file\+Name)
+\begin{DoxyCompactList}\small\item\em Charge un fichier audio dans un buffer. \end{DoxyCompactList}\item 
+void \hyperlink{classns_audio_1_1_audio_engine_a2b0a1a9b1cb90e1180ddedb5b9e2fad1}{remove\+Buffer} (const std\+::string \&file\+Name)
+\begin{DoxyCompactList}\small\item\em Retire un buffer de la liste. \end{DoxyCompactList}\item 
+void \hyperlink{classns_audio_1_1_audio_engine_ac05b3e0d2fd9ecfd1ad8eb110f021bf3}{empty\+Buffer\+List} ()
+\begin{DoxyCompactList}\small\item\em Vide la liste des buffers. \end{DoxyCompactList}\item 
+void \hyperlink{classns_audio_1_1_audio_engine_ac1343ed3afe38eb80a222969f3d74d6d}{start\+Music\+From\+Beginning} ()
+\begin{DoxyCompactList}\small\item\em Relance la musique depuis le début. \end{DoxyCompactList}\item 
+void \hyperlink{classns_audio_1_1_audio_engine_a47d769cc331578a398f422ff497505c8}{play\+Sound\+From\+Buffer} (const std\+::string \&file\+Name)
+\begin{DoxyCompactList}\small\item\em Joue un son depuis un buffer. \end{DoxyCompactList}\item 
+void \hyperlink{classns_audio_1_1_audio_engine_aa541e8088c35ab41e4747ecd648e75e9}{play\+Sound\+From\+File} (const std\+::string \&file\+Name)
+\begin{DoxyCompactList}\small\item\em Joue un son depuis un fichier. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Une classe de gestion des effets audio et de la musique. 
+
+Definition at line 28 of file audioengine.\+h.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classns_audio_1_1_audio_engine_ac05b3e0d2fd9ecfd1ad8eb110f021bf3}\label{classns_audio_1_1_audio_engine_ac05b3e0d2fd9ecfd1ad8eb110f021bf3}} 
+\index{ns\+Audio\+::\+Audio\+Engine@{ns\+Audio\+::\+Audio\+Engine}!empty\+Buffer\+List@{empty\+Buffer\+List}}
+\index{empty\+Buffer\+List@{empty\+Buffer\+List}!ns\+Audio\+::\+Audio\+Engine@{ns\+Audio\+::\+Audio\+Engine}}
+\subsubsection{\texorpdfstring{empty\+Buffer\+List()}{emptyBufferList()}}
+{\footnotesize\ttfamily void ns\+Audio\+::\+Audio\+Engine\+::empty\+Buffer\+List (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Vide la liste des buffers. 
+
+\mbox{\Hypertarget{classns_audio_1_1_audio_engine_a57e13380a3039e546a5f1b9242f8709b}\label{classns_audio_1_1_audio_engine_a57e13380a3039e546a5f1b9242f8709b}} 
+\index{ns\+Audio\+::\+Audio\+Engine@{ns\+Audio\+::\+Audio\+Engine}!is\+Music\+Playing@{is\+Music\+Playing}}
+\index{is\+Music\+Playing@{is\+Music\+Playing}!ns\+Audio\+::\+Audio\+Engine@{ns\+Audio\+::\+Audio\+Engine}}
+\subsubsection{\texorpdfstring{is\+Music\+Playing()}{isMusicPlaying()}}
+{\footnotesize\ttfamily bool ns\+Audio\+::\+Audio\+Engine\+::is\+Music\+Playing (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Récupère l\textquotesingle{}état de lecture de la musique. 
+
+\mbox{\Hypertarget{classns_audio_1_1_audio_engine_a4c88595136327b3805c0322a9a8d2a0f}\label{classns_audio_1_1_audio_engine_a4c88595136327b3805c0322a9a8d2a0f}} 
+\index{ns\+Audio\+::\+Audio\+Engine@{ns\+Audio\+::\+Audio\+Engine}!load\+Sound@{load\+Sound}}
+\index{load\+Sound@{load\+Sound}!ns\+Audio\+::\+Audio\+Engine@{ns\+Audio\+::\+Audio\+Engine}}
+\subsubsection{\texorpdfstring{load\+Sound()}{loadSound()}}
+{\footnotesize\ttfamily void ns\+Audio\+::\+Audio\+Engine\+::load\+Sound (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{file\+Name }\end{DoxyParamCaption})}
+
+
+
+Charge un fichier audio dans un buffer. 
+
+\mbox{\Hypertarget{classns_audio_1_1_audio_engine_a47d769cc331578a398f422ff497505c8}\label{classns_audio_1_1_audio_engine_a47d769cc331578a398f422ff497505c8}} 
+\index{ns\+Audio\+::\+Audio\+Engine@{ns\+Audio\+::\+Audio\+Engine}!play\+Sound\+From\+Buffer@{play\+Sound\+From\+Buffer}}
+\index{play\+Sound\+From\+Buffer@{play\+Sound\+From\+Buffer}!ns\+Audio\+::\+Audio\+Engine@{ns\+Audio\+::\+Audio\+Engine}}
+\subsubsection{\texorpdfstring{play\+Sound\+From\+Buffer()}{playSoundFromBuffer()}}
+{\footnotesize\ttfamily void ns\+Audio\+::\+Audio\+Engine\+::play\+Sound\+From\+Buffer (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{file\+Name }\end{DoxyParamCaption})}
+
+
+
+Joue un son depuis un buffer. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em file\+Name} & \+: nom du fichier \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classns_audio_1_1_audio_engine_aa541e8088c35ab41e4747ecd648e75e9}\label{classns_audio_1_1_audio_engine_aa541e8088c35ab41e4747ecd648e75e9}} 
+\index{ns\+Audio\+::\+Audio\+Engine@{ns\+Audio\+::\+Audio\+Engine}!play\+Sound\+From\+File@{play\+Sound\+From\+File}}
+\index{play\+Sound\+From\+File@{play\+Sound\+From\+File}!ns\+Audio\+::\+Audio\+Engine@{ns\+Audio\+::\+Audio\+Engine}}
+\subsubsection{\texorpdfstring{play\+Sound\+From\+File()}{playSoundFromFile()}}
+{\footnotesize\ttfamily void ns\+Audio\+::\+Audio\+Engine\+::play\+Sound\+From\+File (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{file\+Name }\end{DoxyParamCaption})}
+
+
+
+Joue un son depuis un fichier. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em file\+Name} & \+: nom du fichier \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classns_audio_1_1_audio_engine_a2b0a1a9b1cb90e1180ddedb5b9e2fad1}\label{classns_audio_1_1_audio_engine_a2b0a1a9b1cb90e1180ddedb5b9e2fad1}} 
+\index{ns\+Audio\+::\+Audio\+Engine@{ns\+Audio\+::\+Audio\+Engine}!remove\+Buffer@{remove\+Buffer}}
+\index{remove\+Buffer@{remove\+Buffer}!ns\+Audio\+::\+Audio\+Engine@{ns\+Audio\+::\+Audio\+Engine}}
+\subsubsection{\texorpdfstring{remove\+Buffer()}{removeBuffer()}}
+{\footnotesize\ttfamily void ns\+Audio\+::\+Audio\+Engine\+::remove\+Buffer (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{file\+Name }\end{DoxyParamCaption})}
+
+
+
+Retire un buffer de la liste. 
+
+\mbox{\Hypertarget{classns_audio_1_1_audio_engine_a6ef72eb80bef2c1b0764c40f629d2536}\label{classns_audio_1_1_audio_engine_a6ef72eb80bef2c1b0764c40f629d2536}} 
+\index{ns\+Audio\+::\+Audio\+Engine@{ns\+Audio\+::\+Audio\+Engine}!set\+Music@{set\+Music}}
+\index{set\+Music@{set\+Music}!ns\+Audio\+::\+Audio\+Engine@{ns\+Audio\+::\+Audio\+Engine}}
+\subsubsection{\texorpdfstring{set\+Music()}{setMusic()}}
+{\footnotesize\ttfamily void ns\+Audio\+::\+Audio\+Engine\+::set\+Music (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{file\+Name,  }\item[{bool}]{loop = {\ttfamily true} }\end{DoxyParamCaption})}
+
+
+
+Définit le fichier audio de la musique. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em file\+Name} & \+: nom du fichier \\
+\hline
+\mbox{\tt in}  & {\em loop} & \+: indique si la musique est lue en boucle ou non (oui par défaut) \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classns_audio_1_1_audio_engine_ac21b2c1be9590a0f702c48220c59f8c9}\label{classns_audio_1_1_audio_engine_ac21b2c1be9590a0f702c48220c59f8c9}} 
+\index{ns\+Audio\+::\+Audio\+Engine@{ns\+Audio\+::\+Audio\+Engine}!set\+Music\+Playing@{set\+Music\+Playing}}
+\index{set\+Music\+Playing@{set\+Music\+Playing}!ns\+Audio\+::\+Audio\+Engine@{ns\+Audio\+::\+Audio\+Engine}}
+\subsubsection{\texorpdfstring{set\+Music\+Playing()}{setMusicPlaying()}}
+{\footnotesize\ttfamily void ns\+Audio\+::\+Audio\+Engine\+::set\+Music\+Playing (\begin{DoxyParamCaption}\item[{bool}]{playing }\end{DoxyParamCaption})}
+
+
+
+Règle l\textquotesingle{}état de lecture de la musique. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em playing} & \+: Nouvel état de lecture \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classns_audio_1_1_audio_engine_ac1343ed3afe38eb80a222969f3d74d6d}\label{classns_audio_1_1_audio_engine_ac1343ed3afe38eb80a222969f3d74d6d}} 
+\index{ns\+Audio\+::\+Audio\+Engine@{ns\+Audio\+::\+Audio\+Engine}!start\+Music\+From\+Beginning@{start\+Music\+From\+Beginning}}
+\index{start\+Music\+From\+Beginning@{start\+Music\+From\+Beginning}!ns\+Audio\+::\+Audio\+Engine@{ns\+Audio\+::\+Audio\+Engine}}
+\subsubsection{\texorpdfstring{start\+Music\+From\+Beginning()}{startMusicFromBeginning()}}
+{\footnotesize\ttfamily void ns\+Audio\+::\+Audio\+Engine\+::start\+Music\+From\+Beginning (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Relance la musique depuis le début. 
+
+\mbox{\Hypertarget{classns_audio_1_1_audio_engine_aba89263fc9f810bee40dcae229313883}\label{classns_audio_1_1_audio_engine_aba89263fc9f810bee40dcae229313883}} 
+\index{ns\+Audio\+::\+Audio\+Engine@{ns\+Audio\+::\+Audio\+Engine}!toggle\+Music\+Playing@{toggle\+Music\+Playing}}
+\index{toggle\+Music\+Playing@{toggle\+Music\+Playing}!ns\+Audio\+::\+Audio\+Engine@{ns\+Audio\+::\+Audio\+Engine}}
+\subsubsection{\texorpdfstring{toggle\+Music\+Playing()}{toggleMusicPlaying()}}
+{\footnotesize\ttfamily void ns\+Audio\+::\+Audio\+Engine\+::toggle\+Music\+Playing (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Met en pause ou relance la musique. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+libs/mingl/audio/\hyperlink{audioengine_8h}{audioengine.\+h}\end{DoxyCompactItemize}

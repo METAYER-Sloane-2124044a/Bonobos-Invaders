@@ -1,0 +1,57 @@
+\hypertarget{namespaceshield}{}\section{shield Namespace Reference}
+\label{namespaceshield}\index{shield@{shield}}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structshield_1_1_shield}{Shield}
+\begin{DoxyCompactList}\small\item\em Structure des bouclier. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{namespaceshield_a3545f41f583cca935619e05b604c02e6}{gen\+Shield} (std\+::vector$<$ \hyperlink{structshield_1_1_shield}{Shield} $>$ \&\hyperlink{multi_8cpp_a7579d4d68d6c54e66480c4518dd61d70}{shields}, \hyperlink{class_min_g_l}{Min\+GL} \&window)
+\begin{DoxyCompactList}\small\item\em Permet de générer tous les boucliers par rapport à la fenêtre de jeu. \end{DoxyCompactList}\item 
+void \hyperlink{namespaceshield_abbfddd54ebe829b600c5d61640984910}{draw} (\hyperlink{class_min_g_l}{Min\+GL} \&window, \hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D} \&pos, unsigned radius, unsigned size, unsigned state)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{namespaceshield_abbfddd54ebe829b600c5d61640984910}\label{namespaceshield_abbfddd54ebe829b600c5d61640984910}} 
+\index{shield@{shield}!draw@{draw}}
+\index{draw@{draw}!shield@{shield}}
+\subsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void shield\+::draw (\begin{DoxyParamCaption}\item[{\hyperlink{class_min_g_l}{Min\+GL} \&}]{window,  }\item[{\hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D} \&}]{pos,  }\item[{unsigned}]{radius,  }\item[{unsigned}]{size,  }\item[{unsigned}]{state }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em window} & \+: Fenêtre graphique du jeu \\
+\hline
+\mbox{\tt in}  & {\em pos} & \+: Position du centre de la feuille \\
+\hline
+\mbox{\tt in}  & {\em radius} & \+: Rayon de la feuille \\
+\hline
+\mbox{\tt in}  & {\em size} & \+: Largueur du bouclier divisé par 2 (Taille des demi-\/cercle du bouclier) \\
+\hline
+\mbox{\tt in}  & {\em state} & \+: Etat du bouclier (1, 2, 3) \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 28 of file shield\+G.\+cpp.
+
+\mbox{\Hypertarget{namespaceshield_a3545f41f583cca935619e05b604c02e6}\label{namespaceshield_a3545f41f583cca935619e05b604c02e6}} 
+\index{shield@{shield}!gen\+Shield@{gen\+Shield}}
+\index{gen\+Shield@{gen\+Shield}!shield@{shield}}
+\subsubsection{\texorpdfstring{gen\+Shield()}{genShield()}}
+{\footnotesize\ttfamily shield\+::gen\+Shield (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \hyperlink{structshield_1_1_shield}{Shield} $>$ \&}]{shields,  }\item[{\hyperlink{class_min_g_l}{Min\+GL} \&}]{window }\end{DoxyParamCaption})}
+
+
+
+Permet de générer tous les boucliers par rapport à la fenêtre de jeu. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in,out}  & {\em shields} & \+: vecteur de bouclier \\
+\hline
+\mbox{\tt in}  & {\em window} & \+: fenêtre de jeu \\
+\hline
+\end{DoxyParams}

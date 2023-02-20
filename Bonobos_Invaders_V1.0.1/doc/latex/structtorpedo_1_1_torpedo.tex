@@ -1,0 +1,185 @@
+\hypertarget{structtorpedo_1_1_torpedo}{}\section{torpedo\+:\+:Torpedo Struct Reference}
+\label{structtorpedo_1_1_torpedo}\index{torpedo\+::\+Torpedo@{torpedo\+::\+Torpedo}}
+
+
+Structure pour les torpilles.  
+
+
+
+
+{\ttfamily \#include $<$torpedo.\+h$>$}
+
+
+
+Collaboration diagram for torpedo\+:\+:Torpedo\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=182pt]{structtorpedo_1_1_torpedo__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{structtorpedo_1_1_torpedo_abab46a6851e2dee478c642856110661a}{Torpedo} (unsigned ent\+From, unsigned ent\+To, int ent\+PosX, int ent\+PosY)
+\begin{DoxyCompactList}\small\item\em Fonction constructeur de la structure \hyperlink{structtorpedo_1_1_torpedo}{Torpedo}. \end{DoxyCompactList}\item 
+void \hyperlink{structtorpedo_1_1_torpedo_a0dd38313a80970ad026919799214aee3}{update} ()
+\begin{DoxyCompactList}\small\item\em Fonction de mise a jour des positions de la torpile. \end{DoxyCompactList}\item 
+void \hyperlink{structtorpedo_1_1_torpedo_a00d9c4c8a5277c09d1a2f5c80bc397a7}{show} (\hyperlink{class_min_g_l}{Min\+GL} \&window)
+\begin{DoxyCompactList}\small\item\em Affiche la torpille. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+unsigned \hyperlink{structtorpedo_1_1_torpedo_a95c15be24a51cb7908ec34c1d1f431b2}{from}
+\item 
+unsigned \hyperlink{structtorpedo_1_1_torpedo_af0bdb753bc200365d66c10b47da0d3ea}{to}
+\item 
+\hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D} \hyperlink{structtorpedo_1_1_torpedo_ae9068c94dc2a9a9484e681121526ba07}{pos}
+\item 
+std\+::vector$<$ unsigned long $>$ \hyperlink{structtorpedo_1_1_torpedo_a583fd4c54eb71e9af5cd29de54f12ed1}{size}
+\item 
+unsigned \hyperlink{structtorpedo_1_1_torpedo_aa7f3b34dce9a8062bf1fe44b5ffee0e4}{speed\+Limit}
+\item 
+unsigned \hyperlink{structtorpedo_1_1_torpedo_ae4d35035e6e96d86ef270474b7624b62}{speed\+Count}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Structure pour les torpilles. 
+
+Definition at line 31 of file torpedo.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{structtorpedo_1_1_torpedo_abab46a6851e2dee478c642856110661a}\label{structtorpedo_1_1_torpedo_abab46a6851e2dee478c642856110661a}} 
+\index{torpedo\+::\+Torpedo@{torpedo\+::\+Torpedo}!Torpedo@{Torpedo}}
+\index{Torpedo@{Torpedo}!torpedo\+::\+Torpedo@{torpedo\+::\+Torpedo}}
+\subsubsection{\texorpdfstring{Torpedo()}{Torpedo()}}
+{\footnotesize\ttfamily torpedo\+::\+Torpedo\+::\+Torpedo (\begin{DoxyParamCaption}\item[{unsigned}]{ent\+From,  }\item[{unsigned}]{ent\+To,  }\item[{int}]{ent\+PosX,  }\item[{int}]{ent\+PosY }\end{DoxyParamCaption})}
+
+
+
+Fonction constructeur de la structure \hyperlink{structtorpedo_1_1_torpedo}{Torpedo}. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em ent\+From} & \+: Ientité du tireur (0 pour invaders, 1 pour player 1, 2 pour player 2) \\
+\hline
+\mbox{\tt in}  & {\em ent\+To} & \+: Sens dans lequel part la torpille (0 gauche, 1 droite) \\
+\hline
+\mbox{\tt in}  & {\em ent\+PosX} & \+: position X de départ de la torpille \\
+\hline
+\mbox{\tt in}  & {\em ent\+PosY} & \+: Position Y de départ de la torpille \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 11 of file torpedo.\+cpp.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{structtorpedo_1_1_torpedo_a00d9c4c8a5277c09d1a2f5c80bc397a7}\label{structtorpedo_1_1_torpedo_a00d9c4c8a5277c09d1a2f5c80bc397a7}} 
+\index{torpedo\+::\+Torpedo@{torpedo\+::\+Torpedo}!show@{show}}
+\index{show@{show}!torpedo\+::\+Torpedo@{torpedo\+::\+Torpedo}}
+\subsubsection{\texorpdfstring{show()}{show()}}
+{\footnotesize\ttfamily void torpedo\+::\+Torpedo\+::show (\begin{DoxyParamCaption}\item[{\hyperlink{class_min_g_l}{Min\+GL} \&}]{window }\end{DoxyParamCaption})}
+
+
+
+Affiche la torpille. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in,out}  & {\em window} & \+: fenêtre de jeu \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 38 of file torpedo.\+cpp.
+
+\mbox{\Hypertarget{structtorpedo_1_1_torpedo_a0dd38313a80970ad026919799214aee3}\label{structtorpedo_1_1_torpedo_a0dd38313a80970ad026919799214aee3}} 
+\index{torpedo\+::\+Torpedo@{torpedo\+::\+Torpedo}!update@{update}}
+\index{update@{update}!torpedo\+::\+Torpedo@{torpedo\+::\+Torpedo}}
+\subsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void torpedo\+::\+Torpedo\+::update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Fonction de mise a jour des positions de la torpile. 
+
+
+
+Definition at line 20 of file torpedo.\+cpp.
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{structtorpedo_1_1_torpedo_a95c15be24a51cb7908ec34c1d1f431b2}\label{structtorpedo_1_1_torpedo_a95c15be24a51cb7908ec34c1d1f431b2}} 
+\index{torpedo\+::\+Torpedo@{torpedo\+::\+Torpedo}!from@{from}}
+\index{from@{from}!torpedo\+::\+Torpedo@{torpedo\+::\+Torpedo}}
+\subsubsection{\texorpdfstring{from}{from}}
+{\footnotesize\ttfamily unsigned torpedo\+::\+Torpedo\+::from}
+
+
+
+Definition at line 34 of file torpedo.\+h.
+
+\mbox{\Hypertarget{structtorpedo_1_1_torpedo_ae9068c94dc2a9a9484e681121526ba07}\label{structtorpedo_1_1_torpedo_ae9068c94dc2a9a9484e681121526ba07}} 
+\index{torpedo\+::\+Torpedo@{torpedo\+::\+Torpedo}!pos@{pos}}
+\index{pos@{pos}!torpedo\+::\+Torpedo@{torpedo\+::\+Torpedo}}
+\subsubsection{\texorpdfstring{pos}{pos}}
+{\footnotesize\ttfamily \hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D} torpedo\+::\+Torpedo\+::pos}
+
+
+
+Definition at line 36 of file torpedo.\+h.
+
+\mbox{\Hypertarget{structtorpedo_1_1_torpedo_a583fd4c54eb71e9af5cd29de54f12ed1}\label{structtorpedo_1_1_torpedo_a583fd4c54eb71e9af5cd29de54f12ed1}} 
+\index{torpedo\+::\+Torpedo@{torpedo\+::\+Torpedo}!size@{size}}
+\index{size@{size}!torpedo\+::\+Torpedo@{torpedo\+::\+Torpedo}}
+\subsubsection{\texorpdfstring{size}{size}}
+{\footnotesize\ttfamily std\+::vector$<$unsigned long$>$ torpedo\+::\+Torpedo\+::size}
+
+
+
+Definition at line 37 of file torpedo.\+h.
+
+\mbox{\Hypertarget{structtorpedo_1_1_torpedo_ae4d35035e6e96d86ef270474b7624b62}\label{structtorpedo_1_1_torpedo_ae4d35035e6e96d86ef270474b7624b62}} 
+\index{torpedo\+::\+Torpedo@{torpedo\+::\+Torpedo}!speed\+Count@{speed\+Count}}
+\index{speed\+Count@{speed\+Count}!torpedo\+::\+Torpedo@{torpedo\+::\+Torpedo}}
+\subsubsection{\texorpdfstring{speed\+Count}{speedCount}}
+{\footnotesize\ttfamily unsigned torpedo\+::\+Torpedo\+::speed\+Count}
+
+
+
+Definition at line 39 of file torpedo.\+h.
+
+\mbox{\Hypertarget{structtorpedo_1_1_torpedo_aa7f3b34dce9a8062bf1fe44b5ffee0e4}\label{structtorpedo_1_1_torpedo_aa7f3b34dce9a8062bf1fe44b5ffee0e4}} 
+\index{torpedo\+::\+Torpedo@{torpedo\+::\+Torpedo}!speed\+Limit@{speed\+Limit}}
+\index{speed\+Limit@{speed\+Limit}!torpedo\+::\+Torpedo@{torpedo\+::\+Torpedo}}
+\subsubsection{\texorpdfstring{speed\+Limit}{speedLimit}}
+{\footnotesize\ttfamily unsigned torpedo\+::\+Torpedo\+::speed\+Limit}
+
+
+
+Definition at line 38 of file torpedo.\+h.
+
+\mbox{\Hypertarget{structtorpedo_1_1_torpedo_af0bdb753bc200365d66c10b47da0d3ea}\label{structtorpedo_1_1_torpedo_af0bdb753bc200365d66c10b47da0d3ea}} 
+\index{torpedo\+::\+Torpedo@{torpedo\+::\+Torpedo}!to@{to}}
+\index{to@{to}!torpedo\+::\+Torpedo@{torpedo\+::\+Torpedo}}
+\subsubsection{\texorpdfstring{to}{to}}
+{\footnotesize\ttfamily unsigned torpedo\+::\+Torpedo\+::to}
+
+
+
+Definition at line 35 of file torpedo.\+h.
+
+
+
+The documentation for this struct was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+libs/game/entities/\hyperlink{torpedo_8h}{torpedo.\+h}\item 
+src/entities/\hyperlink{torpedo_8cpp}{torpedo.\+cpp}\end{DoxyCompactItemize}

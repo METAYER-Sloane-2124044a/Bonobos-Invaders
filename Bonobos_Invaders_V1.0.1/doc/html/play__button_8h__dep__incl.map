@@ -1,0 +1,6 @@
+<map id="libs/game/graphic/play_button.h" name="libs/game/graphic/play_button.h">
+<area shape="rect" id="node2" href="$menu_8h.html" title="Scène du menu. " alt="" coords="42,95,213,121"/>
+<area shape="rect" id="node5" href="$play__button_8cpp.html" title="Représente un bouton de jeu. " alt="" coords="237,95,420,121"/>
+<area shape="rect" id="node3" href="$main_8cpp.html" title="src/main.cpp" alt="" coords="5,169,103,196"/>
+<area shape="rect" id="node4" href="$menu_8cpp.html" title="src/scenes/menu.cpp" alt="" coords="127,169,274,196"/>
+</map>

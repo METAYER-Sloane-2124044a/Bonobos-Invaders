@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MinGL"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/marius/Documents/C++/cours/S102/S102_V0.2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/marius/Documents/C++/cours/S102/S102_V0.2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/marius/Documents/C++/cours/S102/S102_V0.2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/marius/Documents/C++/cours/S102/S102_V0.2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/marius/Documents/C++/cours/S102/S102_V0.2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/marius/Documents/C++/cours/S102/S102_V0.2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/marius/Documents/C++/cours/S102/S102_V0.2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/marius/Documents/C++/cours/S102/S102_V0.2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/marius/Documents/C++/cours/S102/S102_V0.2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/marius/Documents/C++/cours/S102/S102_V0.2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/marius/Documents/C++/cours/S102/S102_V0.2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/marius/Documents/C++/cours/S102/S102_V0.2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/marius/Documents/C++/cours/S102/S102_V0.2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/marius/Documents/C++/cours/S102/S102_V0.2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/marius/Documents/C++/cours/S102/S102_V0.2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MinGL">
+				<Option output="/home/marius/Documents/C++/cours/S102/S102_V0.2/cmake-build-debug/MinGL" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marius/Documents/C++/cours/S102/S102_V0.2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/marius/Documents/C++/cours/S102/S102_V0.2/libs"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/marius/Documents/C++/cours/S102/S102_V0.2/cmake-build-debug/Makefile&quot;  VERBOSE=1 MinGL"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/marius/Documents/C++/cours/S102/S102_V0.2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/marius/Documents/C++/cours/S102/S102_V0.2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/marius/Documents/C++/cours/S102/S102_V0.2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MinGL/fast">
+				<Option output="/home/marius/Documents/C++/cours/S102/S102_V0.2/cmake-build-debug/MinGL" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marius/Documents/C++/cours/S102/S102_V0.2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/marius/Documents/C++/cours/S102/S102_V0.2/libs"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/marius/Documents/C++/cours/S102/S102_V0.2/cmake-build-debug/Makefile&quot;  VERBOSE=1 MinGL/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/marius/Documents/C++/cours/S102/S102_V0.2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/marius/Documents/C++/cours/S102/S102_V0.2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/marius/Documents/C++/cours/S102/S102_V0.2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/marius/Documents/C++/cours/S102/S102_V0.2/libs/game/entities/player.h">
+			<Option target="MinGL"/>
+		</Unit>
+		<Unit filename="/home/marius/Documents/C++/cours/S102/S102_V0.2/libs/game/entities/torpedo.h">
+			<Option target="MinGL"/>
+		</Unit>
+		<Unit filename="/home/marius/Documents/C++/cours/S102/S102_V0.2/libs/game/scenes/menu.h">
+			<Option target="MinGL"/>
+		</Unit>
+		<Unit filename="/home/marius/Documents/C++/cours/S102/S102_V0.2/libs/game/scenes/highScore.h">
+            <Option target="MinGL"/>
+        </Unit>
+		<Unit filename="/home/marius/Documents/C++/cours/S102/S102_V0.2/libs/game/scenes/multi.h">
+			<Option target="MinGL"/>
+		</Unit>
+		<Unit filename="/home/marius/Documents/C++/cours/S102/S102_V0.2/libs/mingl/audio/audioengine.h">
+			<Option target="MinGL"/>
+		</Unit>
+		<Unit filename="/home/marius/Documents/C++/cours/S102/S102_V0.2/libs/mingl/event/event.hpp">
+			<Option target="MinGL"/>
+		</Unit>
+		<Unit filename="/home/marius/Documents/C++/cours/S102/S102_V0.2/libs/mingl/event/event_manager.h">
+			<Option target="MinGL"/>
+		</Unit>
+		<Unit filename="/home/marius/Documents/C++/cours/S102/S102_V0.2/libs/mingl/exception/cexception.h">
+			<Option target="MinGL"/>
+		</Unit>
+		<Unit filename="/home/marius/Documents/C++/cours/S102/S102_V0.2/libs/mingl/exception/cexception.hpp">
+			<Option target="MinGL"/>
+		</Unit>
+		<Unit filename="/home/marius/Documents/C++/cours/S102/S102_V0.2/libs/mingl/exception/errcode.h">
+			<Option target="MinGL"/>
+		</Unit>
+		<Unit filename="/home/marius/Documents/C++/cours/S102/S102_V0.2/libs/mingl/graphics/idrawable.h">
+			<Option target="MinGL"/>
+		</Unit>
+		<Unit filename="/home/marius/Documents/C++/cours/S102/S102_V0.2/libs/mingl/graphics/rgbacolor.h">
+			<Option target="MinGL"/>
+		</Unit>
+		<Unit filename="/home/marius/Documents/C++/cours/S102/S102_V0.2/libs/mingl/graphics/vec2d.h">
+			<Option target="MinGL"/>
+		</Unit>
+		<Unit filename="/home/marius/Documents/C++/cours/S102/S102_V0.2/libs/mingl/gui/glut_font.h">
+			<Option target="MinGL"/>
+		</Unit>
+		<Unit filename="/home/marius/Documents/C++/cours/S102/S102_V0.2/libs/mingl/gui/sprite.h">
+			<Option target="MinGL"/>
+		</Unit>
+		<Unit filename="/home/marius/Documents/C++/cours/S102/S102_V0.2/libs/mingl/gui/text.h">
+			<Option target="MinGL"/>
+		</Unit>
+		<Unit filename="/home/marius/Documents/C++/cours/S102/S102_V0.2/libs/mingl/macros.h">
+			<Option target="MinGL"/>
+		</Unit>
+		<Unit filename="/home/marius/Documents/C++/cours/S102/S102_V0.2/libs/mingl/mingl.h">
+			<Option target="MinGL"/>
+		</Unit>
+		<Unit filename="/home/marius/Documents/C++/cours/S102/S102_V0.2/libs/mingl/shape/circle.h">
+			<Option target="MinGL"/>
+		</Unit>
+		<Unit filename="/home/marius/Documents/C++/cours/S102/S102_V0.2/libs/mingl/shape/line.h">
+			<Option target="MinGL"/>
+		</Unit>
+		<Unit filename="/home/marius/Documents/C++/cours/S102/S102_V0.2/libs/mingl/shape/rectangle.h">
+			<Option target="MinGL"/>
+		</Unit>
+		<Unit filename="/home/marius/Documents/C++/cours/S102/S102_V0.2/libs/mingl/shape/shape.h">
+			<Option target="MinGL"/>
+		</Unit>
+		<Unit filename="/home/marius/Documents/C++/cours/S102/S102_V0.2/libs/mingl/shape/triangle.h">
+			<Option target="MinGL"/>
+		</Unit>
+		<Unit filename="/home/marius/Documents/C++/cours/S102/S102_V0.2/libs/mingl/tools/ieditable.h">
+			<Option target="MinGL"/>
+		</Unit>
+		<Unit filename="/home/marius/Documents/C++/cours/S102/S102_V0.2/libs/mingl/tools/ieditable.hpp">
+			<Option target="MinGL"/>
+		</Unit>
+		<Unit filename="/home/marius/Documents/C++/cours/S102/S102_V0.2/libs/mingl/tools/ifonctorunaire.hpp">
+			<Option target="MinGL"/>
+		</Unit>
+		<Unit filename="/home/marius/Documents/C++/cours/S102/S102_V0.2/libs/mingl/transition/itransitionable.h">
+			<Option target="MinGL"/>
+		</Unit>
+		<Unit filename="/home/marius/Documents/C++/cours/S102/S102_V0.2/libs/mingl/transition/transition.h">
+			<Option target="MinGL"/>
+		</Unit>
+		<Unit filename="/home/marius/Documents/C++/cours/S102/S102_V0.2/libs/mingl/transition/transition_contract.h">
+			<Option target="MinGL"/>
+		</Unit>
+		<Unit filename="/home/marius/Documents/C++/cours/S102/S102_V0.2/libs/mingl/transition/transition_engine.h">
+			<Option target="MinGL"/>
+		</Unit>
+		<Unit filename="/home/marius/Documents/C++/cours/S102/S102_V0.2/libs/mingl/transition/transition_types.h">
+			<Option target="MinGL"/>
+		</Unit>
+		<Unit filename="/home/marius/Documents/C++/cours/S102/S102_V0.2/src/entities/player.cpp">
+			<Option target="MinGL"/>
+		</Unit>
+		<Unit filename="/home/marius/Documents/C++/cours/S102/S102_V0.2/src/entities/torpedo.cpp">
+			<Option target="MinGL"/>
+		</Unit>
+		<Unit filename="/home/marius/Documents/C++/cours/S102/S102_V0.2/src/main.cpp">
+			<Option target="MinGL"/>
+		</Unit>
+		<Unit filename="/home/marius/Documents/C++/cours/S102/S102_V0.2/src/scenes/menu.cpp">
+			<Option target="MinGL"/>
+		</Unit>
+		<Unit filename="/home/marius/Documents/C++/cours/S102/S102_V0.2/src/scenes/highScore.cpp">
+            <Option target="MinGL"/>
+        </Unit>
+		<Unit filename="/home/marius/Documents/C++/cours/S102/S102_V0.2/src/scenes/multi.cpp">
+			<Option target="MinGL"/>
+		</Unit>
+		<Unit filename="/home/marius/Documents/C++/cours/S102/S102_V0.2/src/test.cpp">
+			<Option target="MinGL"/>
+		</Unit>
+		<Unit filename="/home/marius/Documents/C++/cours/S102/S102_V0.2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

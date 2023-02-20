@@ -1,0 +1,65 @@
+\hypertarget{namespacehigh_score}{}\section{high\+Score Namespace Reference}
+\label{namespacehigh_score}\index{high\+Score@{high\+Score}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{namespacehigh_score_a9d535492f023442be456ef57e7f54795}{init} (std\+::map$<$ std\+::string, std\+::string $>$ \&\hyperlink{main_8cpp_ada2160bcc2082e595d02f0eb5a318dd5}{config\+Map})
+\begin{DoxyCompactList}\small\item\em Mise en place de la configuration dans l\textquotesingle{}espace vide et la lecture du score board. \end{DoxyCompactList}\item 
+unsigned \hyperlink{namespacehigh_score_a60c5c3618740163b7a61fe9fbabaedc0}{update} (\hyperlink{class_min_g_l}{Min\+GL} \&window)
+\begin{DoxyCompactList}\small\item\em Gestion des entrées claviers. \end{DoxyCompactList}\item 
+void \hyperlink{namespacehigh_score_ae5948b376db24ab12e060a5d679ff9c8}{render} (\hyperlink{class_min_g_l}{Min\+GL} \&window, \hyperlink{classns_gui_1_1_sprite}{ns\+Gui\+::\+Sprite} \&background)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{namespacehigh_score_a9d535492f023442be456ef57e7f54795}\label{namespacehigh_score_a9d535492f023442be456ef57e7f54795}} 
+\index{high\+Score@{high\+Score}!init@{init}}
+\index{init@{init}!high\+Score@{high\+Score}}
+\subsubsection{\texorpdfstring{init()}{init()}}
+{\footnotesize\ttfamily void high\+Score\+::init (\begin{DoxyParamCaption}\item[{std\+::map$<$ std\+::string, std\+::string $>$ \&}]{config\+Map }\end{DoxyParamCaption})}
+
+
+
+Mise en place de la configuration dans l\textquotesingle{}espace vide et la lecture du score board. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em config\+Map} & \+: map de la configuration \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 9 of file high\+Score.\+cpp.
+
+\mbox{\Hypertarget{namespacehigh_score_ae5948b376db24ab12e060a5d679ff9c8}\label{namespacehigh_score_ae5948b376db24ab12e060a5d679ff9c8}} 
+\index{high\+Score@{high\+Score}!render@{render}}
+\index{render@{render}!high\+Score@{high\+Score}}
+\subsubsection{\texorpdfstring{render()}{render()}}
+{\footnotesize\ttfamily void high\+Score\+::render (\begin{DoxyParamCaption}\item[{\hyperlink{class_min_g_l}{Min\+GL} \&}]{window,  }\item[{\hyperlink{classns_gui_1_1_sprite}{ns\+Gui\+::\+Sprite} \&}]{background }\end{DoxyParamCaption})}
+
+
+
+Definition at line 39 of file high\+Score.\+cpp.
+
+\mbox{\Hypertarget{namespacehigh_score_a60c5c3618740163b7a61fe9fbabaedc0}\label{namespacehigh_score_a60c5c3618740163b7a61fe9fbabaedc0}} 
+\index{high\+Score@{high\+Score}!update@{update}}
+\index{update@{update}!high\+Score@{high\+Score}}
+\subsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily unsigned int high\+Score\+::update (\begin{DoxyParamCaption}\item[{\hyperlink{class_min_g_l}{Min\+GL} \&}]{window }\end{DoxyParamCaption})}
+
+
+
+Gestion des entrées claviers. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em window} & \+: fenêtre de jeu \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+unsigned \+: prochaine scène 
+\end{DoxyReturn}
+
+
+Definition at line 31 of file high\+Score.\+cpp.
+

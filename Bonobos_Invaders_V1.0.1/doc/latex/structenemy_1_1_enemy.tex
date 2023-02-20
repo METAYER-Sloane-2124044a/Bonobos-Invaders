@@ -1,0 +1,178 @@
+\hypertarget{structenemy_1_1_enemy}{}\section{enemy\+:\+:Enemy Struct Reference}
+\label{structenemy_1_1_enemy}\index{enemy\+::\+Enemy@{enemy\+::\+Enemy}}
+
+
+Structure d\textquotesingle{}enemies.  
+
+
+
+
+{\ttfamily \#include $<$enemy.\+h$>$}
+
+
+
+Collaboration diagram for enemy\+:\+:Enemy\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=182pt]{structenemy_1_1_enemy__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{structenemy_1_1_enemy_aee2b396985788d712cd905a7a827e557}{Enemy} (\hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D} ent\+Pos, char ent\+Way)
+\begin{DoxyCompactList}\small\item\em Fonction constructeur de la struct \hyperlink{structenemy_1_1_enemy}{Enemy}. \end{DoxyCompactList}\item 
+void \hyperlink{structenemy_1_1_enemy_a56f663147f0dcfc4c6af07027713ba00}{update} (std\+::vector$<$ \hyperlink{structenemy_1_1_enemy}{Enemy} $>$ \&\hyperlink{multi_8cpp_a68dfd8cc6c330a8d7be4cf2f3a6892f3}{enemies}, std\+::vector$<$ \hyperlink{structtorpedo_1_1_torpedo}{torpedo\+::\+Torpedo} $>$ \&\hyperlink{multi_8cpp_a8d978ee3afff71f0b07f921403c2b403}{torpedos}, \hyperlink{class_min_g_l}{Min\+GL} \&window)
+\begin{DoxyCompactList}\small\item\em Fonction de mise à jour des enemies (déplacement et tir) \end{DoxyCompactList}\item 
+void \hyperlink{structenemy_1_1_enemy_aca9d44d3ae82ec9177f4d50760f0d1cc}{show} (\hyperlink{class_min_g_l}{Min\+GL} \&window)
+\begin{DoxyCompactList}\small\item\em Rendu de l\textquotesingle{}enemie. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D} \hyperlink{structenemy_1_1_enemy_a1439cd408ff71d897e2414c062a3dda4}{pos}
+\item 
+bool \hyperlink{structenemy_1_1_enemy_ac64a666df47674ecf4abeb467991e5cb}{alive} = true
+\item 
+std\+::vector$<$ unsigned long $>$ \hyperlink{structenemy_1_1_enemy_aa59e1afdd7cba4658530a57b10152686}{size}
+\item 
+bool \hyperlink{structenemy_1_1_enemy_a03df75f44cf09e588c418e2b49388a9b}{go\+Down} = true
+\item 
+char \hyperlink{structenemy_1_1_enemy_a6b7b4f12f9ed4a167c1ed0444dda20ba}{way}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Structure d\textquotesingle{}enemies. 
+
+Definition at line 35 of file enemy.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{structenemy_1_1_enemy_aee2b396985788d712cd905a7a827e557}\label{structenemy_1_1_enemy_aee2b396985788d712cd905a7a827e557}} 
+\index{enemy\+::\+Enemy@{enemy\+::\+Enemy}!Enemy@{Enemy}}
+\index{Enemy@{Enemy}!enemy\+::\+Enemy@{enemy\+::\+Enemy}}
+\subsubsection{\texorpdfstring{Enemy()}{Enemy()}}
+{\footnotesize\ttfamily enemy\+::\+Enemy\+::\+Enemy (\begin{DoxyParamCaption}\item[{\hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D}}]{ent\+Pos,  }\item[{char}]{ent\+Way }\end{DoxyParamCaption})}
+
+
+
+Fonction constructeur de la struct \hyperlink{structenemy_1_1_enemy}{Enemy}. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em ent\+Pos} & \+: position du joueur \\
+\hline
+\mbox{\tt in}  & {\em ent\+Way} & \+: direction du joueur \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 14 of file enemy.\+cpp.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{structenemy_1_1_enemy_aca9d44d3ae82ec9177f4d50760f0d1cc}\label{structenemy_1_1_enemy_aca9d44d3ae82ec9177f4d50760f0d1cc}} 
+\index{enemy\+::\+Enemy@{enemy\+::\+Enemy}!show@{show}}
+\index{show@{show}!enemy\+::\+Enemy@{enemy\+::\+Enemy}}
+\subsubsection{\texorpdfstring{show()}{show()}}
+{\footnotesize\ttfamily void enemy\+::\+Enemy\+::show (\begin{DoxyParamCaption}\item[{\hyperlink{class_min_g_l}{Min\+GL} \&}]{window }\end{DoxyParamCaption})}
+
+
+
+Rendu de l\textquotesingle{}enemie. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in,out}  & {\em window} & \+: fenêtre de jeu \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 62 of file enemy.\+cpp.
+
+\mbox{\Hypertarget{structenemy_1_1_enemy_a56f663147f0dcfc4c6af07027713ba00}\label{structenemy_1_1_enemy_a56f663147f0dcfc4c6af07027713ba00}} 
+\index{enemy\+::\+Enemy@{enemy\+::\+Enemy}!update@{update}}
+\index{update@{update}!enemy\+::\+Enemy@{enemy\+::\+Enemy}}
+\subsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void enemy\+::\+Enemy\+::update (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \hyperlink{structenemy_1_1_enemy}{Enemy} $>$ \&}]{enemies,  }\item[{std\+::vector$<$ \hyperlink{structtorpedo_1_1_torpedo}{torpedo\+::\+Torpedo} $>$ \&}]{torpedos,  }\item[{\hyperlink{class_min_g_l}{Min\+GL} \&}]{window }\end{DoxyParamCaption})}
+
+
+
+Fonction de mise à jour des enemies (déplacement et tir) 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in,out}  & {\em enemies} & \+: vecteur des enemies \\
+\hline
+\mbox{\tt in,out}  & {\em torpedos} & \+: vecteur des torpilles \\
+\hline
+\mbox{\tt in}  & {\em window} & \+: fenêtre de jeu \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 21 of file enemy.\+cpp.
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{structenemy_1_1_enemy_ac64a666df47674ecf4abeb467991e5cb}\label{structenemy_1_1_enemy_ac64a666df47674ecf4abeb467991e5cb}} 
+\index{enemy\+::\+Enemy@{enemy\+::\+Enemy}!alive@{alive}}
+\index{alive@{alive}!enemy\+::\+Enemy@{enemy\+::\+Enemy}}
+\subsubsection{\texorpdfstring{alive}{alive}}
+{\footnotesize\ttfamily bool enemy\+::\+Enemy\+::alive = true}
+
+
+
+Definition at line 39 of file enemy.\+h.
+
+\mbox{\Hypertarget{structenemy_1_1_enemy_a03df75f44cf09e588c418e2b49388a9b}\label{structenemy_1_1_enemy_a03df75f44cf09e588c418e2b49388a9b}} 
+\index{enemy\+::\+Enemy@{enemy\+::\+Enemy}!go\+Down@{go\+Down}}
+\index{go\+Down@{go\+Down}!enemy\+::\+Enemy@{enemy\+::\+Enemy}}
+\subsubsection{\texorpdfstring{go\+Down}{goDown}}
+{\footnotesize\ttfamily bool enemy\+::\+Enemy\+::go\+Down = true}
+
+
+
+Definition at line 41 of file enemy.\+h.
+
+\mbox{\Hypertarget{structenemy_1_1_enemy_a1439cd408ff71d897e2414c062a3dda4}\label{structenemy_1_1_enemy_a1439cd408ff71d897e2414c062a3dda4}} 
+\index{enemy\+::\+Enemy@{enemy\+::\+Enemy}!pos@{pos}}
+\index{pos@{pos}!enemy\+::\+Enemy@{enemy\+::\+Enemy}}
+\subsubsection{\texorpdfstring{pos}{pos}}
+{\footnotesize\ttfamily \hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D} enemy\+::\+Enemy\+::pos}
+
+
+
+Definition at line 38 of file enemy.\+h.
+
+\mbox{\Hypertarget{structenemy_1_1_enemy_aa59e1afdd7cba4658530a57b10152686}\label{structenemy_1_1_enemy_aa59e1afdd7cba4658530a57b10152686}} 
+\index{enemy\+::\+Enemy@{enemy\+::\+Enemy}!size@{size}}
+\index{size@{size}!enemy\+::\+Enemy@{enemy\+::\+Enemy}}
+\subsubsection{\texorpdfstring{size}{size}}
+{\footnotesize\ttfamily std\+::vector$<$unsigned long$>$ enemy\+::\+Enemy\+::size}
+
+
+
+Definition at line 40 of file enemy.\+h.
+
+\mbox{\Hypertarget{structenemy_1_1_enemy_a6b7b4f12f9ed4a167c1ed0444dda20ba}\label{structenemy_1_1_enemy_a6b7b4f12f9ed4a167c1ed0444dda20ba}} 
+\index{enemy\+::\+Enemy@{enemy\+::\+Enemy}!way@{way}}
+\index{way@{way}!enemy\+::\+Enemy@{enemy\+::\+Enemy}}
+\subsubsection{\texorpdfstring{way}{way}}
+{\footnotesize\ttfamily char enemy\+::\+Enemy\+::way}
+
+
+
+Definition at line 42 of file enemy.\+h.
+
+
+
+The documentation for this struct was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+libs/game/entities/\hyperlink{enemy_8h}{enemy.\+h}\item 
+src/entities/\hyperlink{enemy_8cpp}{enemy.\+cpp}\end{DoxyCompactItemize}

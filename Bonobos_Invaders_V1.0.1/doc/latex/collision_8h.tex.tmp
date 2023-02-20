@@ -1,0 +1,48 @@
+\hypertarget{collision_8h}{}\doxysection{libs/game/collision/collision.h File Reference}
+\label{collision_8h}\index{libs/game/collision/collision.h@{libs/game/collision/collision.h}}
+
+
+Permet de gérer les collisions.  
+
+
+{\ttfamily \#include $<$algorithm$>$}\newline
+{\ttfamily \#include \char`\"{}game/entities/player.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}game/entities/torpedo.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}game/entities/start\+Game.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}game/entities/enemy.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}game/entities/shield.\+h\char`\"{}}\newline
+Include dependency graph for collision.\+h\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\doxysubsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespacecollision}{collision}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{namespacecollision_adede7fb38a79d23854557f97f8a37068}{collision\+::gen\+Coll}} (std\+::vector$<$ \mbox{\hyperlink{structtorpedo_1_1_torpedo}{torpedo\+::\+Torpedo}} $>$ \&T, std\+::vector$<$ \mbox{\hyperlink{structplayer_1_1_player}{player\+::\+Player}} $>$ \&P)
+\begin{DoxyCompactList}\small\item\em Génère les vecteurs de collisions. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{namespacecollision_a84b9e926c787ba05c5b5124ef28ecf88}{collision\+::is\+Colliding}} (\mbox{\hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D}} \&pos, \mbox{\hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D}} \&first\+Corner, \mbox{\hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D}} \&second\+Corner)
+\begin{DoxyCompactList}\small\item\em Prédicat de collision entre un point et une zone ~\newline
+ Cette fonction est équivalente à celle présente dans la bibliothèque \mbox{\hyperlink{class_min_g_l}{Min\+GL}} cependant elle n\textquotesingle{}était pas adapter à notre cas. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespacecollision_a451676809547856fc6f86b3dd6dc7c23}{collision\+::sup\+Double}} (std\+::vector$<$ unsigned $>$ \&vec)
+\begin{DoxyCompactList}\small\item\em Enlève les doublons dans un tableau trié \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::vector$<$ \mbox{\hyperlink{_c_make_cache_8txt_afe71f11dacb15682cdc012f7208e6e09}{char}} $>$ $>$ \mbox{\hyperlink{namespacecollision_ae1b29fbda8203c6556c2038306ce36e7}{collision\+::collision}} (std\+::vector$<$ \mbox{\hyperlink{structplayer_1_1_player}{player\+::\+Player}} $>$ \&\mbox{\hyperlink{multi_8cpp_abd9de51dc9a6f90588878ff69cec449d}{players}}, std\+::vector$<$ \mbox{\hyperlink{structtorpedo_1_1_torpedo}{torpedo\+::\+Torpedo}} $>$ \&\mbox{\hyperlink{multi_8cpp_a8d978ee3afff71f0b07f921403c2b403}{torpedos}}, std\+::vector$<$ \mbox{\hyperlink{structenemy_1_1_enemy}{enemy\+::\+Enemy}} $>$ \&\mbox{\hyperlink{multi_8cpp_a68dfd8cc6c330a8d7be4cf2f3a6892f3}{enemies}}, std\+::vector$<$ \mbox{\hyperlink{structshield_1_1_shield}{shield\+::\+Shield}} $>$ \&\mbox{\hyperlink{multi_8cpp_a7579d4d68d6c54e66480c4518dd61d70}{shields}}, std\+::vector$<$ \mbox{\hyperlink{structstart_game_1_1_start_game}{start\+Game\+::\+Start\+Game}} $>$ \&start\+Game)
+\begin{DoxyCompactList}\small\item\em Permet de gérer la collision des entitées. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Permet de gérer les collisions. 
+
+\begin{DoxyAuthor}{Author}
+Marius Pistoresi 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+Décembre 2021 
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}

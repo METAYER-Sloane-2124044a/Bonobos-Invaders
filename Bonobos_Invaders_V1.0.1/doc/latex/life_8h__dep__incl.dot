@@ -1,0 +1,44 @@
+digraph "libs/game/graphic/life.h"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="libs/game/graphic/life.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Représente une coeur."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="libs/game/entities\l/player.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$player_8h.html",tooltip="Permet de gérer les joueurs."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node3 [label="libs/game/collision\l/collision.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$collision_8h.html",tooltip="Permet de gérer les collisions."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node4 [label="libs/game/scenes/multi.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$multi_8h.html",tooltip="Gestion du mode de jeu multi."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node5 [label="libs/game/scenes/winning\lScreen.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$winning_screen_8h.html",tooltip="Scene de victoire/defaite."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node6 [label="src/main.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8cpp.html",tooltip=" "];
+  Node5 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node7 [label="src/scenes/winningScreen.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$winning_screen_8cpp.html",tooltip=" "];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node4 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node8 [label="src/scenes/multi.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$multi_8cpp.html",tooltip=" "];
+  Node3 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node9 [label="src/collision/collision.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$collision_8cpp.html",tooltip=" "];
+  Node2 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node10 [label="libs/game/scenes/getPseudo.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$get_pseudo_8h.html",tooltip="Scene du choix des pseudos."];
+  Node10 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node11 [label="src/scenes/getPseudo.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$get_pseudo_8cpp.html",tooltip=" "];
+  Node2 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node12 [label="libs/game/score/score.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$score_8h.html",tooltip="gestion du score des joueurs"];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node13 [label="libs/game/scenes/highScore.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$high_score_8h.html",tooltip="Scène du high score."];
+  Node13 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node13 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node14 [label="src/scenes/highScore.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$high_score_8cpp.html",tooltip=" "];
+  Node12 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node12 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node15 [label="src/score/score.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$score_8cpp.html",tooltip=" "];
+  Node2 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node16 [label="src/entities/player.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$player_8cpp.html",tooltip=" "];
+  Node1 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node17 [label="src/graphic/life.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$life_8cpp.html",tooltip="Représente une vie d'un joueur."];
+}

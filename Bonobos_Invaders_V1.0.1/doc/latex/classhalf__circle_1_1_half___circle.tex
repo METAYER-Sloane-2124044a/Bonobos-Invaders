@@ -1,0 +1,319 @@
+\hypertarget{classhalf__circle_1_1_half___circle}{}\section{half\+\_\+circle\+:\+:Half\+\_\+\+Circle Class Reference}
+\label{classhalf__circle_1_1_half___circle}\index{half\+\_\+circle\+::\+Half\+\_\+\+Circle@{half\+\_\+circle\+::\+Half\+\_\+\+Circle}}
+
+
+Classe représentant un demi-\/cercle.  
+
+
+
+
+{\ttfamily \#include $<$half\+\_\+circle.\+h$>$}
+
+
+
+Inheritance diagram for half\+\_\+circle\+:\+:Half\+\_\+\+Circle\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=341pt]{classhalf__circle_1_1_half___circle__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for half\+\_\+circle\+:\+:Half\+\_\+\+Circle\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classhalf__circle_1_1_half___circle__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{classhalf__circle_1_1_half___circle_a7e20290d766bda444243c1c524479304}{Transition\+Ids} \{ \newline
+\hyperlink{classhalf__circle_1_1_half___circle_a7e20290d766bda444243c1c524479304ac1e74032d1426ae596f4d6e7525ce0d2}{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+F\+I\+L\+L\+\_\+\+C\+O\+L\+O\+R\+\_\+\+R\+GB}, 
+\hyperlink{classhalf__circle_1_1_half___circle_a7e20290d766bda444243c1c524479304a914039a7453a5ba46ce8e9691f973565}{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+F\+I\+L\+L\+\_\+\+C\+O\+L\+O\+R\+\_\+\+A\+L\+P\+HA}, 
+\hyperlink{classhalf__circle_1_1_half___circle_a7e20290d766bda444243c1c524479304a2a63985872b8198ae91571096266901f}{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+B\+O\+R\+D\+E\+R\+\_\+\+C\+O\+L\+O\+R\+\_\+\+R\+GB}, 
+\hyperlink{classhalf__circle_1_1_half___circle_a7e20290d766bda444243c1c524479304afb901c98dd9e94baa5848287cfd66caf}{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+B\+O\+R\+D\+E\+R\+\_\+\+C\+O\+L\+O\+R\+\_\+\+A\+L\+P\+HA}, 
+\newline
+\hyperlink{classhalf__circle_1_1_half___circle_a7e20290d766bda444243c1c524479304ad66fd6a8d99dc4dee199bf18256f4686}{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+P\+O\+S\+I\+T\+I\+ON}, 
+\hyperlink{classhalf__circle_1_1_half___circle_a7e20290d766bda444243c1c524479304a35e42ad23744d956dfe07c03a05ccef7}{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+R\+A\+D\+I\+US}
+ \}\begin{DoxyCompactList}\small\item\em Transition\+Ids \+: Liste de toutes les transitions que cet élément peut exécuter. \end{DoxyCompactList}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classhalf__circle_1_1_half___circle_a4745acf1a6bd730b7272d3deb1d45a10}{Half\+\_\+\+Circle} (const \hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D} \&position, const unsigned \&radius, const unsigned \&height, const char \&direction, const \hyperlink{classns_graphics_1_1_r_g_b_acolor}{ns\+Graphics\+::\+R\+G\+B\+Acolor} \&fill\+Color, const \hyperlink{classns_graphics_1_1_r_g_b_acolor}{ns\+Graphics\+::\+R\+G\+B\+Acolor} \&border\+Color=\hyperlink{namespacens_graphics_ab2001ad03cceb2565849e04465618c1e}{ns\+Graphics\+::\+K\+Transparent})
+\begin{DoxyCompactList}\small\item\em Constructeur pour la classe \hyperlink{classhalf__circle_1_1_half___circle}{Half\+\_\+\+Circle}. \end{DoxyCompactList}\item 
+virtual \hyperlink{classhalf__circle_1_1_half___circle_a72930c6bddc0f5bb504759a189bb7409}{$\sim$\+Half\+\_\+\+Circle} () override=default
+\begin{DoxyCompactList}\small\item\em Destructeur virtuel pour la classe \hyperlink{classhalf__circle_1_1_half___circle}{Half\+\_\+\+Circle}. \end{DoxyCompactList}\item 
+virtual void \hyperlink{classhalf__circle_1_1_half___circle_a46b2ea1d78fcacdf2b79707c6431774b}{draw} (\hyperlink{class_min_g_l}{Min\+GL} \&window) const override
+\begin{DoxyCompactList}\small\item\em Fonction pour afficher l\textquotesingle{}objet. \end{DoxyCompactList}\item 
+virtual void \hyperlink{classhalf__circle_1_1_half___circle_a32fbc3cf8c53b5a239c56b0be6df3e7e}{get\+Values} (const int \&id, std\+::vector$<$ float $>$ \&values) override
+\begin{DoxyCompactList}\small\item\em Récupère des valeurs dans un vecteur de float pour l\textquotesingle{}ID spécifié \end{DoxyCompactList}\item 
+virtual void \hyperlink{classhalf__circle_1_1_half___circle_ab128d56c2d348524d88da23b89bf3d35}{set\+Values} (const int \&id, const std\+::vector$<$ float $>$ \&values) override
+\begin{DoxyCompactList}\small\item\em Définit les nouvelles valeurs pour l\textquotesingle{}ID spécifié \end{DoxyCompactList}\item 
+\hyperlink{classhalf__circle_1_1_half___circle}{Half\+\_\+\+Circle} \hyperlink{classhalf__circle_1_1_half___circle_aad1321266f1c80f93426c7b0f906700b}{operator+} (const \hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D} \&\hyperlink{classhalf__circle_1_1_half___circle_abf7d74a747e38464e7897a4e1c54caad}{get\+Position}) const
+\begin{DoxyCompactList}\small\item\em Opérateur de décalage. \end{DoxyCompactList}\item 
+\hyperlink{classhalf__circle_1_1_half___circle}{Half\+\_\+\+Circle} \hyperlink{classhalf__circle_1_1_half___circle_a378f3ccdfd80602eef6123812aa6281e}{operator$\ast$} (const float \&f) const
+\begin{DoxyCompactList}\small\item\em Opérateur de réduction. \end{DoxyCompactList}\item 
+const \hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D} \& \hyperlink{classhalf__circle_1_1_half___circle_abf7d74a747e38464e7897a4e1c54caad}{get\+Position} () const
+\begin{DoxyCompactList}\small\item\em Récupère la position du demi-\/cercle. \end{DoxyCompactList}\item 
+void \hyperlink{classhalf__circle_1_1_half___circle_aef4c8e9f8a7d86c0062511ee24646afa}{set\+Position} (const \hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D} \&position)
+\begin{DoxyCompactList}\small\item\em Définit la nouvelle position du demi-\/cercle. \end{DoxyCompactList}\item 
+unsigned \hyperlink{classhalf__circle_1_1_half___circle_a528419d14294a981dbc6cfde14c198fe}{get\+Radius} () const
+\begin{DoxyCompactList}\small\item\em Récupère le rayon du cercle. \end{DoxyCompactList}\item 
+void \hyperlink{classhalf__circle_1_1_half___circle_a84af21356a58484b2de1702e64c162dd}{set\+Radius} (const unsigned \&radius)
+\begin{DoxyCompactList}\small\item\em Définit le nouveau rayon du demi-\/cercle. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Classe représentant un demi-\/cercle. 
+
+Definition at line 24 of file half\+\_\+circle.\+h.
+
+
+
+\subsection{Member Enumeration Documentation}
+\mbox{\Hypertarget{classhalf__circle_1_1_half___circle_a7e20290d766bda444243c1c524479304}\label{classhalf__circle_1_1_half___circle_a7e20290d766bda444243c1c524479304}} 
+\index{half\+\_\+circle\+::\+Half\+\_\+\+Circle@{half\+\_\+circle\+::\+Half\+\_\+\+Circle}!Transition\+Ids@{Transition\+Ids}}
+\index{Transition\+Ids@{Transition\+Ids}!half\+\_\+circle\+::\+Half\+\_\+\+Circle@{half\+\_\+circle\+::\+Half\+\_\+\+Circle}}
+\subsubsection{\texorpdfstring{Transition\+Ids}{TransitionIds}}
+{\footnotesize\ttfamily enum \hyperlink{classhalf__circle_1_1_half___circle_a7e20290d766bda444243c1c524479304}{half\+\_\+circle\+::\+Half\+\_\+\+Circle\+::\+Transition\+Ids}}
+
+
+
+Transition\+Ids \+: Liste de toutes les transitions que cet élément peut exécuter. 
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+F\+I\+L\+L\+\_\+\+C\+O\+L\+O\+R\+\_\+\+R\+GB@{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+F\+I\+L\+L\+\_\+\+C\+O\+L\+O\+R\+\_\+\+R\+GB}!half\+\_\+circle\+::\+Half\+\_\+\+Circle@{half\+\_\+circle\+::\+Half\+\_\+\+Circle}}\index{half\+\_\+circle\+::\+Half\+\_\+\+Circle@{half\+\_\+circle\+::\+Half\+\_\+\+Circle}!T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+F\+I\+L\+L\+\_\+\+C\+O\+L\+O\+R\+\_\+\+R\+GB@{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+F\+I\+L\+L\+\_\+\+C\+O\+L\+O\+R\+\_\+\+R\+GB}}}\mbox{\Hypertarget{classhalf__circle_1_1_half___circle_a7e20290d766bda444243c1c524479304ac1e74032d1426ae596f4d6e7525ce0d2}\label{classhalf__circle_1_1_half___circle_a7e20290d766bda444243c1c524479304ac1e74032d1426ae596f4d6e7525ce0d2}} 
+T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+F\+I\+L\+L\+\_\+\+C\+O\+L\+O\+R\+\_\+\+R\+GB&Transition pour la couleur de remplissage \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+F\+I\+L\+L\+\_\+\+C\+O\+L\+O\+R\+\_\+\+A\+L\+P\+HA@{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+F\+I\+L\+L\+\_\+\+C\+O\+L\+O\+R\+\_\+\+A\+L\+P\+HA}!half\+\_\+circle\+::\+Half\+\_\+\+Circle@{half\+\_\+circle\+::\+Half\+\_\+\+Circle}}\index{half\+\_\+circle\+::\+Half\+\_\+\+Circle@{half\+\_\+circle\+::\+Half\+\_\+\+Circle}!T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+F\+I\+L\+L\+\_\+\+C\+O\+L\+O\+R\+\_\+\+A\+L\+P\+HA@{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+F\+I\+L\+L\+\_\+\+C\+O\+L\+O\+R\+\_\+\+A\+L\+P\+HA}}}\mbox{\Hypertarget{classhalf__circle_1_1_half___circle_a7e20290d766bda444243c1c524479304a914039a7453a5ba46ce8e9691f973565}\label{classhalf__circle_1_1_half___circle_a7e20290d766bda444243c1c524479304a914039a7453a5ba46ce8e9691f973565}} 
+T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+F\+I\+L\+L\+\_\+\+C\+O\+L\+O\+R\+\_\+\+A\+L\+P\+HA&Transition pour la transparence de remplissage \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+B\+O\+R\+D\+E\+R\+\_\+\+C\+O\+L\+O\+R\+\_\+\+R\+GB@{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+B\+O\+R\+D\+E\+R\+\_\+\+C\+O\+L\+O\+R\+\_\+\+R\+GB}!half\+\_\+circle\+::\+Half\+\_\+\+Circle@{half\+\_\+circle\+::\+Half\+\_\+\+Circle}}\index{half\+\_\+circle\+::\+Half\+\_\+\+Circle@{half\+\_\+circle\+::\+Half\+\_\+\+Circle}!T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+B\+O\+R\+D\+E\+R\+\_\+\+C\+O\+L\+O\+R\+\_\+\+R\+GB@{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+B\+O\+R\+D\+E\+R\+\_\+\+C\+O\+L\+O\+R\+\_\+\+R\+GB}}}\mbox{\Hypertarget{classhalf__circle_1_1_half___circle_a7e20290d766bda444243c1c524479304a2a63985872b8198ae91571096266901f}\label{classhalf__circle_1_1_half___circle_a7e20290d766bda444243c1c524479304a2a63985872b8198ae91571096266901f}} 
+T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+B\+O\+R\+D\+E\+R\+\_\+\+C\+O\+L\+O\+R\+\_\+\+R\+GB&Transition pour la couleur de bord \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+B\+O\+R\+D\+E\+R\+\_\+\+C\+O\+L\+O\+R\+\_\+\+A\+L\+P\+HA@{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+B\+O\+R\+D\+E\+R\+\_\+\+C\+O\+L\+O\+R\+\_\+\+A\+L\+P\+HA}!half\+\_\+circle\+::\+Half\+\_\+\+Circle@{half\+\_\+circle\+::\+Half\+\_\+\+Circle}}\index{half\+\_\+circle\+::\+Half\+\_\+\+Circle@{half\+\_\+circle\+::\+Half\+\_\+\+Circle}!T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+B\+O\+R\+D\+E\+R\+\_\+\+C\+O\+L\+O\+R\+\_\+\+A\+L\+P\+HA@{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+B\+O\+R\+D\+E\+R\+\_\+\+C\+O\+L\+O\+R\+\_\+\+A\+L\+P\+HA}}}\mbox{\Hypertarget{classhalf__circle_1_1_half___circle_a7e20290d766bda444243c1c524479304afb901c98dd9e94baa5848287cfd66caf}\label{classhalf__circle_1_1_half___circle_a7e20290d766bda444243c1c524479304afb901c98dd9e94baa5848287cfd66caf}} 
+T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+B\+O\+R\+D\+E\+R\+\_\+\+C\+O\+L\+O\+R\+\_\+\+A\+L\+P\+HA&Transition pour la transparence de bord \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+P\+O\+S\+I\+T\+I\+ON@{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+P\+O\+S\+I\+T\+I\+ON}!half\+\_\+circle\+::\+Half\+\_\+\+Circle@{half\+\_\+circle\+::\+Half\+\_\+\+Circle}}\index{half\+\_\+circle\+::\+Half\+\_\+\+Circle@{half\+\_\+circle\+::\+Half\+\_\+\+Circle}!T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+P\+O\+S\+I\+T\+I\+ON@{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+P\+O\+S\+I\+T\+I\+ON}}}\mbox{\Hypertarget{classhalf__circle_1_1_half___circle_a7e20290d766bda444243c1c524479304ad66fd6a8d99dc4dee199bf18256f4686}\label{classhalf__circle_1_1_half___circle_a7e20290d766bda444243c1c524479304ad66fd6a8d99dc4dee199bf18256f4686}} 
+T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+P\+O\+S\+I\+T\+I\+ON&Transition pour la position \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+R\+A\+D\+I\+US@{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+R\+A\+D\+I\+US}!half\+\_\+circle\+::\+Half\+\_\+\+Circle@{half\+\_\+circle\+::\+Half\+\_\+\+Circle}}\index{half\+\_\+circle\+::\+Half\+\_\+\+Circle@{half\+\_\+circle\+::\+Half\+\_\+\+Circle}!T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+R\+A\+D\+I\+US@{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+R\+A\+D\+I\+US}}}\mbox{\Hypertarget{classhalf__circle_1_1_half___circle_a7e20290d766bda444243c1c524479304a35e42ad23744d956dfe07c03a05ccef7}\label{classhalf__circle_1_1_half___circle_a7e20290d766bda444243c1c524479304a35e42ad23744d956dfe07c03a05ccef7}} 
+T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+R\+A\+D\+I\+US&Transition pour le rayon \\
+\hline
+
+\end{DoxyEnumFields}
+
+
+Definition at line 30 of file half\+\_\+circle.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classhalf__circle_1_1_half___circle_a4745acf1a6bd730b7272d3deb1d45a10}\label{classhalf__circle_1_1_half___circle_a4745acf1a6bd730b7272d3deb1d45a10}} 
+\index{half\+\_\+circle\+::\+Half\+\_\+\+Circle@{half\+\_\+circle\+::\+Half\+\_\+\+Circle}!Half\+\_\+\+Circle@{Half\+\_\+\+Circle}}
+\index{Half\+\_\+\+Circle@{Half\+\_\+\+Circle}!half\+\_\+circle\+::\+Half\+\_\+\+Circle@{half\+\_\+circle\+::\+Half\+\_\+\+Circle}}
+\subsubsection{\texorpdfstring{Half\+\_\+\+Circle()}{Half\_Circle()}}
+{\footnotesize\ttfamily half\+\_\+circle\+::\+Half\+\_\+\+Circle\+::\+Half\+\_\+\+Circle (\begin{DoxyParamCaption}\item[{const \hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D} \&}]{position,  }\item[{const unsigned \&}]{radius,  }\item[{const unsigned \&}]{height,  }\item[{const char \&}]{direction,  }\item[{const \hyperlink{classns_graphics_1_1_r_g_b_acolor}{ns\+Graphics\+::\+R\+G\+B\+Acolor} \&}]{fill\+Color,  }\item[{const \hyperlink{classns_graphics_1_1_r_g_b_acolor}{ns\+Graphics\+::\+R\+G\+B\+Acolor} \&}]{border\+Color = {\ttfamily \hyperlink{namespacens_graphics_ab2001ad03cceb2565849e04465618c1e}{ns\+Graphics\+::\+K\+Transparent}} }\end{DoxyParamCaption})}
+
+
+
+Constructeur pour la classe \hyperlink{classhalf__circle_1_1_half___circle}{Half\+\_\+\+Circle}. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em position} & \+: Position du centre \\
+\hline
+\mbox{\tt in}  & {\em radius} & \+: Rayon du demi-\/cercle \\
+\hline
+\mbox{\tt in}  & {\em height} & Hauteur du demi-\/cercle \\
+\hline
+\mbox{\tt in}  & {\em direction} & \+: Direction du demi-\/cercle \\
+\hline
+\mbox{\tt in}  & {\em fill\+Color} & \+: Couleur de remplissage \\
+\hline
+\mbox{\tt in}  & {\em border\+Color} & \+: Couleur de bord \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 25 of file half\+\_\+circle.\+cpp.
+
+\mbox{\Hypertarget{classhalf__circle_1_1_half___circle_a72930c6bddc0f5bb504759a189bb7409}\label{classhalf__circle_1_1_half___circle_a72930c6bddc0f5bb504759a189bb7409}} 
+\index{half\+\_\+circle\+::\+Half\+\_\+\+Circle@{half\+\_\+circle\+::\+Half\+\_\+\+Circle}!````~Half\+\_\+\+Circle@{$\sim$\+Half\+\_\+\+Circle}}
+\index{````~Half\+\_\+\+Circle@{$\sim$\+Half\+\_\+\+Circle}!half\+\_\+circle\+::\+Half\+\_\+\+Circle@{half\+\_\+circle\+::\+Half\+\_\+\+Circle}}
+\subsubsection{\texorpdfstring{$\sim$\+Half\+\_\+\+Circle()}{~Half\_Circle()}}
+{\footnotesize\ttfamily half\+\_\+circle\+::\+Half\+\_\+\+Circle\+::$\sim$\+Half\+\_\+\+Circle (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}, {\ttfamily [default]}}
+
+
+
+Destructeur virtuel pour la classe \hyperlink{classhalf__circle_1_1_half___circle}{Half\+\_\+\+Circle}. 
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classhalf__circle_1_1_half___circle_a46b2ea1d78fcacdf2b79707c6431774b}\label{classhalf__circle_1_1_half___circle_a46b2ea1d78fcacdf2b79707c6431774b}} 
+\index{half\+\_\+circle\+::\+Half\+\_\+\+Circle@{half\+\_\+circle\+::\+Half\+\_\+\+Circle}!draw@{draw}}
+\index{draw@{draw}!half\+\_\+circle\+::\+Half\+\_\+\+Circle@{half\+\_\+circle\+::\+Half\+\_\+\+Circle}}
+\subsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void half\+\_\+circle\+::\+Half\+\_\+\+Circle\+::draw (\begin{DoxyParamCaption}\item[{\hyperlink{class_min_g_l}{Min\+GL} \&}]{window }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Fonction pour afficher l\textquotesingle{}objet. 
+
+
+
+Implements \hyperlink{classns_graphics_1_1_i_drawable_abed8a61e1d507d31e76f0891f3bf9c51}{ns\+Graphics\+::\+I\+Drawable}.
+
+
+
+Definition at line 33 of file half\+\_\+circle.\+cpp.
+
+\mbox{\Hypertarget{classhalf__circle_1_1_half___circle_abf7d74a747e38464e7897a4e1c54caad}\label{classhalf__circle_1_1_half___circle_abf7d74a747e38464e7897a4e1c54caad}} 
+\index{half\+\_\+circle\+::\+Half\+\_\+\+Circle@{half\+\_\+circle\+::\+Half\+\_\+\+Circle}!get\+Position@{get\+Position}}
+\index{get\+Position@{get\+Position}!half\+\_\+circle\+::\+Half\+\_\+\+Circle@{half\+\_\+circle\+::\+Half\+\_\+\+Circle}}
+\subsubsection{\texorpdfstring{get\+Position()}{getPosition()}}
+{\footnotesize\ttfamily const \hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D} \& half\+\_\+circle\+::\+Half\+\_\+\+Circle\+::get\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Récupère la position du demi-\/cercle. 
+
+\mbox{\Hypertarget{classhalf__circle_1_1_half___circle_a528419d14294a981dbc6cfde14c198fe}\label{classhalf__circle_1_1_half___circle_a528419d14294a981dbc6cfde14c198fe}} 
+\index{half\+\_\+circle\+::\+Half\+\_\+\+Circle@{half\+\_\+circle\+::\+Half\+\_\+\+Circle}!get\+Radius@{get\+Radius}}
+\index{get\+Radius@{get\+Radius}!half\+\_\+circle\+::\+Half\+\_\+\+Circle@{half\+\_\+circle\+::\+Half\+\_\+\+Circle}}
+\subsubsection{\texorpdfstring{get\+Radius()}{getRadius()}}
+{\footnotesize\ttfamily unsigned half\+\_\+circle\+::\+Half\+\_\+\+Circle\+::get\+Radius (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Récupère le rayon du cercle. 
+
+\mbox{\Hypertarget{classhalf__circle_1_1_half___circle_a32fbc3cf8c53b5a239c56b0be6df3e7e}\label{classhalf__circle_1_1_half___circle_a32fbc3cf8c53b5a239c56b0be6df3e7e}} 
+\index{half\+\_\+circle\+::\+Half\+\_\+\+Circle@{half\+\_\+circle\+::\+Half\+\_\+\+Circle}!get\+Values@{get\+Values}}
+\index{get\+Values@{get\+Values}!half\+\_\+circle\+::\+Half\+\_\+\+Circle@{half\+\_\+circle\+::\+Half\+\_\+\+Circle}}
+\subsubsection{\texorpdfstring{get\+Values()}{getValues()}}
+{\footnotesize\ttfamily void half\+\_\+circle\+::\+Half\+\_\+\+Circle\+::get\+Values (\begin{DoxyParamCaption}\item[{const int \&}]{id,  }\item[{std\+::vector$<$ float $>$ \&}]{values }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Récupère des valeurs dans un vecteur de float pour l\textquotesingle{}ID spécifié 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em id} & ID des valeurs a récupérer \\
+\hline
+\mbox{\tt in,out}  & {\em values} & Vecteur de valeurs a peupler \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{classns_transition_1_1_i_transitionable_a5871a16fd47c1e5c8bacdd5da8597ed9}{ns\+Transition\+::\+I\+Transitionable}.
+
+
+
+Definition at line 81 of file half\+\_\+circle.\+cpp.
+
+\mbox{\Hypertarget{classhalf__circle_1_1_half___circle_a378f3ccdfd80602eef6123812aa6281e}\label{classhalf__circle_1_1_half___circle_a378f3ccdfd80602eef6123812aa6281e}} 
+\index{half\+\_\+circle\+::\+Half\+\_\+\+Circle@{half\+\_\+circle\+::\+Half\+\_\+\+Circle}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!half\+\_\+circle\+::\+Half\+\_\+\+Circle@{half\+\_\+circle\+::\+Half\+\_\+\+Circle}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}}
+{\footnotesize\ttfamily \hyperlink{classhalf__circle_1_1_half___circle}{Half\+\_\+\+Circle} half\+\_\+circle\+::\+Half\+\_\+\+Circle\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const float \&}]{f }\end{DoxyParamCaption}) const}
+
+
+
+Opérateur de réduction. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em f} & \+: Nombre avec lequel multiplier la position actuelle \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classhalf__circle_1_1_half___circle_aad1321266f1c80f93426c7b0f906700b}\label{classhalf__circle_1_1_half___circle_aad1321266f1c80f93426c7b0f906700b}} 
+\index{half\+\_\+circle\+::\+Half\+\_\+\+Circle@{half\+\_\+circle\+::\+Half\+\_\+\+Circle}!operator+@{operator+}}
+\index{operator+@{operator+}!half\+\_\+circle\+::\+Half\+\_\+\+Circle@{half\+\_\+circle\+::\+Half\+\_\+\+Circle}}
+\subsubsection{\texorpdfstring{operator+()}{operator+()}}
+{\footnotesize\ttfamily \hyperlink{classhalf__circle_1_1_half___circle}{Half\+\_\+\+Circle} half\+\_\+circle\+::\+Half\+\_\+\+Circle\+::operator+ (\begin{DoxyParamCaption}\item[{const \hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D} \&}]{position }\end{DoxyParamCaption}) const}
+
+
+
+Opérateur de décalage. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em position} & \+: Position a additionner \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classhalf__circle_1_1_half___circle_aef4c8e9f8a7d86c0062511ee24646afa}\label{classhalf__circle_1_1_half___circle_aef4c8e9f8a7d86c0062511ee24646afa}} 
+\index{half\+\_\+circle\+::\+Half\+\_\+\+Circle@{half\+\_\+circle\+::\+Half\+\_\+\+Circle}!set\+Position@{set\+Position}}
+\index{set\+Position@{set\+Position}!half\+\_\+circle\+::\+Half\+\_\+\+Circle@{half\+\_\+circle\+::\+Half\+\_\+\+Circle}}
+\subsubsection{\texorpdfstring{set\+Position()}{setPosition()}}
+{\footnotesize\ttfamily void half\+\_\+circle\+::\+Half\+\_\+\+Circle\+::set\+Position (\begin{DoxyParamCaption}\item[{const \hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D} \&}]{position }\end{DoxyParamCaption})}
+
+
+
+Définit la nouvelle position du demi-\/cercle. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em position} & \+: Nouvelle position \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classhalf__circle_1_1_half___circle_a84af21356a58484b2de1702e64c162dd}\label{classhalf__circle_1_1_half___circle_a84af21356a58484b2de1702e64c162dd}} 
+\index{half\+\_\+circle\+::\+Half\+\_\+\+Circle@{half\+\_\+circle\+::\+Half\+\_\+\+Circle}!set\+Radius@{set\+Radius}}
+\index{set\+Radius@{set\+Radius}!half\+\_\+circle\+::\+Half\+\_\+\+Circle@{half\+\_\+circle\+::\+Half\+\_\+\+Circle}}
+\subsubsection{\texorpdfstring{set\+Radius()}{setRadius()}}
+{\footnotesize\ttfamily half\+\_\+circle\+::\+Half\+\_\+\+Circle\+::set\+Radius (\begin{DoxyParamCaption}\item[{const unsigned \&}]{radius }\end{DoxyParamCaption})}
+
+
+
+Définit le nouveau rayon du demi-\/cercle. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em radius} & \+: Nouveau rayon \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classhalf__circle_1_1_half___circle_ab128d56c2d348524d88da23b89bf3d35}\label{classhalf__circle_1_1_half___circle_ab128d56c2d348524d88da23b89bf3d35}} 
+\index{half\+\_\+circle\+::\+Half\+\_\+\+Circle@{half\+\_\+circle\+::\+Half\+\_\+\+Circle}!set\+Values@{set\+Values}}
+\index{set\+Values@{set\+Values}!half\+\_\+circle\+::\+Half\+\_\+\+Circle@{half\+\_\+circle\+::\+Half\+\_\+\+Circle}}
+\subsubsection{\texorpdfstring{set\+Values()}{setValues()}}
+{\footnotesize\ttfamily void half\+\_\+circle\+::\+Half\+\_\+\+Circle\+::set\+Values (\begin{DoxyParamCaption}\item[{const int \&}]{id,  }\item[{const std\+::vector$<$ float $>$ \&}]{values }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Définit les nouvelles valeurs pour l\textquotesingle{}ID spécifié 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em id} & ID des valeurs a définir \\
+\hline
+\mbox{\tt in}  & {\em values} & Vecteur des nouvelles valeurs a appliquer \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{classns_transition_1_1_i_transitionable_ade37d29f7f2ca4890ed0e2e64d033197}{ns\+Transition\+::\+I\+Transitionable}.
+
+
+
+Definition at line 121 of file half\+\_\+circle.\+cpp.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+libs/game/graphic/\hyperlink{half__circle_8h}{half\+\_\+circle.\+h}\item 
+src/graphic/\hyperlink{half__circle_8cpp}{half\+\_\+circle.\+cpp}\end{DoxyCompactItemize}

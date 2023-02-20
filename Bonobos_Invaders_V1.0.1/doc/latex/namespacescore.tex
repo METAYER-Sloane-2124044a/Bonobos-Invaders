@@ -1,0 +1,168 @@
+\hypertarget{namespacescore}{}\section{score Namespace Reference}
+\label{namespacescore}\index{score@{score}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{namespacescore_af95066a9c5dff49a5a9d5ee29f162757}{init} (std\+::map$<$ std\+::string, std\+::string $>$ \&\hyperlink{main_8cpp_ada2160bcc2082e595d02f0eb5a318dd5}{config\+Map})
+\begin{DoxyCompactList}\small\item\em Initialisation à partir du fichier config. \end{DoxyCompactList}\item 
+void \hyperlink{namespacescore_a53974e9c6b708076269b611addd8eed1}{score\+Invader} (unsigned from, \hyperlink{structenemy_1_1_enemy}{enemy\+::\+Enemy} \&enemy, std\+::vector$<$ \hyperlink{structplayer_1_1_player}{player\+::\+Player} $>$ \&\hyperlink{multi_8cpp_abd9de51dc9a6f90588878ff69cec449d}{players})
+\begin{DoxyCompactList}\small\item\em \+: Procedure qui ajoute du score au joueur qui a tiré la torpedo selon la distance qu\textquotesingle{}elle a parcouru avant de toucher l\textquotesingle{}invader \end{DoxyCompactList}\item 
+void \hyperlink{namespacescore_aebc7be40ef0cc33800d763aec5e626a0}{score\+Player} (\hyperlink{structplayer_1_1_player}{player\+::\+Player} \&player)
+\begin{DoxyCompactList}\small\item\em Procedure qui ajoute du score au joueur qui a tué l\textquotesingle{}autre. \end{DoxyCompactList}\item 
+\hyperlink{classns_gui_1_1_text}{ns\+Gui\+::\+Text} \hyperlink{namespacescore_a71e5d3a50d1f96c3c5ff1155b3d5fdbb}{show\+Score} (std\+::vector$<$ \hyperlink{structplayer_1_1_player}{player\+::\+Player} $>$ \&\hyperlink{multi_8cpp_abd9de51dc9a6f90588878ff69cec449d}{players}, \hyperlink{class_min_g_l}{Min\+GL} \&window)
+\begin{DoxyCompactList}\small\item\em Renvoie l\textquotesingle{}affichage du score actuel avec les pseudos des joueurs. \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::string $>$ \hyperlink{namespacescore_a369bea39905535234b2a593129b0599b}{high\+Score\+Reader} (std\+::string \&path)
+\begin{DoxyCompactList}\small\item\em Lit le fichier des meilleurs scores et en fait un vecteur. \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::string $>$ \hyperlink{namespacescore_a80f57620018fa7797c3e4f1d34479277}{high\+Score\+Update} (std\+::vector$<$ \hyperlink{structplayer_1_1_player}{player\+::\+Player} $>$ \&\hyperlink{multi_8cpp_abd9de51dc9a6f90588878ff69cec449d}{players})
+\begin{DoxyCompactList}\small\item\em Interprete le vecteur renvoyé par high\+Score\+Reader, y ajoute les score actuel, si néscessaire. \end{DoxyCompactList}\item 
+void \hyperlink{namespacescore_a67da81a4506de38ca8e841ba9251fbb3}{high\+Score\+Writer} (std\+::vector$<$ \hyperlink{structplayer_1_1_player}{player\+::\+Player} $>$ \&\hyperlink{multi_8cpp_abd9de51dc9a6f90588878ff69cec449d}{players})
+\begin{DoxyCompactList}\small\item\em Procedure qui écris le score dans le fichier des scores. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{namespacescore_a369bea39905535234b2a593129b0599b}\label{namespacescore_a369bea39905535234b2a593129b0599b}} 
+\index{score@{score}!high\+Score\+Reader@{high\+Score\+Reader}}
+\index{high\+Score\+Reader@{high\+Score\+Reader}!score@{score}}
+\subsubsection{\texorpdfstring{high\+Score\+Reader()}{highScoreReader()}}
+{\footnotesize\ttfamily std\+::vector$<$ std\+::string $>$ score\+::high\+Score\+Reader (\begin{DoxyParamCaption}\item[{std\+::string \&}]{path }\end{DoxyParamCaption})}
+
+
+
+Lit le fichier des meilleurs scores et en fait un vecteur. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em path} & \+: le chemin du fichier score\+Board \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::vector$<$std\+::string$>$ \+: le vecteur du score 
+\end{DoxyReturn}
+
+
+Definition at line 33 of file score.\+cpp.
+
+\mbox{\Hypertarget{namespacescore_a80f57620018fa7797c3e4f1d34479277}\label{namespacescore_a80f57620018fa7797c3e4f1d34479277}} 
+\index{score@{score}!high\+Score\+Update@{high\+Score\+Update}}
+\index{high\+Score\+Update@{high\+Score\+Update}!score@{score}}
+\subsubsection{\texorpdfstring{high\+Score\+Update()}{highScoreUpdate()}}
+{\footnotesize\ttfamily std\+::vector$<$ std\+::string $>$ score\+::high\+Score\+Update (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \hyperlink{structplayer_1_1_player}{player\+::\+Player} $>$ \&}]{players }\end{DoxyParamCaption})}
+
+
+
+Interprete le vecteur renvoyé par high\+Score\+Reader, y ajoute les score actuel, si néscessaire. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em players} & \+: le vecteur de joueurs \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::vector$<$std\+::string$>$ \+: le vecteur du score mais correctement trié 
+\end{DoxyReturn}
+
+
+Definition at line 49 of file score.\+cpp.
+
+\mbox{\Hypertarget{namespacescore_a67da81a4506de38ca8e841ba9251fbb3}\label{namespacescore_a67da81a4506de38ca8e841ba9251fbb3}} 
+\index{score@{score}!high\+Score\+Writer@{high\+Score\+Writer}}
+\index{high\+Score\+Writer@{high\+Score\+Writer}!score@{score}}
+\subsubsection{\texorpdfstring{high\+Score\+Writer()}{highScoreWriter()}}
+{\footnotesize\ttfamily void score\+::high\+Score\+Writer (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \hyperlink{structplayer_1_1_player}{player\+::\+Player} $>$ \&}]{players }\end{DoxyParamCaption})}
+
+
+
+Procedure qui écris le score dans le fichier des scores. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em } & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 93 of file score.\+cpp.
+
+\mbox{\Hypertarget{namespacescore_af95066a9c5dff49a5a9d5ee29f162757}\label{namespacescore_af95066a9c5dff49a5a9d5ee29f162757}} 
+\index{score@{score}!init@{init}}
+\index{init@{init}!score@{score}}
+\subsubsection{\texorpdfstring{init()}{init()}}
+{\footnotesize\ttfamily void score\+::init (\begin{DoxyParamCaption}\item[{std\+::map$<$ std\+::string, std\+::string $>$ \&}]{config\+Map }\end{DoxyParamCaption})}
+
+
+
+Initialisation à partir du fichier config. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em config\+Map} & \+: map généré a partir du fichier de configuration \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 9 of file score.\+cpp.
+
+\mbox{\Hypertarget{namespacescore_a53974e9c6b708076269b611addd8eed1}\label{namespacescore_a53974e9c6b708076269b611addd8eed1}} 
+\index{score@{score}!score\+Invader@{score\+Invader}}
+\index{score\+Invader@{score\+Invader}!score@{score}}
+\subsubsection{\texorpdfstring{score\+Invader()}{scoreInvader()}}
+{\footnotesize\ttfamily void score\+::score\+Invader (\begin{DoxyParamCaption}\item[{unsigned}]{from,  }\item[{\hyperlink{structenemy_1_1_enemy}{enemy\+::\+Enemy} \&}]{enemy,  }\item[{std\+::vector$<$ \hyperlink{structplayer_1_1_player}{player\+::\+Player} $>$ \&}]{players }\end{DoxyParamCaption})}
+
+
+
+\+: Procedure qui ajoute du score au joueur qui a tiré la torpedo selon la distance qu\textquotesingle{}elle a parcouru avant de toucher l\textquotesingle{}invader 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em from} & \+: de qui vien la torpille \\
+\hline
+\mbox{\tt in,out}  & {\em players} & \+: le vecteur de joueurs \\
+\hline
+\mbox{\tt in}  & {\em enemy} & \+: l\textquotesingle{}invader qui a été touché par la torpille \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 14 of file score.\+cpp.
+
+\mbox{\Hypertarget{namespacescore_aebc7be40ef0cc33800d763aec5e626a0}\label{namespacescore_aebc7be40ef0cc33800d763aec5e626a0}} 
+\index{score@{score}!score\+Player@{score\+Player}}
+\index{score\+Player@{score\+Player}!score@{score}}
+\subsubsection{\texorpdfstring{score\+Player()}{scorePlayer()}}
+{\footnotesize\ttfamily void score\+::score\+Player (\begin{DoxyParamCaption}\item[{\hyperlink{structplayer_1_1_player}{player\+::\+Player} \&}]{player }\end{DoxyParamCaption})}
+
+
+
+Procedure qui ajoute du score au joueur qui a tué l\textquotesingle{}autre. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in,out}  & {\em players} & \+: le vecteur des joueurs \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 23 of file score.\+cpp.
+
+\mbox{\Hypertarget{namespacescore_a71e5d3a50d1f96c3c5ff1155b3d5fdbb}\label{namespacescore_a71e5d3a50d1f96c3c5ff1155b3d5fdbb}} 
+\index{score@{score}!show\+Score@{show\+Score}}
+\index{show\+Score@{show\+Score}!score@{score}}
+\subsubsection{\texorpdfstring{show\+Score()}{showScore()}}
+{\footnotesize\ttfamily \hyperlink{classns_gui_1_1_text}{ns\+Gui\+::\+Text} score\+::show\+Score (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \hyperlink{structplayer_1_1_player}{player\+::\+Player} $>$ \&}]{players,  }\item[{\hyperlink{class_min_g_l}{Min\+GL} \&}]{window }\end{DoxyParamCaption})}
+
+
+
+Renvoie l\textquotesingle{}affichage du score actuel avec les pseudos des joueurs. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em players} & \+: Le vecteurs des joueurs \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{classns_gui_1_1_text}{ns\+Gui\+::\+Text} \+: Le score des joueurs 
+\end{DoxyReturn}
+
+
+Definition at line 27 of file score.\+cpp.
+

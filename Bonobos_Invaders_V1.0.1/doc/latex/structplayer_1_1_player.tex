@@ -1,0 +1,255 @@
+\hypertarget{structplayer_1_1_player}{}\section{player\+:\+:Player Struct Reference}
+\label{structplayer_1_1_player}\index{player\+::\+Player@{player\+::\+Player}}
+
+
+Structure de joueur pour pouvoir les traiter en instance.  
+
+
+
+
+{\ttfamily \#include $<$player.\+h$>$}
+
+
+
+Collaboration diagram for player\+:\+:Player\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=182pt]{structplayer_1_1_player__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{structplayer_1_1_player_aea13d1e63bb4216dd7bb8ed925e9c058}{Player} (int entX, int entY, unsigned ent\+Id)
+\begin{DoxyCompactList}\small\item\em Fonction constructeur de la struct \hyperlink{structplayer_1_1_player}{Player}. \end{DoxyCompactList}\item 
+void \hyperlink{structplayer_1_1_player_a8a9a40b3c690c1edf7146b1f7132cd64}{update} ()
+\begin{DoxyCompactList}\small\item\em Fonction de mise à jour du joueur en bloquant le tir. \end{DoxyCompactList}\item 
+void \hyperlink{structplayer_1_1_player_a2a9b25a631e616ff91cb6ec815f9990a}{shoot} (unsigned from, unsigned to, std\+::vector$<$ \hyperlink{structtorpedo_1_1_torpedo}{torpedo\+::\+Torpedo} $>$ \&\hyperlink{multi_8cpp_a8d978ee3afff71f0b07f921403c2b403}{torpedos})
+\begin{DoxyCompactList}\small\item\em Fonction qui ajoute une torpille allié au vecteur de torpilles et l\textquotesingle{}initialise. \end{DoxyCompactList}\item 
+void \hyperlink{structplayer_1_1_player_a3f3f5a529fd56346902ca83672640294}{show} (\hyperlink{class_min_g_l}{Min\+GL} \&window)
+\begin{DoxyCompactList}\small\item\em Permet d\textquotesingle{}afficher le joueur. \end{DoxyCompactList}\item 
+void \hyperlink{structplayer_1_1_player_a26d56b47474cb89219f2aed8d92878d7}{show\+Life} (\hyperlink{class_min_g_l}{Min\+GL} \&window, \hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D} \hyperlink{structplayer_1_1_player_aec9e16b6c6306f2ce5bfceec6210cb44}{pos})
+\begin{DoxyCompactList}\small\item\em Affiche la vie du joueur. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D} \hyperlink{structplayer_1_1_player_aec9e16b6c6306f2ce5bfceec6210cb44}{pos}
+\item 
+std\+::vector$<$ unsigned long $>$ \hyperlink{structplayer_1_1_player_af4901794c6c932a6550973a88a446bac}{size}
+\item 
+int \hyperlink{structplayer_1_1_player_a5a59435adc56ae2dd435c815f01d1e4d}{life}
+\item 
+unsigned \hyperlink{structplayer_1_1_player_ae7306efe3b72df4b8ccce8f1612a4729}{shoot\+Limit}
+\item 
+unsigned \hyperlink{structplayer_1_1_player_a49a0c0e0b5bc07e6fa77cfecac963fb9}{shoot\+Count}
+\item 
+unsigned \hyperlink{structplayer_1_1_player_a40e8e3d989e0f045aca51d2e41239730}{id}
+\item 
+unsigned \hyperlink{structplayer_1_1_player_aec52e3bcc8710ab3c4d3d1f128f58e41}{score}
+\item 
+std\+::string \hyperlink{structplayer_1_1_player_a9294f29c7bcc3e5d44c4b7423cb2f13d}{pseudo}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Structure de joueur pour pouvoir les traiter en instance. 
+
+Definition at line 29 of file player.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{structplayer_1_1_player_aea13d1e63bb4216dd7bb8ed925e9c058}\label{structplayer_1_1_player_aea13d1e63bb4216dd7bb8ed925e9c058}} 
+\index{player\+::\+Player@{player\+::\+Player}!Player@{Player}}
+\index{Player@{Player}!player\+::\+Player@{player\+::\+Player}}
+\subsubsection{\texorpdfstring{Player()}{Player()}}
+{\footnotesize\ttfamily player\+::\+Player\+::\+Player (\begin{DoxyParamCaption}\item[{int}]{entX,  }\item[{int}]{entY,  }\item[{unsigned}]{ent\+Id }\end{DoxyParamCaption})}
+
+
+
+Fonction constructeur de la struct \hyperlink{structplayer_1_1_player}{Player}. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em entX} & \+: position X \\
+\hline
+\mbox{\tt in}  & {\em entY} & \+: position Y \\
+\hline
+\mbox{\tt in}  & {\em ent\+Id} & \+: id du joueur \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 17 of file player.\+cpp.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{structplayer_1_1_player_a2a9b25a631e616ff91cb6ec815f9990a}\label{structplayer_1_1_player_a2a9b25a631e616ff91cb6ec815f9990a}} 
+\index{player\+::\+Player@{player\+::\+Player}!shoot@{shoot}}
+\index{shoot@{shoot}!player\+::\+Player@{player\+::\+Player}}
+\subsubsection{\texorpdfstring{shoot()}{shoot()}}
+{\footnotesize\ttfamily void player\+::\+Player\+::shoot (\begin{DoxyParamCaption}\item[{unsigned}]{from,  }\item[{unsigned}]{to,  }\item[{std\+::vector$<$ \hyperlink{structtorpedo_1_1_torpedo}{torpedo\+::\+Torpedo} $>$ \&}]{torpedos }\end{DoxyParamCaption})}
+
+
+
+Fonction qui ajoute une torpille allié au vecteur de torpilles et l\textquotesingle{}initialise. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em from} & \+: quel joueur tir \\
+\hline
+\mbox{\tt in}  & {\em to} & \+: vers ou le joueur tir \\
+\hline
+\mbox{\tt in,out}  & {\em torpedos} & \+: vecteur de torpilles \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 28 of file player.\+cpp.
+
+\mbox{\Hypertarget{structplayer_1_1_player_a3f3f5a529fd56346902ca83672640294}\label{structplayer_1_1_player_a3f3f5a529fd56346902ca83672640294}} 
+\index{player\+::\+Player@{player\+::\+Player}!show@{show}}
+\index{show@{show}!player\+::\+Player@{player\+::\+Player}}
+\subsubsection{\texorpdfstring{show()}{show()}}
+{\footnotesize\ttfamily void player\+::\+Player\+::show (\begin{DoxyParamCaption}\item[{\hyperlink{class_min_g_l}{Min\+GL} \&}]{window }\end{DoxyParamCaption})}
+
+
+
+Permet d\textquotesingle{}afficher le joueur. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in,out}  & {\em window} & \+: fenêtre de jeu \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 44 of file player.\+cpp.
+
+\mbox{\Hypertarget{structplayer_1_1_player_a26d56b47474cb89219f2aed8d92878d7}\label{structplayer_1_1_player_a26d56b47474cb89219f2aed8d92878d7}} 
+\index{player\+::\+Player@{player\+::\+Player}!show\+Life@{show\+Life}}
+\index{show\+Life@{show\+Life}!player\+::\+Player@{player\+::\+Player}}
+\subsubsection{\texorpdfstring{show\+Life()}{showLife()}}
+{\footnotesize\ttfamily void player\+::\+Player\+::show\+Life (\begin{DoxyParamCaption}\item[{\hyperlink{class_min_g_l}{Min\+GL} \&}]{window,  }\item[{\hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D}}]{pos }\end{DoxyParamCaption})}
+
+
+
+Affiche la vie du joueur. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em window} & \+: La fenêtre de jeu \\
+\hline
+{\em pos} & \+: La position de oû sont affiché les vies \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 48 of file player.\+cpp.
+
+\mbox{\Hypertarget{structplayer_1_1_player_a8a9a40b3c690c1edf7146b1f7132cd64}\label{structplayer_1_1_player_a8a9a40b3c690c1edf7146b1f7132cd64}} 
+\index{player\+::\+Player@{player\+::\+Player}!update@{update}}
+\index{update@{update}!player\+::\+Player@{player\+::\+Player}}
+\subsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void player\+::\+Player\+::update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Fonction de mise à jour du joueur en bloquant le tir. 
+
+
+
+Definition at line 39 of file player.\+cpp.
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{structplayer_1_1_player_a40e8e3d989e0f045aca51d2e41239730}\label{structplayer_1_1_player_a40e8e3d989e0f045aca51d2e41239730}} 
+\index{player\+::\+Player@{player\+::\+Player}!id@{id}}
+\index{id@{id}!player\+::\+Player@{player\+::\+Player}}
+\subsubsection{\texorpdfstring{id}{id}}
+{\footnotesize\ttfamily unsigned player\+::\+Player\+::id}
+
+
+
+Definition at line 37 of file player.\+h.
+
+\mbox{\Hypertarget{structplayer_1_1_player_a5a59435adc56ae2dd435c815f01d1e4d}\label{structplayer_1_1_player_a5a59435adc56ae2dd435c815f01d1e4d}} 
+\index{player\+::\+Player@{player\+::\+Player}!life@{life}}
+\index{life@{life}!player\+::\+Player@{player\+::\+Player}}
+\subsubsection{\texorpdfstring{life}{life}}
+{\footnotesize\ttfamily int player\+::\+Player\+::life}
+
+
+
+Definition at line 34 of file player.\+h.
+
+\mbox{\Hypertarget{structplayer_1_1_player_aec9e16b6c6306f2ce5bfceec6210cb44}\label{structplayer_1_1_player_aec9e16b6c6306f2ce5bfceec6210cb44}} 
+\index{player\+::\+Player@{player\+::\+Player}!pos@{pos}}
+\index{pos@{pos}!player\+::\+Player@{player\+::\+Player}}
+\subsubsection{\texorpdfstring{pos}{pos}}
+{\footnotesize\ttfamily \hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D} player\+::\+Player\+::pos}
+
+
+
+Definition at line 32 of file player.\+h.
+
+\mbox{\Hypertarget{structplayer_1_1_player_a9294f29c7bcc3e5d44c4b7423cb2f13d}\label{structplayer_1_1_player_a9294f29c7bcc3e5d44c4b7423cb2f13d}} 
+\index{player\+::\+Player@{player\+::\+Player}!pseudo@{pseudo}}
+\index{pseudo@{pseudo}!player\+::\+Player@{player\+::\+Player}}
+\subsubsection{\texorpdfstring{pseudo}{pseudo}}
+{\footnotesize\ttfamily std\+::string player\+::\+Player\+::pseudo}
+
+
+
+Definition at line 39 of file player.\+h.
+
+\mbox{\Hypertarget{structplayer_1_1_player_aec52e3bcc8710ab3c4d3d1f128f58e41}\label{structplayer_1_1_player_aec52e3bcc8710ab3c4d3d1f128f58e41}} 
+\index{player\+::\+Player@{player\+::\+Player}!score@{score}}
+\index{score@{score}!player\+::\+Player@{player\+::\+Player}}
+\subsubsection{\texorpdfstring{score}{score}}
+{\footnotesize\ttfamily unsigned player\+::\+Player\+::score}
+
+
+
+Definition at line 38 of file player.\+h.
+
+\mbox{\Hypertarget{structplayer_1_1_player_a49a0c0e0b5bc07e6fa77cfecac963fb9}\label{structplayer_1_1_player_a49a0c0e0b5bc07e6fa77cfecac963fb9}} 
+\index{player\+::\+Player@{player\+::\+Player}!shoot\+Count@{shoot\+Count}}
+\index{shoot\+Count@{shoot\+Count}!player\+::\+Player@{player\+::\+Player}}
+\subsubsection{\texorpdfstring{shoot\+Count}{shootCount}}
+{\footnotesize\ttfamily unsigned player\+::\+Player\+::shoot\+Count}
+
+
+
+Definition at line 36 of file player.\+h.
+
+\mbox{\Hypertarget{structplayer_1_1_player_ae7306efe3b72df4b8ccce8f1612a4729}\label{structplayer_1_1_player_ae7306efe3b72df4b8ccce8f1612a4729}} 
+\index{player\+::\+Player@{player\+::\+Player}!shoot\+Limit@{shoot\+Limit}}
+\index{shoot\+Limit@{shoot\+Limit}!player\+::\+Player@{player\+::\+Player}}
+\subsubsection{\texorpdfstring{shoot\+Limit}{shootLimit}}
+{\footnotesize\ttfamily unsigned player\+::\+Player\+::shoot\+Limit}
+
+
+
+Definition at line 35 of file player.\+h.
+
+\mbox{\Hypertarget{structplayer_1_1_player_af4901794c6c932a6550973a88a446bac}\label{structplayer_1_1_player_af4901794c6c932a6550973a88a446bac}} 
+\index{player\+::\+Player@{player\+::\+Player}!size@{size}}
+\index{size@{size}!player\+::\+Player@{player\+::\+Player}}
+\subsubsection{\texorpdfstring{size}{size}}
+{\footnotesize\ttfamily std\+::vector$<$unsigned long$>$ player\+::\+Player\+::size}
+
+
+
+Definition at line 33 of file player.\+h.
+
+
+
+The documentation for this struct was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+libs/game/entities/\hyperlink{player_8h}{player.\+h}\item 
+src/entities/\hyperlink{player_8cpp}{player.\+cpp}\end{DoxyCompactItemize}

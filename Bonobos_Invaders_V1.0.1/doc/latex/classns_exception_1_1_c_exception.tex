@@ -1,0 +1,198 @@
+\hypertarget{classns_exception_1_1_c_exception}{}\section{ns\+Exception\+:\+:C\+Exception Class Reference}
+\label{classns_exception_1_1_c_exception}\index{ns\+Exception\+::\+C\+Exception@{ns\+Exception\+::\+C\+Exception}}
+
+
+Classe pour créer des exceptions facilement.  
+
+
+
+
+{\ttfamily \#include $<$cexception.\+h$>$}
+
+
+
+Inheritance diagram for ns\+Exception\+:\+:C\+Exception\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=262pt]{classns_exception_1_1_c_exception__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for ns\+Exception\+:\+:C\+Exception\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=262pt]{classns_exception_1_1_c_exception__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classns_exception_1_1_c_exception_aeacba2e2180dd8c00c643e1a67cba423}{C\+Exception} (const std\+::string \&Libelle=std\+::string(), const unsigned Cod\+Err=\hyperlink{namespacens_exception_ae4cd0d6bbd5590a1b121347632d41376a0446a2a6f75ad46276a3c6bfbcf06eb3}{K\+No\+Exc})
+\begin{DoxyCompactList}\small\item\em Constructeur pour la classe \hyperlink{classns_exception_1_1_c_exception}{C\+Exception}. \end{DoxyCompactList}\item 
+virtual \hyperlink{classns_exception_1_1_c_exception_a8b95a8f59d50a7ff3b67423c83cb8501}{$\sim$\+C\+Exception} () override=default
+\begin{DoxyCompactList}\small\item\em Destructeur virtuel pour la classe \hyperlink{classns_exception_1_1_c_exception}{C\+Exception}. \end{DoxyCompactList}\item 
+const std\+::string \& \hyperlink{classns_exception_1_1_c_exception_aef8e3d1a4e22ec7045d7d0b14d8b968a}{Get\+Libelle} () const
+\begin{DoxyCompactList}\small\item\em Récupère le libellé de l\textquotesingle{}exception. \end{DoxyCompactList}\item 
+unsigned \hyperlink{classns_exception_1_1_c_exception_adf06d1598420c7b60c1b134bf2a946c2}{Get\+Cod\+Err} () const
+\begin{DoxyCompactList}\small\item\em Récupère le code erreur de l\textquotesingle{}exception. \end{DoxyCompactList}\item 
+virtual const char $\ast$ \hyperlink{classns_exception_1_1_c_exception_a5ef0ababcc3ffc93f70211de1122c9a8}{what} () const noexcept override
+\begin{DoxyCompactList}\small\item\em Retourne une chaine de caractère C décrivant l\textquotesingle{}exception. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual std\+::ostream \& \hyperlink{classns_exception_1_1_c_exception_a6416e24189687d875f3e92b10d6bd516}{\+\_\+\+Edit} (std\+::ostream \&os=std\+::cerr) const override
+\begin{DoxyCompactList}\small\item\em Fonction appelée pour injecter l\textquotesingle{}objet courant dans un flux. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \hyperlink{classns_exception_1_1_c_exception_a96c2d653703b2879ff8050cc78bc450a}{m\+\_\+\+Libelle}
+\begin{DoxyCompactList}\small\item\em m\+\_\+\+Libelle \+: Libellé de l\textquotesingle{}exception \end{DoxyCompactList}\item 
+unsigned \hyperlink{classns_exception_1_1_c_exception_a9610371f15e2c6d99034c46b632d51da}{m\+\_\+\+Cod\+Err}
+\begin{DoxyCompactList}\small\item\em m\+\_\+\+Cod\+Err \+: Code erreur de l\textquotesingle{}exception \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Classe pour créer des exceptions facilement. 
+
+Definition at line 42 of file cexception.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classns_exception_1_1_c_exception_aeacba2e2180dd8c00c643e1a67cba423}\label{classns_exception_1_1_c_exception_aeacba2e2180dd8c00c643e1a67cba423}} 
+\index{ns\+Exception\+::\+C\+Exception@{ns\+Exception\+::\+C\+Exception}!C\+Exception@{C\+Exception}}
+\index{C\+Exception@{C\+Exception}!ns\+Exception\+::\+C\+Exception@{ns\+Exception\+::\+C\+Exception}}
+\subsubsection{\texorpdfstring{C\+Exception()}{CException()}}
+{\footnotesize\ttfamily ns\+Exception\+::\+C\+Exception\+::\+C\+Exception (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{Libelle = {\ttfamily std\+:\+:string()},  }\item[{const unsigned}]{Cod\+Err = {\ttfamily \hyperlink{namespacens_exception_ae4cd0d6bbd5590a1b121347632d41376a0446a2a6f75ad46276a3c6bfbcf06eb3}{K\+No\+Exc}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Constructeur pour la classe \hyperlink{classns_exception_1_1_c_exception}{C\+Exception}. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em Libelle} & \+: Libellé de l\textquotesingle{}exception \\
+\hline
+\mbox{\tt in}  & {\em Cod\+Err} & \+: Code erreur de l\textquotesingle{}exception \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 28 of file cexception.\+hpp.
+
+\mbox{\Hypertarget{classns_exception_1_1_c_exception_a8b95a8f59d50a7ff3b67423c83cb8501}\label{classns_exception_1_1_c_exception_a8b95a8f59d50a7ff3b67423c83cb8501}} 
+\index{ns\+Exception\+::\+C\+Exception@{ns\+Exception\+::\+C\+Exception}!````~C\+Exception@{$\sim$\+C\+Exception}}
+\index{````~C\+Exception@{$\sim$\+C\+Exception}!ns\+Exception\+::\+C\+Exception@{ns\+Exception\+::\+C\+Exception}}
+\subsubsection{\texorpdfstring{$\sim$\+C\+Exception()}{~CException()}}
+{\footnotesize\ttfamily ns\+Exception\+::\+C\+Exception\+::$\sim$\+C\+Exception (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}, {\ttfamily [default]}}
+
+
+
+Destructeur virtuel pour la classe \hyperlink{classns_exception_1_1_c_exception}{C\+Exception}. 
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classns_exception_1_1_c_exception_a6416e24189687d875f3e92b10d6bd516}\label{classns_exception_1_1_c_exception_a6416e24189687d875f3e92b10d6bd516}} 
+\index{ns\+Exception\+::\+C\+Exception@{ns\+Exception\+::\+C\+Exception}!\+\_\+\+Edit@{\+\_\+\+Edit}}
+\index{\+\_\+\+Edit@{\+\_\+\+Edit}!ns\+Exception\+::\+C\+Exception@{ns\+Exception\+::\+C\+Exception}}
+\subsubsection{\texorpdfstring{\+\_\+\+Edit()}{\_Edit()}}
+{\footnotesize\ttfamily virtual std\+::ostream\& ns\+Exception\+::\+C\+Exception\+::\+\_\+\+Edit (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os = {\ttfamily std\+:\+:cerr} }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Fonction appelée pour injecter l\textquotesingle{}objet courant dans un flux. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em os} & \+: Flux dans lequel injecter \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{classns_util_1_1_i_editable_ab20bbe582b95383ed3f1453109035853}{ns\+Util\+::\+I\+Editable}.
+
+\mbox{\Hypertarget{classns_exception_1_1_c_exception_adf06d1598420c7b60c1b134bf2a946c2}\label{classns_exception_1_1_c_exception_adf06d1598420c7b60c1b134bf2a946c2}} 
+\index{ns\+Exception\+::\+C\+Exception@{ns\+Exception\+::\+C\+Exception}!Get\+Cod\+Err@{Get\+Cod\+Err}}
+\index{Get\+Cod\+Err@{Get\+Cod\+Err}!ns\+Exception\+::\+C\+Exception@{ns\+Exception\+::\+C\+Exception}}
+\subsubsection{\texorpdfstring{Get\+Cod\+Err()}{GetCodErr()}}
+{\footnotesize\ttfamily unsigned ns\+Exception\+::\+C\+Exception\+::\+Get\+Cod\+Err (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Récupère le code erreur de l\textquotesingle{}exception. 
+
+
+
+Definition at line 38 of file cexception.\+hpp.
+
+\mbox{\Hypertarget{classns_exception_1_1_c_exception_aef8e3d1a4e22ec7045d7d0b14d8b968a}\label{classns_exception_1_1_c_exception_aef8e3d1a4e22ec7045d7d0b14d8b968a}} 
+\index{ns\+Exception\+::\+C\+Exception@{ns\+Exception\+::\+C\+Exception}!Get\+Libelle@{Get\+Libelle}}
+\index{Get\+Libelle@{Get\+Libelle}!ns\+Exception\+::\+C\+Exception@{ns\+Exception\+::\+C\+Exception}}
+\subsubsection{\texorpdfstring{Get\+Libelle()}{GetLibelle()}}
+{\footnotesize\ttfamily const std\+::string \& ns\+Exception\+::\+C\+Exception\+::\+Get\+Libelle (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Récupère le libellé de l\textquotesingle{}exception. 
+
+
+
+Definition at line 33 of file cexception.\+hpp.
+
+\mbox{\Hypertarget{classns_exception_1_1_c_exception_a5ef0ababcc3ffc93f70211de1122c9a8}\label{classns_exception_1_1_c_exception_a5ef0ababcc3ffc93f70211de1122c9a8}} 
+\index{ns\+Exception\+::\+C\+Exception@{ns\+Exception\+::\+C\+Exception}!what@{what}}
+\index{what@{what}!ns\+Exception\+::\+C\+Exception@{ns\+Exception\+::\+C\+Exception}}
+\subsubsection{\texorpdfstring{what()}{what()}}
+{\footnotesize\ttfamily const char $\ast$ ns\+Exception\+::\+C\+Exception\+::what (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}, {\ttfamily [noexcept]}}
+
+
+
+Retourne une chaine de caractère C décrivant l\textquotesingle{}exception. 
+
+
+
+Definition at line 43 of file cexception.\+hpp.
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classns_exception_1_1_c_exception_a9610371f15e2c6d99034c46b632d51da}\label{classns_exception_1_1_c_exception_a9610371f15e2c6d99034c46b632d51da}} 
+\index{ns\+Exception\+::\+C\+Exception@{ns\+Exception\+::\+C\+Exception}!m\+\_\+\+Cod\+Err@{m\+\_\+\+Cod\+Err}}
+\index{m\+\_\+\+Cod\+Err@{m\+\_\+\+Cod\+Err}!ns\+Exception\+::\+C\+Exception@{ns\+Exception\+::\+C\+Exception}}
+\subsubsection{\texorpdfstring{m\+\_\+\+Cod\+Err}{m\_CodErr}}
+{\footnotesize\ttfamily unsigned ns\+Exception\+::\+C\+Exception\+::m\+\_\+\+Cod\+Err\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+m\+\_\+\+Cod\+Err \+: Code erreur de l\textquotesingle{}exception 
+
+
+
+Definition at line 89 of file cexception.\+h.
+
+\mbox{\Hypertarget{classns_exception_1_1_c_exception_a96c2d653703b2879ff8050cc78bc450a}\label{classns_exception_1_1_c_exception_a96c2d653703b2879ff8050cc78bc450a}} 
+\index{ns\+Exception\+::\+C\+Exception@{ns\+Exception\+::\+C\+Exception}!m\+\_\+\+Libelle@{m\+\_\+\+Libelle}}
+\index{m\+\_\+\+Libelle@{m\+\_\+\+Libelle}!ns\+Exception\+::\+C\+Exception@{ns\+Exception\+::\+C\+Exception}}
+\subsubsection{\texorpdfstring{m\+\_\+\+Libelle}{m\_Libelle}}
+{\footnotesize\ttfamily std\+::string ns\+Exception\+::\+C\+Exception\+::m\+\_\+\+Libelle\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+m\+\_\+\+Libelle \+: Libellé de l\textquotesingle{}exception 
+
+
+
+Definition at line 84 of file cexception.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+libs/mingl/exception/\hyperlink{cexception_8h}{cexception.\+h}\item 
+libs/mingl/exception/\hyperlink{cexception_8hpp}{cexception.\+hpp}\end{DoxyCompactItemize}

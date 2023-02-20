@@ -1,0 +1,205 @@
+\hypertarget{classns_transition_1_1_transition}{}\section{ns\+Transition\+:\+:Transition Class Reference}
+\label{classns_transition_1_1_transition}\index{ns\+Transition\+::\+Transition@{ns\+Transition\+::\+Transition}}
+
+
+Une classe représentant un \hyperlink{classns_transition_1_1_transition_contract}{Transition\+Contract} en cours de lecture.  
+
+
+
+
+{\ttfamily \#include $<$transition.\+h$>$}
+
+
+
+Inheritance diagram for ns\+Transition\+:\+:Transition\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=199pt]{classns_transition_1_1_transition__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for ns\+Transition\+:\+:Transition\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=220pt]{classns_transition_1_1_transition__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{classns_transition_1_1_transition_a0bf761e331527477ce0c5e496b722a19}{Transition\+Finish\+Modes} \{ \hyperlink{classns_transition_1_1_transition_a0bf761e331527477ce0c5e496b722a19a87bacef756b461171816412a31e19ad4}{F\+I\+N\+I\+S\+H\+\_\+\+S\+T\+A\+RT}, 
+\hyperlink{classns_transition_1_1_transition_a0bf761e331527477ce0c5e496b722a19a4d57dbd11ced739957f0609922a6dc9f}{F\+I\+N\+I\+S\+H\+\_\+\+C\+U\+R\+R\+E\+NT}, 
+\hyperlink{classns_transition_1_1_transition_a0bf761e331527477ce0c5e496b722a19ad32a777c01bab232b51e5eeb31e2b03e}{F\+I\+N\+I\+S\+H\+\_\+\+D\+E\+S\+T\+I\+N\+A\+T\+I\+ON}
+ \}\begin{DoxyCompactList}\small\item\em Transition\+Mode \+: Liste de tout les modes de fin de la \hyperlink{classns_transition_1_1_transition}{Transition}. \end{DoxyCompactList}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classns_transition_1_1_transition_a7c3e692c43aceca5e4f716f3ae22bf05}{Transition} (const \hyperlink{classns_transition_1_1_transition_contract}{Transition\+Contract} \&contract)
+\begin{DoxyCompactList}\small\item\em Constructeur pour la classe \hyperlink{classns_transition_1_1_transition}{Transition}. \end{DoxyCompactList}\item 
+const \hyperlink{namespacens_transition_a260258f249f46ff9a62da721537f87af}{System\+Duration\+\_\+t} \& \hyperlink{classns_transition_1_1_transition_a616e0ef596d4e8ebb185a6cf0a685924}{get\+Elapsed} () const
+\begin{DoxyCompactList}\small\item\em Retourne le temps écoulé pour cette \hyperlink{classns_transition_1_1_transition}{Transition}. \end{DoxyCompactList}\item 
+void \hyperlink{classns_transition_1_1_transition_a0a8e848a50c2e05dc72800abfc6dd6ef}{set\+Elapsed} (const \hyperlink{namespacens_transition_a260258f249f46ff9a62da721537f87af}{System\+Duration\+\_\+t} \&elapsed)
+\begin{DoxyCompactList}\small\item\em Définit un nouveau temps écoulé pour cette \hyperlink{classns_transition_1_1_transition}{Transition}, puis met a jour les valeurs de la cible. \end{DoxyCompactList}\item 
+void \hyperlink{classns_transition_1_1_transition_abb421b44828c7b6dec60a0256a97b3d9}{add\+To\+Elapsed} (const \hyperlink{namespacens_transition_a260258f249f46ff9a62da721537f87af}{System\+Duration\+\_\+t} \&added\+Time)
+\begin{DoxyCompactList}\small\item\em Rajoute une durée au temps écoulé actuel. \end{DoxyCompactList}\item 
+const bool \& \hyperlink{classns_transition_1_1_transition_ab32ef25219cd2227746444ac8794266a}{is\+Reversed} () const
+\begin{DoxyCompactList}\small\item\em Indique si cette \hyperlink{classns_transition_1_1_transition}{Transition} est en train de se jouer a l\textquotesingle{}envers. \end{DoxyCompactList}\item 
+void \hyperlink{classns_transition_1_1_transition_a8c8c7caf7326e24ffa540093ed12f581}{finish} (const \hyperlink{classns_transition_1_1_transition_a0bf761e331527477ce0c5e496b722a19}{Transition\+Finish\+Modes} \&finish\+Mode=Transition\+Finish\+Modes\+::\+F\+I\+N\+I\+S\+H\+\_\+\+D\+E\+S\+T\+I\+N\+A\+T\+I\+ON)
+\begin{DoxyCompactList}\small\item\em Marque cette \hyperlink{classns_transition_1_1_transition}{Transition} comme terminée, en utilisant le mode spécifié \end{DoxyCompactList}\item 
+const bool \& \hyperlink{classns_transition_1_1_transition_ad9d358bee54825d2a8bf83e9e21e398b}{is\+Finished} () const
+\begin{DoxyCompactList}\small\item\em Indique si cette \hyperlink{classns_transition_1_1_transition}{Transition} est marquée comme terminée. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Une classe représentant un \hyperlink{classns_transition_1_1_transition_contract}{Transition\+Contract} en cours de lecture. 
+
+Definition at line 27 of file transition.\+h.
+
+
+
+\subsection{Member Enumeration Documentation}
+\mbox{\Hypertarget{classns_transition_1_1_transition_a0bf761e331527477ce0c5e496b722a19}\label{classns_transition_1_1_transition_a0bf761e331527477ce0c5e496b722a19}} 
+\index{ns\+Transition\+::\+Transition@{ns\+Transition\+::\+Transition}!Transition\+Finish\+Modes@{Transition\+Finish\+Modes}}
+\index{Transition\+Finish\+Modes@{Transition\+Finish\+Modes}!ns\+Transition\+::\+Transition@{ns\+Transition\+::\+Transition}}
+\subsubsection{\texorpdfstring{Transition\+Finish\+Modes}{TransitionFinishModes}}
+{\footnotesize\ttfamily enum \hyperlink{classns_transition_1_1_transition_a0bf761e331527477ce0c5e496b722a19}{ns\+Transition\+::\+Transition\+::\+Transition\+Finish\+Modes}}
+
+
+
+Transition\+Mode \+: Liste de tout les modes de fin de la \hyperlink{classns_transition_1_1_transition}{Transition}. 
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{F\+I\+N\+I\+S\+H\+\_\+\+S\+T\+A\+RT@{F\+I\+N\+I\+S\+H\+\_\+\+S\+T\+A\+RT}!ns\+Transition\+::\+Transition@{ns\+Transition\+::\+Transition}}\index{ns\+Transition\+::\+Transition@{ns\+Transition\+::\+Transition}!F\+I\+N\+I\+S\+H\+\_\+\+S\+T\+A\+RT@{F\+I\+N\+I\+S\+H\+\_\+\+S\+T\+A\+RT}}}\mbox{\Hypertarget{classns_transition_1_1_transition_a0bf761e331527477ce0c5e496b722a19a87bacef756b461171816412a31e19ad4}\label{classns_transition_1_1_transition_a0bf761e331527477ce0c5e496b722a19a87bacef756b461171816412a31e19ad4}} 
+F\+I\+N\+I\+S\+H\+\_\+\+S\+T\+A\+RT&Ce mode de fin met les valeurs de la cible a celles de départ \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{F\+I\+N\+I\+S\+H\+\_\+\+C\+U\+R\+R\+E\+NT@{F\+I\+N\+I\+S\+H\+\_\+\+C\+U\+R\+R\+E\+NT}!ns\+Transition\+::\+Transition@{ns\+Transition\+::\+Transition}}\index{ns\+Transition\+::\+Transition@{ns\+Transition\+::\+Transition}!F\+I\+N\+I\+S\+H\+\_\+\+C\+U\+R\+R\+E\+NT@{F\+I\+N\+I\+S\+H\+\_\+\+C\+U\+R\+R\+E\+NT}}}\mbox{\Hypertarget{classns_transition_1_1_transition_a0bf761e331527477ce0c5e496b722a19a4d57dbd11ced739957f0609922a6dc9f}\label{classns_transition_1_1_transition_a0bf761e331527477ce0c5e496b722a19a4d57dbd11ced739957f0609922a6dc9f}} 
+F\+I\+N\+I\+S\+H\+\_\+\+C\+U\+R\+R\+E\+NT&Ce mode de fin ne touche pas aux valeurs actuelles de la cible \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{F\+I\+N\+I\+S\+H\+\_\+\+D\+E\+S\+T\+I\+N\+A\+T\+I\+ON@{F\+I\+N\+I\+S\+H\+\_\+\+D\+E\+S\+T\+I\+N\+A\+T\+I\+ON}!ns\+Transition\+::\+Transition@{ns\+Transition\+::\+Transition}}\index{ns\+Transition\+::\+Transition@{ns\+Transition\+::\+Transition}!F\+I\+N\+I\+S\+H\+\_\+\+D\+E\+S\+T\+I\+N\+A\+T\+I\+ON@{F\+I\+N\+I\+S\+H\+\_\+\+D\+E\+S\+T\+I\+N\+A\+T\+I\+ON}}}\mbox{\Hypertarget{classns_transition_1_1_transition_a0bf761e331527477ce0c5e496b722a19ad32a777c01bab232b51e5eeb31e2b03e}\label{classns_transition_1_1_transition_a0bf761e331527477ce0c5e496b722a19ad32a777c01bab232b51e5eeb31e2b03e}} 
+F\+I\+N\+I\+S\+H\+\_\+\+D\+E\+S\+T\+I\+N\+A\+T\+I\+ON&Ce mode de fin met les valeurs de la cible a celles d\textquotesingle{}arrivé \\
+\hline
+
+\end{DoxyEnumFields}
+
+
+Definition at line 33 of file transition.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classns_transition_1_1_transition_a7c3e692c43aceca5e4f716f3ae22bf05}\label{classns_transition_1_1_transition_a7c3e692c43aceca5e4f716f3ae22bf05}} 
+\index{ns\+Transition\+::\+Transition@{ns\+Transition\+::\+Transition}!Transition@{Transition}}
+\index{Transition@{Transition}!ns\+Transition\+::\+Transition@{ns\+Transition\+::\+Transition}}
+\subsubsection{\texorpdfstring{Transition()}{Transition()}}
+{\footnotesize\ttfamily ns\+Transition\+::\+Transition\+::\+Transition (\begin{DoxyParamCaption}\item[{const \hyperlink{classns_transition_1_1_transition_contract}{Transition\+Contract} \&}]{contract }\end{DoxyParamCaption})}
+
+
+
+Constructeur pour la classe \hyperlink{classns_transition_1_1_transition}{Transition}. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em contract} & \+: Contrat utilisé pour initialiser cette \hyperlink{classns_transition_1_1_transition}{Transition} \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classns_transition_1_1_transition_abb421b44828c7b6dec60a0256a97b3d9}\label{classns_transition_1_1_transition_abb421b44828c7b6dec60a0256a97b3d9}} 
+\index{ns\+Transition\+::\+Transition@{ns\+Transition\+::\+Transition}!add\+To\+Elapsed@{add\+To\+Elapsed}}
+\index{add\+To\+Elapsed@{add\+To\+Elapsed}!ns\+Transition\+::\+Transition@{ns\+Transition\+::\+Transition}}
+\subsubsection{\texorpdfstring{add\+To\+Elapsed()}{addToElapsed()}}
+{\footnotesize\ttfamily void ns\+Transition\+::\+Transition\+::add\+To\+Elapsed (\begin{DoxyParamCaption}\item[{const \hyperlink{namespacens_transition_a260258f249f46ff9a62da721537f87af}{System\+Duration\+\_\+t} \&}]{added\+Time }\end{DoxyParamCaption})}
+
+
+
+Rajoute une durée au temps écoulé actuel. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em added\+Time} & \+: Durée a rajouter \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classns_transition_1_1_transition_a8c8c7caf7326e24ffa540093ed12f581}\label{classns_transition_1_1_transition_a8c8c7caf7326e24ffa540093ed12f581}} 
+\index{ns\+Transition\+::\+Transition@{ns\+Transition\+::\+Transition}!finish@{finish}}
+\index{finish@{finish}!ns\+Transition\+::\+Transition@{ns\+Transition\+::\+Transition}}
+\subsubsection{\texorpdfstring{finish()}{finish()}}
+{\footnotesize\ttfamily void ns\+Transition\+::\+Transition\+::finish (\begin{DoxyParamCaption}\item[{const \hyperlink{classns_transition_1_1_transition_a0bf761e331527477ce0c5e496b722a19}{Transition\+Finish\+Modes} \&}]{finish\+Mode = {\ttfamily TransitionFinishModes\+:\+:FINISH\+\_\+DESTINATION} }\end{DoxyParamCaption})}
+
+
+
+Marque cette \hyperlink{classns_transition_1_1_transition}{Transition} comme terminée, en utilisant le mode spécifié 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em finish\+Mode} & \+: Mode utilisé pour finir cette \hyperlink{classns_transition_1_1_transition}{Transition} (Valeurs d\textquotesingle{}arrivé par défaut) \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classns_transition_1_1_transition_a616e0ef596d4e8ebb185a6cf0a685924}\label{classns_transition_1_1_transition_a616e0ef596d4e8ebb185a6cf0a685924}} 
+\index{ns\+Transition\+::\+Transition@{ns\+Transition\+::\+Transition}!get\+Elapsed@{get\+Elapsed}}
+\index{get\+Elapsed@{get\+Elapsed}!ns\+Transition\+::\+Transition@{ns\+Transition\+::\+Transition}}
+\subsubsection{\texorpdfstring{get\+Elapsed()}{getElapsed()}}
+{\footnotesize\ttfamily const \hyperlink{namespacens_transition_a260258f249f46ff9a62da721537f87af}{System\+Duration\+\_\+t} \& ns\+Transition\+::\+Transition\+::get\+Elapsed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Retourne le temps écoulé pour cette \hyperlink{classns_transition_1_1_transition}{Transition}. 
+
+\begin{DoxyReturn}{Returns}
+Une référence const vers m\+\_\+elapsed 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classns_transition_1_1_transition_ad9d358bee54825d2a8bf83e9e21e398b}\label{classns_transition_1_1_transition_ad9d358bee54825d2a8bf83e9e21e398b}} 
+\index{ns\+Transition\+::\+Transition@{ns\+Transition\+::\+Transition}!is\+Finished@{is\+Finished}}
+\index{is\+Finished@{is\+Finished}!ns\+Transition\+::\+Transition@{ns\+Transition\+::\+Transition}}
+\subsubsection{\texorpdfstring{is\+Finished()}{isFinished()}}
+{\footnotesize\ttfamily const bool \& ns\+Transition\+::\+Transition\+::is\+Finished (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Indique si cette \hyperlink{classns_transition_1_1_transition}{Transition} est marquée comme terminée. 
+
+\begin{DoxyReturn}{Returns}
+Une référence const vers m\+\_\+finished 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classns_transition_1_1_transition_ab32ef25219cd2227746444ac8794266a}\label{classns_transition_1_1_transition_ab32ef25219cd2227746444ac8794266a}} 
+\index{ns\+Transition\+::\+Transition@{ns\+Transition\+::\+Transition}!is\+Reversed@{is\+Reversed}}
+\index{is\+Reversed@{is\+Reversed}!ns\+Transition\+::\+Transition@{ns\+Transition\+::\+Transition}}
+\subsubsection{\texorpdfstring{is\+Reversed()}{isReversed()}}
+{\footnotesize\ttfamily const bool \& ns\+Transition\+::\+Transition\+::is\+Reversed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Indique si cette \hyperlink{classns_transition_1_1_transition}{Transition} est en train de se jouer a l\textquotesingle{}envers. 
+
+\begin{DoxyReturn}{Returns}
+Une référence const vers m\+\_\+reverse 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classns_transition_1_1_transition_a0a8e848a50c2e05dc72800abfc6dd6ef}\label{classns_transition_1_1_transition_a0a8e848a50c2e05dc72800abfc6dd6ef}} 
+\index{ns\+Transition\+::\+Transition@{ns\+Transition\+::\+Transition}!set\+Elapsed@{set\+Elapsed}}
+\index{set\+Elapsed@{set\+Elapsed}!ns\+Transition\+::\+Transition@{ns\+Transition\+::\+Transition}}
+\subsubsection{\texorpdfstring{set\+Elapsed()}{setElapsed()}}
+{\footnotesize\ttfamily void ns\+Transition\+::\+Transition\+::set\+Elapsed (\begin{DoxyParamCaption}\item[{const \hyperlink{namespacens_transition_a260258f249f46ff9a62da721537f87af}{System\+Duration\+\_\+t} \&}]{elapsed }\end{DoxyParamCaption})}
+
+
+
+Définit un nouveau temps écoulé pour cette \hyperlink{classns_transition_1_1_transition}{Transition}, puis met a jour les valeurs de la cible. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em elapsed} & \+: Nouveau temps écoulé \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+libs/mingl/transition/\hyperlink{transition_8h}{transition.\+h}\end{DoxyCompactItemize}

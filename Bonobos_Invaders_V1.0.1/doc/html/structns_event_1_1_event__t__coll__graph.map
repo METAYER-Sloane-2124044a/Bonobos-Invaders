@@ -1,0 +1,5 @@
+<map id="nsEvent::Event_t" name="nsEvent::Event_t">
+<area shape="rect" id="node2" href="$unionns_event_1_1_event_data__t.html" title="Union contenant les données d&#39;un événement. " alt="" coords="129,95,279,121"/>
+<area shape="rect" id="node3" href="$structns_event_1_1_mouse_click_data__t.html" title="Possède des données pour un événement MouseClick. " alt="" coords="5,5,192,32"/>
+<area shape="rect" id="node4" href="$structns_event_1_1_mouse_move_data__t.html" title="Possède des données pour un événement MouseMove/MouseDrag. " alt="" coords="217,5,405,32"/>
+</map>

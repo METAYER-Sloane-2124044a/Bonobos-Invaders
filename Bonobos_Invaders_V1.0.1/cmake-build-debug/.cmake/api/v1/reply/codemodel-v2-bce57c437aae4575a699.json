@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "S102",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "S102::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-S102-Debug-70711e0107d9ec6c5244.json",
+					"name" : "S102",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/sloane/SLOANE/iut/BUT1/Sae/SAE1.02-Bonobo_invaders/G2_E/Egensheviller Fr\u00e9d\u00e9ric - Ganassi Alexandre - Mariotti Alexis - Metayer Sloane - Pistoresi Marius - S102/Bonobos Invaders_V1.0.1/cmake-build-debug",
+		"source" : "/home/sloane/SLOANE/iut/BUT1/Sae/SAE1.02-Bonobo_invaders/G2_E/Egensheviller Fr\u00e9d\u00e9ric - Ganassi Alexandre - Mariotti Alexis - Metayer Sloane - Pistoresi Marius - S102/Bonobos Invaders_V1.0.1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

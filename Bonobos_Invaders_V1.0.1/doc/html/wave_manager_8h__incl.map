@@ -1,0 +1,19 @@
+<map id="libs/game/waveManager/waveManager.h" name="libs/game/waveManager/waveManager.h">
+<area shape="rect" id="node5" href="$enemy_8h.html" title="Permet de gérer les enemies. " alt="" coords="624,95,779,121"/>
+<area shape="rect" id="node6" href="$mingl_8h.html" title="La bête. " alt="" coords="640,319,739,345"/>
+<area shape="rect" id="node22" href="$rectangle_8h.html" title="Représente un rectangle. " alt="" coords="920,244,1080,271"/>
+<area shape="rect" id="node25" href="$config_reader_8h.html" title="Gestion de la lecture du fichier de configuration. " alt="" coords="227,244,405,271"/>
+<area shape="rect" id="node26" href="$torpedo_8h.html" title="game/entities/torpedo.h" alt="" coords="505,169,663,196"/>
+<area shape="rect" id="node30" href="$baobab_8h.html" title="Représente un baobab. " alt="" coords="1104,244,1261,271"/>
+<area shape="rect" id="node13" href="$idrawable_8h.html" title="Interface pour un objet affichable. " alt="" coords="777,393,919,420"/>
+<area shape="rect" id="node14" href="$rgbacolor_8h.html" title="Représente une couleur RGBA. " alt="" coords="943,393,1081,420"/>
+<area shape="rect" id="node18" href="$vec2d_8h.html" title="Représente un vecteur sur deux dimensions. " alt="" coords="1106,393,1227,420"/>
+<area shape="rect" id="node20" href="$event__manager_8h.html" title="Gestionnaire d&#39;événements de minGL. " alt="" coords="363,393,522,420"/>
+<area shape="rect" id="node15" href="$ieditable_8h.html" title="declaration de la classe CEditable dans nsUtil " alt="" coords="949,468,1075,495"/>
+<area shape="rect" id="node17" href="$ieditable_8hpp.html" title="ieditable.hpp" alt="" coords="922,543,1017,569"/>
+<area shape="rect" id="node21" href="$event_8hpp.html" title="Différents types utile pour le gestionnaire d&#39;événements. " alt="" coords="403,468,482,495"/>
+<area shape="rect" id="node23" href="$shape_8h.html" title="Représente une forme. " alt="" coords="971,319,1039,345"/>
+<area shape="rect" id="node24" href="$itransitionable_8h.html" title="Interface pour objet &quot;transitionable&quot;. " alt="" coords="1079,319,1262,345"/>
+<area shape="rect" id="node27" href="$branch_8h.html" title="Représente une branche. " alt="" coords="459,244,613,271"/>
+<area shape="rect" id="node28" href="$banana_8h.html" title="Représente une banane. " alt="" coords="739,244,896,271"/>
+</map>

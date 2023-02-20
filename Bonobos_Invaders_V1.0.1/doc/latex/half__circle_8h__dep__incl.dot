@@ -1,0 +1,15 @@
+digraph "libs/game/graphic/half_circle.h"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="libs/game/graphic/half\l_circle.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Représente un demi-cercle."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="src/graphic/banana.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$banana_8cpp.html",tooltip="Représente une banane."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node3 [label="src/graphic/baobab.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$baobab_8cpp.html",tooltip="Représente un baobab."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node4 [label="src/graphic/half_circle.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$half__circle_8cpp.html",tooltip="Représente un demi-cercle."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node5 [label="src/graphic/shieldG.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$shield_g_8cpp.html",tooltip="Représente un bouclier en forme de feuille."];
+}

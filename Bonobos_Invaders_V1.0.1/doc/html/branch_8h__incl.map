@@ -1,0 +1,10 @@
+<map id="libs/game/graphic/branch.h" name="libs/game/graphic/branch.h">
+<area shape="rect" id="node2" href="$mingl_8h.html" title="La bête. " alt="" coords="386,80,485,107"/>
+<area shape="rect" id="node9" href="$idrawable_8h.html" title="Interface pour un objet affichable. " alt="" coords="77,155,218,181"/>
+<area shape="rect" id="node10" href="$rgbacolor_8h.html" title="Représente une couleur RGBA. " alt="" coords="741,155,879,181"/>
+<area shape="rect" id="node14" href="$vec2d_8h.html" title="Représente un vecteur sur deux dimensions. " alt="" coords="904,155,1025,181"/>
+<area shape="rect" id="node16" href="$event__manager_8h.html" title="Gestionnaire d&#39;événements de minGL. " alt="" coords="507,155,665,181"/>
+<area shape="rect" id="node11" href="$ieditable_8h.html" title="declaration de la classe CEditable dans nsUtil " alt="" coords="779,229,905,256"/>
+<area shape="rect" id="node13" href="$ieditable_8hpp.html" title="ieditable.hpp" alt="" coords="795,304,889,331"/>
+<area shape="rect" id="node17" href="$event_8hpp.html" title="Différents types utile pour le gestionnaire d&#39;événements. " alt="" coords="547,229,625,256"/>
+</map>

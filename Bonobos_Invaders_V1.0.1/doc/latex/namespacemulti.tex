@@ -1,0 +1,134 @@
+\hypertarget{namespacemulti}{}\section{multi Namespace Reference}
+\label{namespacemulti}\index{multi@{multi}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{namespacemulti_a916253e013641aaa278947378b6c816a}{init\+Config} (std\+::map$<$ std\+::string, std\+::string $>$ \&\hyperlink{main_8cpp_ada2160bcc2082e595d02f0eb5a318dd5}{config\+Map})
+\begin{DoxyCompactList}\small\item\em Initialisation du dictionaire de config avec celui créé à partir du ficher config. \end{DoxyCompactList}\item 
+void \hyperlink{namespacemulti_a7d4e2144fca3a548868c821d3d5a17cc}{init} (\hyperlink{class_min_g_l}{Min\+GL} \&window)
+\begin{DoxyCompactList}\small\item\em Initialisation de la fenêtre multi et génération des entitées. \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::string $>$ \hyperlink{namespacemulti_a673529b0ff995893d952dd68c10b5764}{get\+Score} ()
+\begin{DoxyCompactList}\small\item\em Permet de récupérer le score et le nom des joueurs. \end{DoxyCompactList}\item 
+void \hyperlink{namespacemulti_aaddb7d8c21297c2b3d2c796964b6f561}{clear\+All} (\hyperlink{class_min_g_l}{Min\+GL} \&window)
+\begin{DoxyCompactList}\small\item\em Enleève toutes le entitiées présente dans le jeu et remet les joueurs en place. \end{DoxyCompactList}\item 
+unsigned \hyperlink{namespacemulti_a528a68b538d7acc3bb08661522585e4a}{update} (\hyperlink{class_min_g_l}{Min\+GL} \&window)
+\begin{DoxyCompactList}\small\item\em Permet de traiter les entrées claviers des joueurs, les collisions et les vagues. \end{DoxyCompactList}\item 
+void \hyperlink{namespacemulti_a2ece1e3aedf924d21b2ef9f2f2f9140c}{render} (\hyperlink{class_min_g_l}{Min\+GL} \&window, \hyperlink{classns_gui_1_1_sprite}{ns\+Gui\+::\+Sprite} \&background)
+\begin{DoxyCompactList}\small\item\em Permet d\textquotesingle{}injecter le flux de la scene dans la fenêtre de jeu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{namespacemulti_aaddb7d8c21297c2b3d2c796964b6f561}\label{namespacemulti_aaddb7d8c21297c2b3d2c796964b6f561}} 
+\index{multi@{multi}!clear\+All@{clear\+All}}
+\index{clear\+All@{clear\+All}!multi@{multi}}
+\subsubsection{\texorpdfstring{clear\+All()}{clearAll()}}
+{\footnotesize\ttfamily void multi\+::clear\+All (\begin{DoxyParamCaption}\item[{\hyperlink{class_min_g_l}{Min\+GL} \&}]{window }\end{DoxyParamCaption})}
+
+
+
+Enleève toutes le entitiées présente dans le jeu et remet les joueurs en place. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em window} & \+: La fênetre de jeu \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 62 of file multi.\+cpp.
+
+\mbox{\Hypertarget{namespacemulti_a673529b0ff995893d952dd68c10b5764}\label{namespacemulti_a673529b0ff995893d952dd68c10b5764}} 
+\index{multi@{multi}!get\+Score@{get\+Score}}
+\index{get\+Score@{get\+Score}!multi@{multi}}
+\subsubsection{\texorpdfstring{get\+Score()}{getScore()}}
+{\footnotesize\ttfamily vector$<$ std\+::string $>$ multi\+::get\+Score (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Permet de récupérer le score et le nom des joueurs. 
+
+\begin{DoxyReturn}{Returns}
+std\+::vector$<$std\+::string$>$ \+: pseudo1, pseudo2, score1, score2 
+\end{DoxyReturn}
+
+
+Definition at line 58 of file multi.\+cpp.
+
+\mbox{\Hypertarget{namespacemulti_a7d4e2144fca3a548868c821d3d5a17cc}\label{namespacemulti_a7d4e2144fca3a548868c821d3d5a17cc}} 
+\index{multi@{multi}!init@{init}}
+\index{init@{init}!multi@{multi}}
+\subsubsection{\texorpdfstring{init()}{init()}}
+{\footnotesize\ttfamily void multi\+::init (\begin{DoxyParamCaption}\item[{\hyperlink{class_min_g_l}{Min\+GL} \&}]{window }\end{DoxyParamCaption})}
+
+
+
+Initialisation de la fenêtre multi et génération des entitées. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em } & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 35 of file multi.\+cpp.
+
+\mbox{\Hypertarget{namespacemulti_a916253e013641aaa278947378b6c816a}\label{namespacemulti_a916253e013641aaa278947378b6c816a}} 
+\index{multi@{multi}!init\+Config@{init\+Config}}
+\index{init\+Config@{init\+Config}!multi@{multi}}
+\subsubsection{\texorpdfstring{init\+Config()}{initConfig()}}
+{\footnotesize\ttfamily void multi\+::init\+Config (\begin{DoxyParamCaption}\item[{std\+::map$<$ std\+::string, std\+::string $>$ \&}]{config\+Map }\end{DoxyParamCaption})}
+
+
+
+Initialisation du dictionaire de config avec celui créé à partir du ficher config. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em config\+Map} & \+: Le dictionaire, rempli à partir du fichier de config \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 31 of file multi.\+cpp.
+
+\mbox{\Hypertarget{namespacemulti_a2ece1e3aedf924d21b2ef9f2f2f9140c}\label{namespacemulti_a2ece1e3aedf924d21b2ef9f2f2f9140c}} 
+\index{multi@{multi}!render@{render}}
+\index{render@{render}!multi@{multi}}
+\subsubsection{\texorpdfstring{render()}{render()}}
+{\footnotesize\ttfamily void multi\+::render (\begin{DoxyParamCaption}\item[{\hyperlink{class_min_g_l}{Min\+GL} \&}]{window,  }\item[{\hyperlink{classns_gui_1_1_sprite}{ns\+Gui\+::\+Sprite} \&}]{background }\end{DoxyParamCaption})}
+
+
+
+Permet d\textquotesingle{}injecter le flux de la scene dans la fenêtre de jeu. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in,out}  & {\em window} & \+: fênetre de jeu \\
+\hline
+\mbox{\tt in}  & {\em background} & \+: Le fond du jeu \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 216 of file multi.\+cpp.
+
+\mbox{\Hypertarget{namespacemulti_a528a68b538d7acc3bb08661522585e4a}\label{namespacemulti_a528a68b538d7acc3bb08661522585e4a}} 
+\index{multi@{multi}!update@{update}}
+\index{update@{update}!multi@{multi}}
+\subsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily unsigned multi\+::update (\begin{DoxyParamCaption}\item[{\hyperlink{class_min_g_l}{Min\+GL} \&}]{window }\end{DoxyParamCaption})}
+
+
+
+Permet de traiter les entrées claviers des joueurs, les collisions et les vagues. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em window} & \+: fenêtre de jeu \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 75 of file multi.\+cpp.
+

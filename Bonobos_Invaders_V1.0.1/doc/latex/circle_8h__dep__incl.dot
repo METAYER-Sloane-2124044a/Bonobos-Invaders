@@ -1,0 +1,17 @@
+digraph "libs/mingl/shape/circle.h"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="libs/mingl/shape/circle.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Représente un cercle."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="src/graphic/banana.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$banana_8cpp.html",tooltip="Représente une banane."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node3 [label="src/graphic/baobab.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$baobab_8cpp.html",tooltip="Représente un baobab."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node4 [label="src/graphic/bonobo.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$bonobo_8cpp.html",tooltip="Représente un bonobo."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node5 [label="src/graphic/life.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$life_8cpp.html",tooltip="Représente une vie d'un joueur."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node6 [label="src/graphic/shieldG.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$shield_g_8cpp.html",tooltip="Représente un bouclier en forme de feuille."];
+}

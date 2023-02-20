@@ -1,0 +1,51 @@
+<map id="libs/mingl/graphics/idrawable.h" name="libs/mingl/graphics/idrawable.h">
+<area shape="rect" id="node2" href="$sprite_8h.html" title="Image pouvant être chargé depuis un fichier. " alt="" coords="179,177,325,203"/>
+<area shape="rect" id="node15" href="$text_8h.html" title="Du texte. " alt="" coords="755,177,890,203"/>
+<area shape="rect" id="node22" href="$mingl_8h.html" title="La bête. " alt="" coords="864,95,987,121"/>
+<area shape="rect" id="node34" href="$shape_8h.html" title="Représente une forme. " alt="" coords="2510,95,2677,121"/>
+<area shape="rect" id="node3" href="$credits_8h.html" title="Scene des credits. " alt="" coords="277,266,456,293"/>
+<area shape="rect" id="node6" href="$get_pseudo_8h.html" title="Scene du choix des pseudos. " alt="" coords="481,266,682,293"/>
+<area shape="rect" id="node7" href="$multi_8h.html" title="Gestion du mode de jeu multi. " alt="" coords="746,616,913,643"/>
+<area shape="rect" id="node11" href="$high_score_8h.html" title="Scène du high score. " alt="" coords="56,534,253,561"/>
+<area shape="rect" id="node13" href="$menu_8h.html" title="Scène du menu. " alt="" coords="1276,266,1447,293"/>
+<area shape="rect" id="node4" href="$main_8cpp.html" title="src/main.cpp" alt="" coords="305,780,402,807"/>
+<area shape="rect" id="node5" href="$credits_8cpp.html" title="src/scenes/credits.cpp" alt="" coords="328,355,483,382"/>
+<area shape="rect" id="node10" href="$get_pseudo_8cpp.html" title="src/scenes/getPseudo.cpp" alt="" coords="507,355,685,382"/>
+<area shape="rect" id="node8" href="$winning_screen_8h.html" title="Scene de victoire/defaite. " alt="" coords="519,691,691,732"/>
+<area shape="rect" id="node9" href="$multi_8cpp.html" title="src/scenes/multi.cpp" alt="" coords="758,698,901,725"/>
+<area shape="rect" id="node12" href="$high_score_8cpp.html" title="src/scenes/highScore.cpp" alt="" coords="93,616,267,643"/>
+<area shape="rect" id="node14" href="$menu_8cpp.html" title="src/scenes/menu.cpp" alt="" coords="1131,355,1277,382"/>
+<area shape="rect" id="node16" href="$score_8h.html" title="gestion du score des joueurs " alt="" coords="787,445,949,471"/>
+<area shape="rect" id="node18" href="$credit__button_8cpp.html" title="Représente un bouton de crédit. " alt="" coords="1129,259,1252,300"/>
+<area shape="rect" id="node19" href="$highscore__button_8cpp.html" title="Représente un bouton de high score. " alt="" coords="959,259,1105,300"/>
+<area shape="rect" id="node20" href="$play__button_8cpp.html" title="Représente un bouton de jeu. " alt="" coords="1471,266,1654,293"/>
+<area shape="rect" id="node21" href="$start__button_8cpp.html" title="Représente un bouton de début de jeu. " alt="" coords="1729,266,1913,293"/>
+<area shape="rect" id="node17" href="$score_8cpp.html" title="src/score/score.cpp" alt="" coords="761,534,898,561"/>
+<area shape="rect" id="node23" href="$enemy_8h.html" title="Permet de gérer les enemies. " alt="" coords="931,348,1055,389"/>
+<area shape="rect" id="node26" href="$shield_8h.html" title="Permet de gérer les boucliers. " alt="" coords="1989,259,2113,300"/>
+<area shape="rect" id="node27" href="$start_game_8h.html" title="Permet de gérer le départ d&#39;une partie. " alt="" coords="2137,259,2261,300"/>
+<area shape="rect" id="node28" href="$torpedo_8h.html" title="libs/game/entities\l/torpedo.h" alt="" coords="810,259,934,300"/>
+<area shape="rect" id="node29" href="$branch_8h.html" title="Représente une branche. " alt="" coords="501,177,680,203"/>
+<area shape="rect" id="node30" href="$banana_8cpp.html" title="Représente une banane. " alt="" coords="3197,266,3355,293"/>
+<area shape="rect" id="node31" href="$baobab_8cpp.html" title="Représente un baobab. " alt="" coords="2385,266,2543,293"/>
+<area shape="rect" id="node32" href="$life_8cpp.html" title="Représente une vie d&#39;un joueur. " alt="" coords="3830,266,3962,293"/>
+<area shape="rect" id="node33" href="$shield_g_8cpp.html" title="Représente un bouclier en forme de feuille. " alt="" coords="2961,266,3119,293"/>
+<area shape="rect" id="node24" href="$collision_8h.html" title="Permet de gérer les collisions. " alt="" coords="1109,437,1238,479"/>
+<area shape="rect" id="node25" href="$wave_manager_8h.html" title="Gestion des vagues. " alt="" coords="973,527,1136,568"/>
+<area shape="rect" id="node35" href="$arc__circle_8h.html" title="Représente un arc de cercle. " alt="" coords="3552,169,3699,211"/>
+<area shape="rect" id="node36" href="$banana_8h.html" title="Représente une banane. " alt="" coords="2760,177,2941,203"/>
+<area shape="rect" id="node37" href="$baobab_8h.html" title="Représente un baobab. " alt="" coords="2245,177,2427,203"/>
+<area shape="rect" id="node38" href="$bonobo_8h.html" title="Représente un bonobo. " alt="" coords="3773,177,3955,203"/>
+<area shape="rect" id="node39" href="$credit__button_8h.html" title="Représente le bouton de crédit. " alt="" coords="1224,169,1384,211"/>
+<area shape="rect" id="node40" href="$exit__button_8h.html" title="Représente un bouton de sortie. " alt="" coords="1408,169,1557,211"/>
+<area shape="rect" id="node41" href="$half__circle_8h.html" title="Représente un demi&#45;cercle. " alt="" coords="2965,169,3115,211"/>
+<area shape="rect" id="node42" href="$highscore__button_8h.html" title="Représente le bouton de highscore. " alt="" coords="1016,169,1200,211"/>
+<area shape="rect" id="node43" href="$life_8h.html" title="Représente une coeur. " alt="" coords="3979,177,4135,203"/>
+<area shape="rect" id="node44" href="$play__button_8h.html" title="Représente un bouton de jeu. " alt="" coords="1581,169,1733,211"/>
+<area shape="rect" id="node45" href="$shield_g_8h.html" title="Représente un bouclier en forme de feuille. " alt="" coords="2502,177,2685,203"/>
+<area shape="rect" id="node46" href="$start__button_8h.html" title="Représente un bouton de début de jeu. " alt="" coords="2016,169,2171,211"/>
+<area shape="rect" id="node47" href="$circle_8h.html" title="Représente un cercle. " alt="" coords="3365,177,3528,203"/>
+<area shape="rect" id="node48" href="$line_8h.html" title="Représente une ligne. " alt="" coords="3139,177,3290,203"/>
+<area shape="rect" id="node49" href="$rectangle_8h.html" title="Représente un rectangle. " alt="" coords="1757,177,1941,203"/>
+<area shape="rect" id="node50" href="$triangle_8h.html" title="Représente un triangle. " alt="" coords="4160,177,4333,203"/>
+</map>

@@ -1,0 +1,113 @@
+\hypertarget{namespacecollision}{}\section{collision Namespace Reference}
+\label{namespacecollision}\index{collision@{collision}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{namespacecollision_adede7fb38a79d23854557f97f8a37068}{gen\+Coll} (std\+::vector$<$ \hyperlink{structtorpedo_1_1_torpedo}{torpedo\+::\+Torpedo} $>$ \&T, std\+::vector$<$ \hyperlink{structplayer_1_1_player}{player\+::\+Player} $>$ \&P)
+\begin{DoxyCompactList}\small\item\em Génère les vecteurs de collisions. \end{DoxyCompactList}\item 
+bool \hyperlink{namespacecollision_a84b9e926c787ba05c5b5124ef28ecf88}{is\+Colliding} (\hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D} \&pos, \hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D} \&first\+Corner, \hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D} \&second\+Corner)
+\begin{DoxyCompactList}\small\item\em Prédicat de collision entre un point et une zone ~\newline
+ Cette fonction est équivalente à celle présente dans la bibliothèque \hyperlink{class_min_g_l}{Min\+GL} cependant elle n\textquotesingle{}était pas adapter à notre cas. \end{DoxyCompactList}\item 
+void \hyperlink{namespacecollision_a451676809547856fc6f86b3dd6dc7c23}{sup\+Double} (std\+::vector$<$ unsigned $>$ \&vec)
+\begin{DoxyCompactList}\small\item\em Enlève les doublons dans un tableau trié \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::vector$<$ char $>$ $>$ \hyperlink{namespacecollision_ae1b29fbda8203c6556c2038306ce36e7}{collision} (std\+::vector$<$ \hyperlink{structplayer_1_1_player}{player\+::\+Player} $>$ \&\hyperlink{multi_8cpp_abd9de51dc9a6f90588878ff69cec449d}{players}, std\+::vector$<$ \hyperlink{structtorpedo_1_1_torpedo}{torpedo\+::\+Torpedo} $>$ \&\hyperlink{multi_8cpp_a8d978ee3afff71f0b07f921403c2b403}{torpedos}, std\+::vector$<$ \hyperlink{structenemy_1_1_enemy}{enemy\+::\+Enemy} $>$ \&\hyperlink{multi_8cpp_a68dfd8cc6c330a8d7be4cf2f3a6892f3}{enemies}, std\+::vector$<$ \hyperlink{structshield_1_1_shield}{shield\+::\+Shield} $>$ \&\hyperlink{multi_8cpp_a7579d4d68d6c54e66480c4518dd61d70}{shields}, std\+::vector$<$ \hyperlink{structstart_game_1_1_start_game}{start\+Game\+::\+Start\+Game} $>$ \&start\+Game)
+\begin{DoxyCompactList}\small\item\em Permet de gérer la collision des entitées. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{namespacecollision_ae1b29fbda8203c6556c2038306ce36e7}\label{namespacecollision_ae1b29fbda8203c6556c2038306ce36e7}} 
+\index{collision@{collision}!collision@{collision}}
+\index{collision@{collision}!collision@{collision}}
+\subsubsection{\texorpdfstring{collision()}{collision()}}
+{\footnotesize\ttfamily collision\+::collision (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \hyperlink{structplayer_1_1_player}{player\+::\+Player} $>$ \&}]{players,  }\item[{std\+::vector$<$ \hyperlink{structtorpedo_1_1_torpedo}{torpedo\+::\+Torpedo} $>$ \&}]{torpedos,  }\item[{std\+::vector$<$ \hyperlink{structenemy_1_1_enemy}{enemy\+::\+Enemy} $>$ \&}]{enemies,  }\item[{std\+::vector$<$ \hyperlink{structshield_1_1_shield}{shield\+::\+Shield} $>$ \&}]{shields,  }\item[{std\+::vector$<$ \hyperlink{structstart_game_1_1_start_game}{start\+Game\+::\+Start\+Game} $>$ \&}]{start\+Game }\end{DoxyParamCaption})}
+
+
+
+Permet de gérer la collision des entitées. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em players} & \+: vecteur des joueurs \\
+\hline
+\mbox{\tt in,out}  & {\em torpedos} & \+: vecteur des torpilles \\
+\hline
+\mbox{\tt in}  & {\em enemies} & \+: vecteur des enemies \\
+\hline
+\mbox{\tt in}  & {\em shields} & \+: vecteur des boulicers \\
+\hline
+\mbox{\tt in}  & {\em \hyperlink{namespacestart_game}{start\+Game}} & \+: vecteur du lancement de jeu \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::vector$<$std\+::vector$<$char$>$$>$ Valeurs possible dans les vecteurs \+: \{val1, val2, val3, val4, val5\} \+:~\newline
+val1 \+: \{\textquotesingle{}t\textquotesingle{},\textquotesingle{}p\textquotesingle{},\textquotesingle{}s\textquotesingle{}\} //\+Torpedo, Player ou Start~\newline
+val2 \+: \{\textquotesingle{}0\textquotesingle{},\textquotesingle{}1\textquotesingle{}\} //\+Si val1 = \textquotesingle{}t\textquotesingle{} \+: d\textquotesingle{}ou vient la torpille si val1 = \textquotesingle{}p\textquotesingle{} \+: position du joueur sinon rien~\newline
+val3 \+: \{\textquotesingle{}e\textquotesingle{},\textquotesingle{}p\textquotesingle{},char(unsigned)\}//\+Si val1 = \textquotesingle{}t\textquotesingle{} \+: \textquotesingle{}e\textquotesingle{} ou \textquotesingle{}p\textquotesingle{} pour enemie ou joueur si val1 = \textquotesingle{}p\textquotesingle{} \+: position de l\textquotesingle{}enemie sinon rien ~\newline
+val4 \+: \{char(unsigned)\} //\+Si val1 = \textquotesingle{}t\textquotesingle{} position de \textquotesingle{}e\textquotesingle{} ou \textquotesingle{}p\textquotesingle{} sinon rien~\newline
+val5 \+: \{char(unsigned)\} //\+Si val1 = \textquotesingle{}t\textquotesingle{} direction de la torpilles sinon rien 
+\end{DoxyReturn}
+\mbox{\Hypertarget{namespacecollision_adede7fb38a79d23854557f97f8a37068}\label{namespacecollision_adede7fb38a79d23854557f97f8a37068}} 
+\index{collision@{collision}!gen\+Coll@{gen\+Coll}}
+\index{gen\+Coll@{gen\+Coll}!collision@{collision}}
+\subsubsection{\texorpdfstring{gen\+Coll()}{genColl()}}
+{\footnotesize\ttfamily void collision\+::gen\+Coll (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \hyperlink{structtorpedo_1_1_torpedo}{torpedo\+::\+Torpedo} $>$ \&}]{T,  }\item[{std\+::vector$<$ \hyperlink{structplayer_1_1_player}{player\+::\+Player} $>$ \&}]{P }\end{DoxyParamCaption})}
+
+
+
+Génère les vecteurs de collisions. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em } & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 15 of file collision.\+cpp.
+
+\mbox{\Hypertarget{namespacecollision_a84b9e926c787ba05c5b5124ef28ecf88}\label{namespacecollision_a84b9e926c787ba05c5b5124ef28ecf88}} 
+\index{collision@{collision}!is\+Colliding@{is\+Colliding}}
+\index{is\+Colliding@{is\+Colliding}!collision@{collision}}
+\subsubsection{\texorpdfstring{is\+Colliding()}{isColliding()}}
+{\footnotesize\ttfamily bool collision\+::is\+Colliding (\begin{DoxyParamCaption}\item[{\hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D} \&}]{pos,  }\item[{\hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D} \&}]{first\+Corner,  }\item[{\hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D} \&}]{second\+Corner }\end{DoxyParamCaption})}
+
+
+
+Prédicat de collision entre un point et une zone ~\newline
+ Cette fonction est équivalente à celle présente dans la bibliothèque \hyperlink{class_min_g_l}{Min\+GL} cependant elle n\textquotesingle{}était pas adapter à notre cas. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em pos} & \+: position à vérifier \\
+\hline
+\mbox{\tt in}  & {\em first\+Corner} & \+: premier coin de la zone à vérifier \\
+\hline
+\mbox{\tt in}  & {\em second\+Corner} & \+: deuxième coin de la zone à vérifier \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool $\vert$ Vrai si il y a collision faux sinon 
+\end{DoxyReturn}
+
+
+Definition at line 60 of file collision.\+cpp.
+
+\mbox{\Hypertarget{namespacecollision_a451676809547856fc6f86b3dd6dc7c23}\label{namespacecollision_a451676809547856fc6f86b3dd6dc7c23}} 
+\index{collision@{collision}!sup\+Double@{sup\+Double}}
+\index{sup\+Double@{sup\+Double}!collision@{collision}}
+\subsubsection{\texorpdfstring{sup\+Double()}{supDouble()}}
+{\footnotesize\ttfamily void collision\+::sup\+Double (\begin{DoxyParamCaption}\item[{std\+::vector$<$ unsigned $>$ \&}]{vec }\end{DoxyParamCaption})}
+
+
+
+Enlève les doublons dans un tableau trié 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in,out}  & {\em vec} & \+: vecteur à trier \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 84 of file collision.\+cpp.
+

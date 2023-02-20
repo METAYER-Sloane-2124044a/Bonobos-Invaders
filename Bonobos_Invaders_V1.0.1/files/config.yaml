@@ -1,0 +1,16 @@
+fpsLimit : 60
+playerLife : 3
+playerShootLimit : 20
+playerSizeX : 50
+playerSizeY : 50
+playerLifeSize : 5
+torpedoSpeedLimit : 0.1
+torpedoSizeX : 20
+torpedoSizeY : 10
+scoreMultiplier : 1
+enemySizeX : 50
+enemySizeY : 50
+waitWinningScreen : 10
+scorePath : ../files/scoreBoard.txt
+levelPath : ../files/levels/normal
+imgPath : ../files/img

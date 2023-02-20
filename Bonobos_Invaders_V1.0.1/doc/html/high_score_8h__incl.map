@@ -1,0 +1,26 @@
+<map id="libs/game/scenes/highScore.h" name="libs/game/scenes/highScore.h">
+<area shape="rect" id="node2" href="$mingl_8h.html" title="La bête. " alt="" coords="424,379,523,405"/>
+<area shape="rect" id="node18" href="$config_reader_8h.html" title="Gestion de la lecture du fichier de configuration. " alt="" coords="36,304,215,331"/>
+<area shape="rect" id="node20" href="$score_8h.html" title="gestion du score des joueurs " alt="" coords="542,80,679,107"/>
+<area shape="rect" id="node36" href="$sprite_8h.html" title="Image pouvant être chargé depuis un fichier. " alt="" coords="1483,304,1605,331"/>
+<area shape="rect" id="node9" href="$idrawable_8h.html" title="Interface pour un objet affichable. " alt="" coords="691,453,832,480"/>
+<area shape="rect" id="node10" href="$rgbacolor_8h.html" title="Représente une couleur RGBA. " alt="" coords="856,453,995,480"/>
+<area shape="rect" id="node14" href="$vec2d_8h.html" title="Représente un vecteur sur deux dimensions. " alt="" coords="1102,453,1223,480"/>
+<area shape="rect" id="node16" href="$event__manager_8h.html" title="Gestionnaire d&#39;événements de minGL. " alt="" coords="406,453,565,480"/>
+<area shape="rect" id="node11" href="$ieditable_8h.html" title="declaration de la classe CEditable dans nsUtil " alt="" coords="863,528,988,555"/>
+<area shape="rect" id="node13" href="$ieditable_8hpp.html" title="ieditable.hpp" alt="" coords="835,603,930,629"/>
+<area shape="rect" id="node17" href="$event_8hpp.html" title="Différents types utile pour le gestionnaire d&#39;événements. " alt="" coords="446,528,525,555"/>
+<area shape="rect" id="node22" href="$text_8h.html" title="Du texte. " alt="" coords="1349,304,1459,331"/>
+<area shape="rect" id="node25" href="$enemy_8h.html" title="Permet de gérer les enemies. " alt="" coords="419,155,573,181"/>
+<area shape="rect" id="node28" href="$torpedo_8h.html" title="game/entities/torpedo.h" alt="" coords="533,229,691,256"/>
+<area shape="rect" id="node33" href="$player_8h.html" title="Permet de gérer les joueurs. " alt="" coords="747,155,898,181"/>
+<area shape="rect" id="node23" href="$glut__font_8h.html" title="Classe utilitaire pour utiliser facilement les polices de Glut. " alt="" coords="1215,379,1297,405"/>
+<area shape="rect" id="node24" href="$itransitionable_8h.html" title="Interface pour objet &quot;transitionable&quot;. " alt="" coords="957,379,1139,405"/>
+<area shape="rect" id="node26" href="$rectangle_8h.html" title="Représente un rectangle. " alt="" coords="751,304,911,331"/>
+<area shape="rect" id="node32" href="$baobab_8h.html" title="Représente un baobab. " alt="" coords="985,304,1143,331"/>
+<area shape="rect" id="node27" href="$shape_8h.html" title="Représente une forme. " alt="" coords="865,379,933,405"/>
+<area shape="rect" id="node29" href="$branch_8h.html" title="Représente une branche. " alt="" coords="391,304,545,331"/>
+<area shape="rect" id="node30" href="$banana_8h.html" title="Représente une banane. " alt="" coords="569,304,727,331"/>
+<area shape="rect" id="node34" href="$bonobo_8h.html" title="Représente un bonobo. " alt="" coords="1167,304,1324,331"/>
+<area shape="rect" id="node35" href="$life_8h.html" title="Représente une coeur. " alt="" coords="874,229,1006,256"/>
+</map>

@@ -1,0 +1,127 @@
+\hypertarget{namespacewinning_screen}{}\section{winning\+Screen Namespace Reference}
+\label{namespacewinning_screen}\index{winning\+Screen@{winning\+Screen}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{namespacewinning_screen_a95cf45487b70c59a93914ac096314d8b}{init} (std\+::map$<$ std\+::string, std\+::string $>$ \&\hyperlink{main_8cpp_ada2160bcc2082e595d02f0eb5a318dd5}{config\+Map})
+\begin{DoxyCompactList}\small\item\em Initialisation à partir du fichier config. \end{DoxyCompactList}\item 
+unsigned \hyperlink{namespacewinning_screen_a392125e6fbc00fe8aeff8a4ba2b1304f}{update\+Left} (\hyperlink{class_min_g_l}{Min\+GL} \&window, unsigned \&count)
+\begin{DoxyCompactList}\small\item\em Permet d\textquotesingle{}attendre le temps donné pour cette scene, et permet de renvoyé la valeur pour la scene gauche. \end{DoxyCompactList}\item 
+unsigned \hyperlink{namespacewinning_screen_a4fef86a5a7bc183a660e19b475a3d747}{update\+Rigth} (\hyperlink{class_min_g_l}{Min\+GL} \&window, unsigned \&count)
+\begin{DoxyCompactList}\small\item\em Permet d\textquotesingle{}attendre le temps donné pour cette scene, et permet de renvoyé la valeur pour la scene droite. \end{DoxyCompactList}\item 
+void \hyperlink{namespacewinning_screen_a191b2df2e95ec566a104e99436ceac14}{render\+Left} (\hyperlink{class_min_g_l}{Min\+GL} \&window, \hyperlink{classns_gui_1_1_sprite}{ns\+Gui\+::\+Sprite} \&background)
+\begin{DoxyCompactList}\small\item\em Permet d\textquotesingle{}injecter le flux de la scene dans la fenêtre de jeu quand le joueur de gauche gagne. \end{DoxyCompactList}\item 
+void \hyperlink{namespacewinning_screen_a60f106909188337ae1d68b386d783f10}{render\+Right} (\hyperlink{class_min_g_l}{Min\+GL} \&window, \hyperlink{classns_gui_1_1_sprite}{ns\+Gui\+::\+Sprite} \&background)
+\begin{DoxyCompactList}\small\item\em Permet d\textquotesingle{}injecter le flux de la scene dans la fenêtre de jeu quand le joueur de droite gagne. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{namespacewinning_screen_a95cf45487b70c59a93914ac096314d8b}\label{namespacewinning_screen_a95cf45487b70c59a93914ac096314d8b}} 
+\index{winning\+Screen@{winning\+Screen}!init@{init}}
+\index{init@{init}!winning\+Screen@{winning\+Screen}}
+\subsubsection{\texorpdfstring{init()}{init()}}
+{\footnotesize\ttfamily void winning\+Screen\+::init (\begin{DoxyParamCaption}\item[{std\+::map$<$ std\+::string, std\+::string $>$ \&}]{config\+Map }\end{DoxyParamCaption})}
+
+
+
+Initialisation à partir du fichier config. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em config\+Map\mbox{[}in\mbox{]}} & \+: map généré a partir du fichier de configuration \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 9 of file winning\+Screen.\+cpp.
+
+\mbox{\Hypertarget{namespacewinning_screen_a191b2df2e95ec566a104e99436ceac14}\label{namespacewinning_screen_a191b2df2e95ec566a104e99436ceac14}} 
+\index{winning\+Screen@{winning\+Screen}!render\+Left@{render\+Left}}
+\index{render\+Left@{render\+Left}!winning\+Screen@{winning\+Screen}}
+\subsubsection{\texorpdfstring{render\+Left()}{renderLeft()}}
+{\footnotesize\ttfamily void winning\+Screen\+::render\+Left (\begin{DoxyParamCaption}\item[{\hyperlink{class_min_g_l}{Min\+GL} \&}]{window,  }\item[{\hyperlink{classns_gui_1_1_sprite}{ns\+Gui\+::\+Sprite} \&}]{background }\end{DoxyParamCaption})}
+
+
+
+Permet d\textquotesingle{}injecter le flux de la scene dans la fenêtre de jeu quand le joueur de gauche gagne. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+ & {\em \mbox{[}in-\/out\mbox{]}window} & \+: La fênetre de jeu \\
+\hline
+\mbox{\tt in}  & {\em } & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 32 of file winning\+Screen.\+cpp.
+
+\mbox{\Hypertarget{namespacewinning_screen_a60f106909188337ae1d68b386d783f10}\label{namespacewinning_screen_a60f106909188337ae1d68b386d783f10}} 
+\index{winning\+Screen@{winning\+Screen}!render\+Right@{render\+Right}}
+\index{render\+Right@{render\+Right}!winning\+Screen@{winning\+Screen}}
+\subsubsection{\texorpdfstring{render\+Right()}{renderRight()}}
+{\footnotesize\ttfamily void winning\+Screen\+::render\+Right (\begin{DoxyParamCaption}\item[{\hyperlink{class_min_g_l}{Min\+GL} \&}]{window,  }\item[{\hyperlink{classns_gui_1_1_sprite}{ns\+Gui\+::\+Sprite} \&}]{background }\end{DoxyParamCaption})}
+
+
+
+Permet d\textquotesingle{}injecter le flux de la scene dans la fenêtre de jeu quand le joueur de droite gagne. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+ & {\em \mbox{[}in-\/out\mbox{]}window} & \+: La fênetre de jeu \\
+\hline
+\mbox{\tt in}  & {\em } & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 42 of file winning\+Screen.\+cpp.
+
+\mbox{\Hypertarget{namespacewinning_screen_a392125e6fbc00fe8aeff8a4ba2b1304f}\label{namespacewinning_screen_a392125e6fbc00fe8aeff8a4ba2b1304f}} 
+\index{winning\+Screen@{winning\+Screen}!update\+Left@{update\+Left}}
+\index{update\+Left@{update\+Left}!winning\+Screen@{winning\+Screen}}
+\subsubsection{\texorpdfstring{update\+Left()}{updateLeft()}}
+{\footnotesize\ttfamily unsigned winning\+Screen\+::update\+Left (\begin{DoxyParamCaption}\item[{\hyperlink{class_min_g_l}{Min\+GL} \&}]{window,  }\item[{unsigned \&}]{count }\end{DoxyParamCaption})}
+
+
+
+Permet d\textquotesingle{}attendre le temps donné pour cette scene, et permet de renvoyé la valeur pour la scene gauche. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em window} & \+: fenêtre de jeu \\
+\hline
+\mbox{\tt in}  & {\em count} & \+: valleur qui permet de savoir à quelle frame de cette scene nous sommes \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+unsigned \+: La prochaine scene que le main va devoir traiter 
+\end{DoxyReturn}
+
+
+Definition at line 13 of file winning\+Screen.\+cpp.
+
+\mbox{\Hypertarget{namespacewinning_screen_a4fef86a5a7bc183a660e19b475a3d747}\label{namespacewinning_screen_a4fef86a5a7bc183a660e19b475a3d747}} 
+\index{winning\+Screen@{winning\+Screen}!update\+Rigth@{update\+Rigth}}
+\index{update\+Rigth@{update\+Rigth}!winning\+Screen@{winning\+Screen}}
+\subsubsection{\texorpdfstring{update\+Rigth()}{updateRigth()}}
+{\footnotesize\ttfamily unsigned winning\+Screen\+::update\+Rigth (\begin{DoxyParamCaption}\item[{\hyperlink{class_min_g_l}{Min\+GL} \&}]{window,  }\item[{unsigned \&}]{count }\end{DoxyParamCaption})}
+
+
+
+Permet d\textquotesingle{}attendre le temps donné pour cette scene, et permet de renvoyé la valeur pour la scene droite. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em window} & \+: fenêtre de jeu \\
+\hline
+\mbox{\tt in}  & {\em count} & \+: valleur qui permet de savoir à quelle frame de cette scene nous sommes \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+unsigned \+: La prochaine scene que le main va devoir traiter 
+\end{DoxyReturn}
+
+
+Definition at line 22 of file winning\+Screen.\+cpp.
+

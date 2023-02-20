@@ -1,0 +1,15 @@
+<map id="libs/mingl/gui/sprite.h" name="libs/mingl/gui/sprite.h">
+<area shape="rect" id="node2" href="$credits_8h.html" title="Scene des credits. " alt="" coords="652,80,831,107"/>
+<area shape="rect" id="node5" href="$get_pseudo_8h.html" title="Scene du choix des pseudos. " alt="" coords="111,80,313,107"/>
+<area shape="rect" id="node6" href="$multi_8h.html" title="Gestion du mode de jeu multi. " alt="" coords="242,155,409,181"/>
+<area shape="rect" id="node11" href="$high_score_8h.html" title="Scène du high score. " alt="" coords="388,80,585,107"/>
+<area shape="rect" id="node13" href="$menu_8h.html" title="Scène du menu. " alt="" coords="855,80,1025,107"/>
+<area shape="rect" id="node3" href="$main_8cpp.html" title="src/main.cpp" alt="" coords="398,319,495,345"/>
+<area shape="rect" id="node4" href="$credits_8cpp.html" title="src/scenes/credits.cpp" alt="" coords="681,155,836,181"/>
+<area shape="rect" id="node10" href="$get_pseudo_8cpp.html" title="src/scenes/getPseudo.cpp" alt="" coords="41,155,218,181"/>
+<area shape="rect" id="node7" href="$winning_screen_8h.html" title="Scene de victoire/defaite. " alt="" coords="19,229,191,271"/>
+<area shape="rect" id="node9" href="$multi_8cpp.html" title="src/scenes/multi.cpp" alt="" coords="215,237,358,263"/>
+<area shape="rect" id="node8" href="$winning_screen_8cpp.html" title="src/scenes/winningScreen.cpp" alt="" coords="5,319,205,345"/>
+<area shape="rect" id="node12" href="$high_score_8cpp.html" title="src/scenes/highScore.cpp" alt="" coords="484,155,657,181"/>
+<area shape="rect" id="node14" href="$menu_8cpp.html" title="src/scenes/menu.cpp" alt="" coords="961,155,1108,181"/>
+</map>

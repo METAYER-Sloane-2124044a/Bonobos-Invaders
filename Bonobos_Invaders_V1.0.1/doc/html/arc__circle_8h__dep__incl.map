@@ -1,0 +1,6 @@
+<map id="libs/game/graphic/arc_circle.h" name="libs/game/graphic/arc_circle.h">
+<area shape="rect" id="node2" href="$arc__circle_8cpp.html" title="Représente un arc de cercle. " alt="" coords="5,95,176,121"/>
+<area shape="rect" id="node3" href="$banana_8cpp.html" title="Représente une banane. " alt="" coords="200,95,357,121"/>
+<area shape="rect" id="node4" href="$bonobo_8cpp.html" title="Représente un bonobo. " alt="" coords="381,95,539,121"/>
+<area shape="rect" id="node5" href="$exit__button_8cpp.html" title="Représente un bouton de sortie. " alt="" coords="563,95,741,121"/>
+</map>

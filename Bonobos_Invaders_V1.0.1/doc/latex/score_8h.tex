@@ -1,0 +1,65 @@
+\hypertarget{score_8h}{}\section{libs/game/score/score.h File Reference}
+\label{score_8h}\index{libs/game/score/score.\+h@{libs/game/score/score.\+h}}
+
+
+gestion du score des joueurs  
+
+
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$algorithm$>$}\newline
+{\ttfamily \#include \char`\"{}mingl/gui/text.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}game/entities/enemy.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}game/entities/player.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}game/entities/torpedo.\+h\char`\"{}}\newline
+Include dependency graph for score.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{score_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{score_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \hyperlink{namespacescore}{score}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{namespacescore_af95066a9c5dff49a5a9d5ee29f162757}{score\+::init} (std\+::map$<$ std\+::string, std\+::string $>$ \&\hyperlink{main_8cpp_ada2160bcc2082e595d02f0eb5a318dd5}{config\+Map})
+\begin{DoxyCompactList}\small\item\em Initialisation à partir du fichier config. \end{DoxyCompactList}\item 
+void \hyperlink{namespacescore_a53974e9c6b708076269b611addd8eed1}{score\+::score\+Invader} (unsigned from, \hyperlink{structenemy_1_1_enemy}{enemy\+::\+Enemy} \&enemy, std\+::vector$<$ \hyperlink{structplayer_1_1_player}{player\+::\+Player} $>$ \&\hyperlink{multi_8cpp_abd9de51dc9a6f90588878ff69cec449d}{players})
+\begin{DoxyCompactList}\small\item\em \+: Procedure qui ajoute du score au joueur qui a tiré la torpedo selon la distance qu\textquotesingle{}elle a parcouru avant de toucher l\textquotesingle{}invader \end{DoxyCompactList}\item 
+void \hyperlink{namespacescore_aebc7be40ef0cc33800d763aec5e626a0}{score\+::score\+Player} (\hyperlink{structplayer_1_1_player}{player\+::\+Player} \&player)
+\begin{DoxyCompactList}\small\item\em Procedure qui ajoute du score au joueur qui a tué l\textquotesingle{}autre. \end{DoxyCompactList}\item 
+\hyperlink{classns_gui_1_1_text}{ns\+Gui\+::\+Text} \hyperlink{namespacescore_a71e5d3a50d1f96c3c5ff1155b3d5fdbb}{score\+::show\+Score} (std\+::vector$<$ \hyperlink{structplayer_1_1_player}{player\+::\+Player} $>$ \&\hyperlink{multi_8cpp_abd9de51dc9a6f90588878ff69cec449d}{players}, \hyperlink{class_min_g_l}{Min\+GL} \&window)
+\begin{DoxyCompactList}\small\item\em Renvoie l\textquotesingle{}affichage du score actuel avec les pseudos des joueurs. \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::string $>$ \hyperlink{namespacescore_a369bea39905535234b2a593129b0599b}{score\+::high\+Score\+Reader} (std\+::string \&path)
+\begin{DoxyCompactList}\small\item\em Lit le fichier des meilleurs scores et en fait un vecteur. \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::string $>$ \hyperlink{namespacescore_a80f57620018fa7797c3e4f1d34479277}{score\+::high\+Score\+Update} (std\+::vector$<$ \hyperlink{structplayer_1_1_player}{player\+::\+Player} $>$ \&\hyperlink{multi_8cpp_abd9de51dc9a6f90588878ff69cec449d}{players})
+\begin{DoxyCompactList}\small\item\em Interprete le vecteur renvoyé par high\+Score\+Reader, y ajoute les score actuel, si néscessaire. \end{DoxyCompactList}\item 
+void \hyperlink{namespacescore_a67da81a4506de38ca8e841ba9251fbb3}{score\+::high\+Score\+Writer} (std\+::vector$<$ \hyperlink{structplayer_1_1_player}{player\+::\+Player} $>$ \&\hyperlink{multi_8cpp_abd9de51dc9a6f90588878ff69cec449d}{players})
+\begin{DoxyCompactList}\small\item\em Procedure qui écris le score dans le fichier des scores. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+gestion du score des joueurs 
+
+\begin{DoxyAuthor}{Author}
+Alexis M\+A\+R\+I\+O\+T\+TI 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+Decembre 2021 
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}

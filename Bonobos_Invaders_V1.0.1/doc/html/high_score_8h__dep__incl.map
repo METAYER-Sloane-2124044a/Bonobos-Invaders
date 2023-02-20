@@ -1,0 +1,8 @@
+<map id="libs/game/scenes/highScore.h" name="libs/game/scenes/highScore.h">
+<area shape="rect" id="node2" href="$multi_8h.html" title="Gestion du mode de jeu multi. " alt="" coords="223,80,390,107"/>
+<area shape="rect" id="node4" href="$main_8cpp.html" title="src/main.cpp" alt="" coords="347,244,445,271"/>
+<area shape="rect" id="node7" href="$high_score_8cpp.html" title="src/scenes/highScore.cpp" alt="" coords="484,80,657,107"/>
+<area shape="rect" id="node3" href="$winning_screen_8h.html" title="Scene de victoire/defaite. " alt="" coords="19,155,191,196"/>
+<area shape="rect" id="node6" href="$multi_8cpp.html" title="src/scenes/multi.cpp" alt="" coords="215,162,358,189"/>
+<area shape="rect" id="node5" href="$winning_screen_8cpp.html" title="src/scenes/winningScreen.cpp" alt="" coords="5,244,205,271"/>
+</map>

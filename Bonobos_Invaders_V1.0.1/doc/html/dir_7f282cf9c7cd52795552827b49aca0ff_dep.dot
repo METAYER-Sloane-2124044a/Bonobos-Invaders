@@ -1,0 +1,13 @@
+digraph "libs/mingl/shape" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_d4c5b6fad7562fcd9ee8f60dc5abf3ff {
+    graph [ bgcolor="#ddddee", pencolor="black", label="mingl" fontname="Helvetica", fontsize="10", URL="dir_d4c5b6fad7562fcd9ee8f60dc5abf3ff.html"]
+  dir_7f282cf9c7cd52795552827b49aca0ff [shape=box, label="shape", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_7f282cf9c7cd52795552827b49aca0ff.html"];
+  }
+  dir_a778e13ce7ec8fca2d01c6476ab52e55 [shape=box label="graphics" URL="dir_a778e13ce7ec8fca2d01c6476ab52e55.html"];
+  dir_2c4800bb6f64dd6009bd1c5ff3d4d12b [shape=box label="transition" URL="dir_2c4800bb6f64dd6009bd1c5ff3d4d12b.html"];
+  dir_7f282cf9c7cd52795552827b49aca0ff->dir_a778e13ce7ec8fca2d01c6476ab52e55 [headlabel="3", labeldistance=1.5 headhref="dir_000030_000028.html"];
+  dir_7f282cf9c7cd52795552827b49aca0ff->dir_2c4800bb6f64dd6009bd1c5ff3d4d12b [headlabel="4", labeldistance=1.5 headhref="dir_000030_000032.html"];
+}

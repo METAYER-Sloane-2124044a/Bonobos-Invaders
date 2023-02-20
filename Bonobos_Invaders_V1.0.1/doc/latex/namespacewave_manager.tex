@@ -1,0 +1,61 @@
+\hypertarget{namespacewave_manager}{}\section{wave\+Manager Namespace Reference}
+\label{namespacewave_manager}\index{wave\+Manager@{wave\+Manager}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::vector$<$ \hyperlink{structenemy_1_1_enemy}{enemy\+::\+Enemy} $>$ \hyperlink{namespacewave_manager_a6e8847b12e8bc37292147f767d5676d2}{load\+Wave} (unsigned \&nb, \hyperlink{class_min_g_l}{Min\+GL} \&window, std\+::map$<$ std\+::string, std\+::string $>$ \&\hyperlink{main_8cpp_ada2160bcc2082e595d02f0eb5a318dd5}{config\+Map})
+\item 
+void \hyperlink{namespacewave_manager_a2a5b7f2a1dd69a5f1188924fc0cd3a9a}{init\+Enemies} (std\+::map$<$ std\+::string, std\+::string $>$ \hyperlink{main_8cpp_ada2160bcc2082e595d02f0eb5a318dd5}{config\+Map})
+\begin{DoxyCompactList}\small\item\em Initialisation de la scène avec le fichier de config. \end{DoxyCompactList}\item 
+bool \hyperlink{namespacewave_manager_a38c9048f3a0af5f2b710c22c5c175cb3}{chek\+Enemies\+In\+Live} (std\+::vector$<$ \hyperlink{structenemy_1_1_enemy}{enemy\+::\+Enemy} $>$ \&\hyperlink{multi_8cpp_a68dfd8cc6c330a8d7be4cf2f3a6892f3}{enemies}, char player)
+\begin{DoxyCompactList}\small\item\em Prédicat de vérification de présence d\textquotesingle{}ennemies pour un joueur. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{namespacewave_manager_a38c9048f3a0af5f2b710c22c5c175cb3}\label{namespacewave_manager_a38c9048f3a0af5f2b710c22c5c175cb3}} 
+\index{wave\+Manager@{wave\+Manager}!chek\+Enemies\+In\+Live@{chek\+Enemies\+In\+Live}}
+\index{chek\+Enemies\+In\+Live@{chek\+Enemies\+In\+Live}!wave\+Manager@{wave\+Manager}}
+\subsubsection{\texorpdfstring{chek\+Enemies\+In\+Live()}{chekEnemiesInLive()}}
+{\footnotesize\ttfamily bool wave\+Manager\+::chek\+Enemies\+In\+Live (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \hyperlink{structenemy_1_1_enemy}{enemy\+::\+Enemy} $>$ \&}]{enemies,  }\item[{char}]{player }\end{DoxyParamCaption})}
+
+
+
+Prédicat de vérification de présence d\textquotesingle{}ennemies pour un joueur. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em enemies} & \+: vecteurs des ennemies \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool \+: true si il reste des ennemies faux sinon 
+\end{DoxyReturn}
+
+
+Definition at line 37 of file wave\+Manager.\+cpp.
+
+\mbox{\Hypertarget{namespacewave_manager_a2a5b7f2a1dd69a5f1188924fc0cd3a9a}\label{namespacewave_manager_a2a5b7f2a1dd69a5f1188924fc0cd3a9a}} 
+\index{wave\+Manager@{wave\+Manager}!init\+Enemies@{init\+Enemies}}
+\index{init\+Enemies@{init\+Enemies}!wave\+Manager@{wave\+Manager}}
+\subsubsection{\texorpdfstring{init\+Enemies()}{initEnemies()}}
+{\footnotesize\ttfamily void wave\+Manager\+::init\+Enemies (\begin{DoxyParamCaption}\item[{std\+::map$<$ std\+::string, std\+::string $>$}]{config\+Map }\end{DoxyParamCaption})}
+
+
+
+Initialisation de la scène avec le fichier de config. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em config\+Map} & \+: map de la configuratio \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 32 of file wave\+Manager.\+cpp.
+
+\mbox{\Hypertarget{namespacewave_manager_a6e8847b12e8bc37292147f767d5676d2}\label{namespacewave_manager_a6e8847b12e8bc37292147f767d5676d2}} 
+\index{wave\+Manager@{wave\+Manager}!load\+Wave@{load\+Wave}}
+\index{load\+Wave@{load\+Wave}!wave\+Manager@{wave\+Manager}}
+\subsubsection{\texorpdfstring{load\+Wave()}{loadWave()}}
+{\footnotesize\ttfamily std\+::vector$<$\hyperlink{structenemy_1_1_enemy}{enemy\+::\+Enemy}$>$ wave\+Manager\+::load\+Wave (\begin{DoxyParamCaption}\item[{unsigned \&}]{nb,  }\item[{\hyperlink{class_min_g_l}{Min\+GL} \&}]{window,  }\item[{std\+::map$<$ std\+::string, std\+::string $>$ \&}]{config\+Map }\end{DoxyParamCaption})}
+

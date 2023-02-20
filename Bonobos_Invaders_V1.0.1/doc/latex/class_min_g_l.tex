@@ -1,0 +1,346 @@
+\hypertarget{class_min_g_l}{}\section{Min\+GL Class Reference}
+\label{class_min_g_l}\index{Min\+GL@{Min\+GL}}
+
+
+Classe de base de min\+GL 2.  
+
+
+
+
+{\ttfamily \#include $<$mingl.\+h$>$}
+
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+typedef std\+::pair$<$ unsigned, bool $>$ \hyperlink{class_min_g_l_a6e612d21ed9723c37ad91093f7b48c96}{Key\+Type\+\_\+t}
+\begin{DoxyCompactList}\small\item\em Key\+Type\+\_\+t \+: Représente une touche du clavier. \end{DoxyCompactList}\item 
+typedef std\+::map$<$ \hyperlink{class_min_g_l_a6e612d21ed9723c37ad91093f7b48c96}{Key\+Type\+\_\+t}, bool $>$ \hyperlink{class_min_g_l_a084b1a739a671ad7d6af07792bd56af1}{Key\+Map\+\_\+t}
+\begin{DoxyCompactList}\small\item\em Key\+Map\+\_\+t \+: Map représentant des touches et leurs état (pressée ou non). \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_min_g_l_aecc35a286d1adbcbdc76bf26df18169c}{Min\+GL} (const std\+::string \&name, const \hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D} \&window\+Size=\hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D}(640, 480), const \hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D} \&window\+Position=\hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D}(128, 128), const \hyperlink{classns_graphics_1_1_r_g_b_acolor}{ns\+Graphics\+::\+R\+G\+B\+Acolor} \&background\+Color=\hyperlink{namespacens_graphics_a8c5fcb477a548c6ed321748ec8383bb2}{ns\+Graphics\+::\+K\+White})
+\begin{DoxyCompactList}\small\item\em Constructeur pour la classe \hyperlink{class_min_g_l}{Min\+GL}. \end{DoxyCompactList}\item 
+\hyperlink{class_min_g_l_a0f84e59dd311785a7e6da848abd5d188}{$\sim$\+Min\+GL} ()
+\begin{DoxyCompactList}\small\item\em Destructeur de la classe \hyperlink{class_min_g_l}{Min\+GL}. \end{DoxyCompactList}\item 
+void \hyperlink{class_min_g_l_a5962a0a0ced7879bc0cc65e267e8d7fc}{init\+Graphic} ()
+\begin{DoxyCompactList}\small\item\em Initialise min\+GL et ouvre la fenêtre. \end{DoxyCompactList}\item 
+void \hyperlink{class_min_g_l_a9508f3ac9d4cb4f444f56f5d77ed9d86}{stop\+Graphic} ()
+\begin{DoxyCompactList}\small\item\em Ferme la fenêtre et min\+GL proprement. \end{DoxyCompactList}\item 
+bool \hyperlink{class_min_g_l_a8f0833403a4fb3df8010c132e81b207f}{is\+Pressed} (const \hyperlink{class_min_g_l_a6e612d21ed9723c37ad91093f7b48c96}{Key\+Type\+\_\+t} \&key)
+\begin{DoxyCompactList}\small\item\em Renvoie l\textquotesingle{}état d\textquotesingle{}une touche du clavier (pressée ou non) \end{DoxyCompactList}\item 
+void \hyperlink{class_min_g_l_a99750fd4c8f97cfe693b1acb903424cf}{reset\+Key} (const \hyperlink{class_min_g_l_a6e612d21ed9723c37ad91093f7b48c96}{Key\+Type\+\_\+t} \&key)
+\begin{DoxyCompactList}\small\item\em Force une touche a être relâchée. \end{DoxyCompactList}\item 
+void \hyperlink{class_min_g_l_a489922f0bdde2e38698adddaf57f6eda}{finish\+Frame} ()
+\begin{DoxyCompactList}\small\item\em Préviens min\+GL que la frame est terminée. \end{DoxyCompactList}\item 
+void \hyperlink{class_min_g_l_a86c940758616957683ffb2e239bba774}{clear\+Screen} ()
+\begin{DoxyCompactList}\small\item\em Efface l\textquotesingle{}écran avec la couleur de fond spécifiée. \end{DoxyCompactList}\item 
+\hyperlink{classns_event_1_1_event_manager}{ns\+Event\+::\+Event\+Manager} \& \hyperlink{class_min_g_l_ab558253439905930836ab4910a7ae253}{get\+Event\+Manager} ()
+\begin{DoxyCompactList}\small\item\em Récupère le gestionnaire d\textquotesingle{}évènements min\+GL. \end{DoxyCompactList}\item 
+const \hyperlink{classns_graphics_1_1_r_g_b_acolor}{ns\+Graphics\+::\+R\+G\+B\+Acolor} \& \hyperlink{class_min_g_l_a66758e8e6983cc1dd0b10b1ee743a65a}{get\+Background\+Color} () const
+\begin{DoxyCompactList}\small\item\em Récupère la couleur de fond de la fenêtre. \end{DoxyCompactList}\item 
+void \hyperlink{class_min_g_l_a4399b7615cea89f850cd5c66e428c367}{set\+Background\+Color} (const \hyperlink{classns_graphics_1_1_r_g_b_acolor}{ns\+Graphics\+::\+R\+G\+B\+Acolor} \&background\+Color)
+\begin{DoxyCompactList}\small\item\em Règle la couleur de fond de la fenêtre. \end{DoxyCompactList}\item 
+\hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D} \hyperlink{class_min_g_l_a92bacd1567089fb4641ed7b416cfe74d}{get\+Window\+Size} () const
+\begin{DoxyCompactList}\small\item\em Récupère la taille de la fenêtre. \end{DoxyCompactList}\item 
+void \hyperlink{class_min_g_l_a532d320b7b837998533fe6577ab45bc3}{set\+Window\+Size} (const \hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D} \&window\+Size)
+\begin{DoxyCompactList}\small\item\em Règle la taille de la fenêtre. \end{DoxyCompactList}\item 
+\hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D} \hyperlink{class_min_g_l_a1ea6ea098988db36f5bf18713f9f3347}{get\+Window\+Position} () const
+\begin{DoxyCompactList}\small\item\em Récupère la position de la fenêtre. \end{DoxyCompactList}\item 
+void \hyperlink{class_min_g_l_a9239873a52e437457af03f002f5df2b6}{set\+Window\+Position} (const \hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D} \&window\+Position)
+\begin{DoxyCompactList}\small\item\em Règle la position de la fenêtre. \end{DoxyCompactList}\item 
+const std\+::string \& \hyperlink{class_min_g_l_a46cea08ec9ef4a0678f425000ca77e5b}{get\+Window\+Name} () const
+\begin{DoxyCompactList}\small\item\em Récupère le nom de la fenêtre. \end{DoxyCompactList}\item 
+void \hyperlink{class_min_g_l_a462ab2edc0eb28990638541873869e0e}{set\+Window\+Name} (const std\+::string \&window\+Name)
+\begin{DoxyCompactList}\small\item\em Règle le nom de la fenêtre. \end{DoxyCompactList}\item 
+bool \hyperlink{class_min_g_l_a05a0da9d0729e9c7dbd1121b0956866d}{is\+Open} () const
+\begin{DoxyCompactList}\small\item\em Retourne si la fenêtre est ouverte. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{class_min_g_l_a17c7718b9e966c8147cd56483dcf4e8d}{init\+Glut} ()
+\begin{DoxyCompactList}\small\item\em Initialise la bibliothèque freeglut. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Classe de base de min\+GL 2. 
+
+Definition at line 34 of file mingl.\+h.
+
+
+
+\subsection{Member Typedef Documentation}
+\mbox{\Hypertarget{class_min_g_l_a084b1a739a671ad7d6af07792bd56af1}\label{class_min_g_l_a084b1a739a671ad7d6af07792bd56af1}} 
+\index{Min\+GL@{Min\+GL}!Key\+Map\+\_\+t@{Key\+Map\+\_\+t}}
+\index{Key\+Map\+\_\+t@{Key\+Map\+\_\+t}!Min\+GL@{Min\+GL}}
+\subsubsection{\texorpdfstring{Key\+Map\+\_\+t}{KeyMap\_t}}
+{\footnotesize\ttfamily typedef std\+::map$<$\hyperlink{class_min_g_l_a6e612d21ed9723c37ad91093f7b48c96}{Key\+Type\+\_\+t}, bool$>$ \hyperlink{class_min_g_l_a084b1a739a671ad7d6af07792bd56af1}{Min\+G\+L\+::\+Key\+Map\+\_\+t}}
+
+
+
+Key\+Map\+\_\+t \+: Map représentant des touches et leurs état (pressée ou non). 
+
+La clé de cette map est un \hyperlink{class_min_g_l_a6e612d21ed9723c37ad91093f7b48c96}{Key\+Type\+\_\+t} représentant une touche, et la valeur est son état. 
+
+Definition at line 55 of file mingl.\+h.
+
+\mbox{\Hypertarget{class_min_g_l_a6e612d21ed9723c37ad91093f7b48c96}\label{class_min_g_l_a6e612d21ed9723c37ad91093f7b48c96}} 
+\index{Min\+GL@{Min\+GL}!Key\+Type\+\_\+t@{Key\+Type\+\_\+t}}
+\index{Key\+Type\+\_\+t@{Key\+Type\+\_\+t}!Min\+GL@{Min\+GL}}
+\subsubsection{\texorpdfstring{Key\+Type\+\_\+t}{KeyType\_t}}
+{\footnotesize\ttfamily typedef std\+::pair$<$unsigned, bool$>$ \hyperlink{class_min_g_l_a6e612d21ed9723c37ad91093f7b48c96}{Min\+G\+L\+::\+Key\+Type\+\_\+t}}
+
+
+
+Key\+Type\+\_\+t \+: Représente une touche du clavier. 
+
+C\textquotesingle{}est une paire de nombre entier naturel et booléen ~\newline
+ 
+\begin{DoxyItemize}
+\item L\textquotesingle{}entier naturel représente le caractère pour une touche non spéciale, ou l\textquotesingle{}identifiant de touche pour une touche spéciale (\href{https://www.opengl.org/resources/libraries/glut/spec3/node54.html}{\tt Voir ici} pour les identifiants).  
+\item Le booléen indique si la touche est spéciale ou non.
+\end{DoxyItemize}
+
+Definition at line 47 of file mingl.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_min_g_l_aecc35a286d1adbcbdc76bf26df18169c}\label{class_min_g_l_aecc35a286d1adbcbdc76bf26df18169c}} 
+\index{Min\+GL@{Min\+GL}!Min\+GL@{Min\+GL}}
+\index{Min\+GL@{Min\+GL}!Min\+GL@{Min\+GL}}
+\subsubsection{\texorpdfstring{Min\+G\+L()}{MinGL()}}
+{\footnotesize\ttfamily Min\+G\+L\+::\+Min\+GL (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{name,  }\item[{const \hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D} \&}]{window\+Size = {\ttfamily \hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D}(640,~480)},  }\item[{const \hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D} \&}]{window\+Position = {\ttfamily \hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D}(128,~128)},  }\item[{const \hyperlink{classns_graphics_1_1_r_g_b_acolor}{ns\+Graphics\+::\+R\+G\+B\+Acolor} \&}]{background\+Color = {\ttfamily \hyperlink{namespacens_graphics_a8c5fcb477a548c6ed321748ec8383bb2}{ns\+Graphics\+::\+K\+White}} }\end{DoxyParamCaption})}
+
+
+
+Constructeur pour la classe \hyperlink{class_min_g_l}{Min\+GL}. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em name} & \+: Nom de la fenêtre \\
+\hline
+\mbox{\tt in}  & {\em window\+Size} & \+: Taille de la fenêtre \\
+\hline
+\mbox{\tt in}  & {\em window\+Position} & \+: Position de la fenêtre \\
+\hline
+\mbox{\tt in}  & {\em background\+Color} & \+: Couleur de fond de la fenêtre \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_min_g_l_a0f84e59dd311785a7e6da848abd5d188}\label{class_min_g_l_a0f84e59dd311785a7e6da848abd5d188}} 
+\index{Min\+GL@{Min\+GL}!````~Min\+GL@{$\sim$\+Min\+GL}}
+\index{````~Min\+GL@{$\sim$\+Min\+GL}!Min\+GL@{Min\+GL}}
+\subsubsection{\texorpdfstring{$\sim$\+Min\+G\+L()}{~MinGL()}}
+{\footnotesize\ttfamily Min\+G\+L\+::$\sim$\+Min\+GL (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destructeur de la classe \hyperlink{class_min_g_l}{Min\+GL}. 
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_min_g_l_a86c940758616957683ffb2e239bba774}\label{class_min_g_l_a86c940758616957683ffb2e239bba774}} 
+\index{Min\+GL@{Min\+GL}!clear\+Screen@{clear\+Screen}}
+\index{clear\+Screen@{clear\+Screen}!Min\+GL@{Min\+GL}}
+\subsubsection{\texorpdfstring{clear\+Screen()}{clearScreen()}}
+{\footnotesize\ttfamily void Min\+G\+L\+::clear\+Screen (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Efface l\textquotesingle{}écran avec la couleur de fond spécifiée. 
+
+\mbox{\Hypertarget{class_min_g_l_a489922f0bdde2e38698adddaf57f6eda}\label{class_min_g_l_a489922f0bdde2e38698adddaf57f6eda}} 
+\index{Min\+GL@{Min\+GL}!finish\+Frame@{finish\+Frame}}
+\index{finish\+Frame@{finish\+Frame}!Min\+GL@{Min\+GL}}
+\subsubsection{\texorpdfstring{finish\+Frame()}{finishFrame()}}
+{\footnotesize\ttfamily void Min\+G\+L\+::finish\+Frame (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Préviens min\+GL que la frame est terminée. 
+
+\mbox{\Hypertarget{class_min_g_l_a66758e8e6983cc1dd0b10b1ee743a65a}\label{class_min_g_l_a66758e8e6983cc1dd0b10b1ee743a65a}} 
+\index{Min\+GL@{Min\+GL}!get\+Background\+Color@{get\+Background\+Color}}
+\index{get\+Background\+Color@{get\+Background\+Color}!Min\+GL@{Min\+GL}}
+\subsubsection{\texorpdfstring{get\+Background\+Color()}{getBackgroundColor()}}
+{\footnotesize\ttfamily const \hyperlink{classns_graphics_1_1_r_g_b_acolor}{ns\+Graphics\+::\+R\+G\+B\+Acolor} \& Min\+G\+L\+::get\+Background\+Color (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Récupère la couleur de fond de la fenêtre. 
+
+\mbox{\Hypertarget{class_min_g_l_ab558253439905930836ab4910a7ae253}\label{class_min_g_l_ab558253439905930836ab4910a7ae253}} 
+\index{Min\+GL@{Min\+GL}!get\+Event\+Manager@{get\+Event\+Manager}}
+\index{get\+Event\+Manager@{get\+Event\+Manager}!Min\+GL@{Min\+GL}}
+\subsubsection{\texorpdfstring{get\+Event\+Manager()}{getEventManager()}}
+{\footnotesize\ttfamily \hyperlink{classns_event_1_1_event_manager}{ns\+Event\+::\+Event\+Manager} \& Min\+G\+L\+::get\+Event\+Manager (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Récupère le gestionnaire d\textquotesingle{}évènements min\+GL. 
+
+\mbox{\Hypertarget{class_min_g_l_a46cea08ec9ef4a0678f425000ca77e5b}\label{class_min_g_l_a46cea08ec9ef4a0678f425000ca77e5b}} 
+\index{Min\+GL@{Min\+GL}!get\+Window\+Name@{get\+Window\+Name}}
+\index{get\+Window\+Name@{get\+Window\+Name}!Min\+GL@{Min\+GL}}
+\subsubsection{\texorpdfstring{get\+Window\+Name()}{getWindowName()}}
+{\footnotesize\ttfamily const std\+::string \& Min\+G\+L\+::get\+Window\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Récupère le nom de la fenêtre. 
+
+\mbox{\Hypertarget{class_min_g_l_a1ea6ea098988db36f5bf18713f9f3347}\label{class_min_g_l_a1ea6ea098988db36f5bf18713f9f3347}} 
+\index{Min\+GL@{Min\+GL}!get\+Window\+Position@{get\+Window\+Position}}
+\index{get\+Window\+Position@{get\+Window\+Position}!Min\+GL@{Min\+GL}}
+\subsubsection{\texorpdfstring{get\+Window\+Position()}{getWindowPosition()}}
+{\footnotesize\ttfamily \hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D} Min\+G\+L\+::get\+Window\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Récupère la position de la fenêtre. 
+
+\mbox{\Hypertarget{class_min_g_l_a92bacd1567089fb4641ed7b416cfe74d}\label{class_min_g_l_a92bacd1567089fb4641ed7b416cfe74d}} 
+\index{Min\+GL@{Min\+GL}!get\+Window\+Size@{get\+Window\+Size}}
+\index{get\+Window\+Size@{get\+Window\+Size}!Min\+GL@{Min\+GL}}
+\subsubsection{\texorpdfstring{get\+Window\+Size()}{getWindowSize()}}
+{\footnotesize\ttfamily \hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D} Min\+G\+L\+::get\+Window\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Récupère la taille de la fenêtre. 
+
+\mbox{\Hypertarget{class_min_g_l_a17c7718b9e966c8147cd56483dcf4e8d}\label{class_min_g_l_a17c7718b9e966c8147cd56483dcf4e8d}} 
+\index{Min\+GL@{Min\+GL}!init\+Glut@{init\+Glut}}
+\index{init\+Glut@{init\+Glut}!Min\+GL@{Min\+GL}}
+\subsubsection{\texorpdfstring{init\+Glut()}{initGlut()}}
+{\footnotesize\ttfamily static void Min\+G\+L\+::init\+Glut (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Initialise la bibliothèque freeglut. 
+
+
+
+Definition at line 81 of file mingl.\+h.
+
+\mbox{\Hypertarget{class_min_g_l_a5962a0a0ced7879bc0cc65e267e8d7fc}\label{class_min_g_l_a5962a0a0ced7879bc0cc65e267e8d7fc}} 
+\index{Min\+GL@{Min\+GL}!init\+Graphic@{init\+Graphic}}
+\index{init\+Graphic@{init\+Graphic}!Min\+GL@{Min\+GL}}
+\subsubsection{\texorpdfstring{init\+Graphic()}{initGraphic()}}
+{\footnotesize\ttfamily void Min\+G\+L\+::init\+Graphic (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Initialise min\+GL et ouvre la fenêtre. 
+
+\mbox{\Hypertarget{class_min_g_l_a05a0da9d0729e9c7dbd1121b0956866d}\label{class_min_g_l_a05a0da9d0729e9c7dbd1121b0956866d}} 
+\index{Min\+GL@{Min\+GL}!is\+Open@{is\+Open}}
+\index{is\+Open@{is\+Open}!Min\+GL@{Min\+GL}}
+\subsubsection{\texorpdfstring{is\+Open()}{isOpen()}}
+{\footnotesize\ttfamily bool Min\+G\+L\+::is\+Open (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Retourne si la fenêtre est ouverte. 
+
+\mbox{\Hypertarget{class_min_g_l_a8f0833403a4fb3df8010c132e81b207f}\label{class_min_g_l_a8f0833403a4fb3df8010c132e81b207f}} 
+\index{Min\+GL@{Min\+GL}!is\+Pressed@{is\+Pressed}}
+\index{is\+Pressed@{is\+Pressed}!Min\+GL@{Min\+GL}}
+\subsubsection{\texorpdfstring{is\+Pressed()}{isPressed()}}
+{\footnotesize\ttfamily bool Min\+G\+L\+::is\+Pressed (\begin{DoxyParamCaption}\item[{const \hyperlink{class_min_g_l_a6e612d21ed9723c37ad91093f7b48c96}{Key\+Type\+\_\+t} \&}]{key }\end{DoxyParamCaption})}
+
+
+
+Renvoie l\textquotesingle{}état d\textquotesingle{}une touche du clavier (pressée ou non) 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em key} & \+: Touche du clavier a vérifier \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_min_g_l_a99750fd4c8f97cfe693b1acb903424cf}\label{class_min_g_l_a99750fd4c8f97cfe693b1acb903424cf}} 
+\index{Min\+GL@{Min\+GL}!reset\+Key@{reset\+Key}}
+\index{reset\+Key@{reset\+Key}!Min\+GL@{Min\+GL}}
+\subsubsection{\texorpdfstring{reset\+Key()}{resetKey()}}
+{\footnotesize\ttfamily void Min\+G\+L\+::reset\+Key (\begin{DoxyParamCaption}\item[{const \hyperlink{class_min_g_l_a6e612d21ed9723c37ad91093f7b48c96}{Key\+Type\+\_\+t} \&}]{key }\end{DoxyParamCaption})}
+
+
+
+Force une touche a être relâchée. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em key} & \+: Touche du clavier a relâcher \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_min_g_l_a4399b7615cea89f850cd5c66e428c367}\label{class_min_g_l_a4399b7615cea89f850cd5c66e428c367}} 
+\index{Min\+GL@{Min\+GL}!set\+Background\+Color@{set\+Background\+Color}}
+\index{set\+Background\+Color@{set\+Background\+Color}!Min\+GL@{Min\+GL}}
+\subsubsection{\texorpdfstring{set\+Background\+Color()}{setBackgroundColor()}}
+{\footnotesize\ttfamily void Min\+G\+L\+::set\+Background\+Color (\begin{DoxyParamCaption}\item[{const \hyperlink{classns_graphics_1_1_r_g_b_acolor}{ns\+Graphics\+::\+R\+G\+B\+Acolor} \&}]{background\+Color }\end{DoxyParamCaption})}
+
+
+
+Règle la couleur de fond de la fenêtre. 
+
+\mbox{\Hypertarget{class_min_g_l_a462ab2edc0eb28990638541873869e0e}\label{class_min_g_l_a462ab2edc0eb28990638541873869e0e}} 
+\index{Min\+GL@{Min\+GL}!set\+Window\+Name@{set\+Window\+Name}}
+\index{set\+Window\+Name@{set\+Window\+Name}!Min\+GL@{Min\+GL}}
+\subsubsection{\texorpdfstring{set\+Window\+Name()}{setWindowName()}}
+{\footnotesize\ttfamily void Min\+G\+L\+::set\+Window\+Name (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{window\+Name }\end{DoxyParamCaption})}
+
+
+
+Règle le nom de la fenêtre. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em window\+Name} & \+: Nouveau nom \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_min_g_l_a9239873a52e437457af03f002f5df2b6}\label{class_min_g_l_a9239873a52e437457af03f002f5df2b6}} 
+\index{Min\+GL@{Min\+GL}!set\+Window\+Position@{set\+Window\+Position}}
+\index{set\+Window\+Position@{set\+Window\+Position}!Min\+GL@{Min\+GL}}
+\subsubsection{\texorpdfstring{set\+Window\+Position()}{setWindowPosition()}}
+{\footnotesize\ttfamily void Min\+G\+L\+::set\+Window\+Position (\begin{DoxyParamCaption}\item[{const \hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D} \&}]{window\+Position }\end{DoxyParamCaption})}
+
+
+
+Règle la position de la fenêtre. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em window\+Position} & \+: Nouvelle position \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_min_g_l_a532d320b7b837998533fe6577ab45bc3}\label{class_min_g_l_a532d320b7b837998533fe6577ab45bc3}} 
+\index{Min\+GL@{Min\+GL}!set\+Window\+Size@{set\+Window\+Size}}
+\index{set\+Window\+Size@{set\+Window\+Size}!Min\+GL@{Min\+GL}}
+\subsubsection{\texorpdfstring{set\+Window\+Size()}{setWindowSize()}}
+{\footnotesize\ttfamily void Min\+G\+L\+::set\+Window\+Size (\begin{DoxyParamCaption}\item[{const \hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D} \&}]{window\+Size }\end{DoxyParamCaption})}
+
+
+
+Règle la taille de la fenêtre. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em window\+Size} & \+: Nouvelle taille \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_min_g_l_a9508f3ac9d4cb4f444f56f5d77ed9d86}\label{class_min_g_l_a9508f3ac9d4cb4f444f56f5d77ed9d86}} 
+\index{Min\+GL@{Min\+GL}!stop\+Graphic@{stop\+Graphic}}
+\index{stop\+Graphic@{stop\+Graphic}!Min\+GL@{Min\+GL}}
+\subsubsection{\texorpdfstring{stop\+Graphic()}{stopGraphic()}}
+{\footnotesize\ttfamily void Min\+G\+L\+::stop\+Graphic (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Ferme la fenêtre et min\+GL proprement. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+libs/mingl/\hyperlink{mingl_8h}{mingl.\+h}\end{DoxyCompactItemize}

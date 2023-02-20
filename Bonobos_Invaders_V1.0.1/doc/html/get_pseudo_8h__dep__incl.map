@@ -1,0 +1,8 @@
+<map id="libs/game/scenes/getPseudo.h" name="libs/game/scenes/getPseudo.h">
+<area shape="rect" id="node2" href="$multi_8h.html" title="Gestion du mode de jeu multi. " alt="" coords="95,80,261,107"/>
+<area shape="rect" id="node7" href="$get_pseudo_8cpp.html" title="src/scenes/getPseudo.cpp" alt="" coords="285,80,463,107"/>
+<area shape="rect" id="node3" href="$winning_screen_8h.html" title="Scene de victoire/defaite. " alt="" coords="92,155,264,196"/>
+<area shape="rect" id="node4" href="$main_8cpp.html" title="src/main.cpp" alt="" coords="5,244,103,271"/>
+<area shape="rect" id="node6" href="$multi_8cpp.html" title="src/scenes/multi.cpp" alt="" coords="288,162,431,189"/>
+<area shape="rect" id="node5" href="$winning_screen_8cpp.html" title="src/scenes/winningScreen.cpp" alt="" coords="127,244,327,271"/>
+</map>

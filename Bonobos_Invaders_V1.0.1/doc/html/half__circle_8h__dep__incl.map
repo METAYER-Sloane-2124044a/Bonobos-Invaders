@@ -1,0 +1,6 @@
+<map id="libs/game/graphic/half_circle.h" name="libs/game/graphic/half_circle.h">
+<area shape="rect" id="node2" href="$banana_8cpp.html" title="Représente une banane. " alt="" coords="5,95,163,121"/>
+<area shape="rect" id="node3" href="$baobab_8cpp.html" title="Représente un baobab. " alt="" coords="187,95,344,121"/>
+<area shape="rect" id="node4" href="$half__circle_8cpp.html" title="Représente un demi&#45;cercle. " alt="" coords="369,95,543,121"/>
+<area shape="rect" id="node5" href="$shield_g_8cpp.html" title="Représente un bouclier en forme de feuille. " alt="" coords="567,95,726,121"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="src/graphic/play_button.cpp" name="src/graphic/play_button.cpp">
+<area shape="rect" id="node2" href="$play__button_8h.html" title="Représente un bouton de jeu. " alt="" coords="213,80,395,107"/>
+<area shape="rect" id="node15" href="$rectangle_8h.html" title="Représente un rectangle. " alt="" coords="28,80,188,107"/>
+<area shape="rect" id="node16" href="$text_8h.html" title="Du texte. " alt="" coords="419,80,530,107"/>
+<area shape="rect" id="node3" href="$shape_8h.html" title="Représente une forme. " alt="" coords="286,155,429,181"/>
+<area shape="rect" id="node13" href="$itransitionable_8h.html" title="Interface pour objet &quot;transitionable&quot;. " alt="" coords="5,155,211,181"/>
+<area shape="rect" id="node4" href="$idrawable_8h.html" title="Interface pour un objet affichable. " alt="" coords="166,229,319,256"/>
+<area shape="rect" id="node6" href="$rgbacolor_8h.html" title="Représente une couleur RGBA. " alt="" coords="343,229,494,256"/>
+<area shape="rect" id="node11" href="$vec2d_8h.html" title="Représente un vecteur sur deux dimensions. " alt="" coords="519,229,652,256"/>
+<area shape="rect" id="node8" href="$ieditable_8h.html" title="declaration de la classe CEditable dans nsUtil " alt="" coords="457,304,583,331"/>
+<area shape="rect" id="node10" href="$ieditable_8hpp.html" title="ieditable.hpp" alt="" coords="473,379,567,405"/>
+<area shape="rect" id="node17" href="$glut__font_8h.html" title="Classe utilitaire pour utiliser facilement les polices de Glut. " alt="" coords="555,155,637,181"/>
+</map>

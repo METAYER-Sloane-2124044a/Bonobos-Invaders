@@ -1,0 +1,11 @@
+digraph "libs/game/collision" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_10c992a5ad9d681edc7d46cf538bcb51 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="game" fontname="Helvetica", fontsize="10", URL="dir_10c992a5ad9d681edc7d46cf538bcb51.html"]
+  dir_43b41cf3b0884659abbfac1c2aebc9f5 [shape=box, label="collision", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_43b41cf3b0884659abbfac1c2aebc9f5.html"];
+  }
+  dir_18fcc25ff4e5fe0e8c5503018f848eb6 [shape=box label="entities" URL="dir_18fcc25ff4e5fe0e8c5503018f848eb6.html"];
+  dir_43b41cf3b0884659abbfac1c2aebc9f5->dir_18fcc25ff4e5fe0e8c5503018f848eb6 [headlabel="5", labeldistance=1.5 headhref="dir_000017_000018.html"];
+}

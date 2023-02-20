@@ -1,0 +1,483 @@
+\hypertarget{classns_gui_1_1_text}{}\section{ns\+Gui\+:\+:Text Class Reference}
+\label{classns_gui_1_1_text}\index{ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}}
+
+
+Gère l\textquotesingle{}affichage d\textquotesingle{}un texte.  
+
+
+
+
+{\ttfamily \#include $<$text.\+h$>$}
+
+
+
+Inheritance diagram for ns\+Gui\+:\+:Text\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classns_gui_1_1_text__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for ns\+Gui\+:\+:Text\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classns_gui_1_1_text__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{classns_gui_1_1_text_a5fa355035f5afc9c896fa8138c29ea09}{Transition\+Ids} \{ \hyperlink{classns_gui_1_1_text_a5fa355035f5afc9c896fa8138c29ea09a91cb0804f8ea9e7353a36a52d89fc492}{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+C\+O\+L\+O\+R\+\_\+\+R\+GB}, 
+\hyperlink{classns_gui_1_1_text_a5fa355035f5afc9c896fa8138c29ea09a508f66b682f94f547d3f56062aa1fb3f}{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+C\+O\+L\+O\+R\+\_\+\+A\+L\+P\+HA}, 
+\hyperlink{classns_gui_1_1_text_a5fa355035f5afc9c896fa8138c29ea09a83fc6bac538e3af4f423c8a4cd0585b8}{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+P\+O\+S\+I\+T\+I\+ON}
+ \}\begin{DoxyCompactList}\small\item\em Transition\+Ids \+: Liste de toutes les transitions que cet élément peut exécuter. \end{DoxyCompactList}
+\item 
+enum \hyperlink{classns_gui_1_1_text_a3b0b5071a55982d5612c457a832f80fa}{Vertical\+Alignment} \{ \hyperlink{classns_gui_1_1_text_a3b0b5071a55982d5612c457a832f80faa3cfba6c9f9e078a9fcd6c4133ecb4c30}{A\+L\+I\+G\+N\+V\+\_\+\+T\+OP}, 
+\hyperlink{classns_gui_1_1_text_a3b0b5071a55982d5612c457a832f80faa37d3b49647821b7b1808dcd159867a45}{A\+L\+I\+G\+N\+V\+\_\+\+C\+E\+N\+T\+ER}, 
+\hyperlink{classns_gui_1_1_text_a3b0b5071a55982d5612c457a832f80faace396f1024afc2c37173ea637856e25f}{A\+L\+I\+G\+N\+V\+\_\+\+B\+O\+T\+T\+OM}
+ \}\begin{DoxyCompactList}\small\item\em Vertical\+Alignment \+: Liste de tout les alignements verticaux supportés. \end{DoxyCompactList}
+\item 
+enum \hyperlink{classns_gui_1_1_text_a78bb37c174a4f37eec2b7d69459ee7dc}{Horizontal\+Alignment} \{ \hyperlink{classns_gui_1_1_text_a78bb37c174a4f37eec2b7d69459ee7dca7b5a51aac14cb50d1840e3f3de485ac2}{A\+L\+I\+G\+N\+H\+\_\+\+L\+E\+FT}, 
+\hyperlink{classns_gui_1_1_text_a78bb37c174a4f37eec2b7d69459ee7dca79703335d1d5367bd5ee2387413c17a9}{A\+L\+I\+G\+N\+H\+\_\+\+C\+E\+N\+T\+ER}, 
+\hyperlink{classns_gui_1_1_text_a78bb37c174a4f37eec2b7d69459ee7dca464315bc1bcc242334d76eb8b0d1e8f6}{A\+L\+I\+G\+N\+H\+\_\+\+R\+I\+G\+HT}
+ \}\begin{DoxyCompactList}\small\item\em Horizontal\+Alignment \+: Liste de tout les alignements horizontaux supportés. \end{DoxyCompactList}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classns_gui_1_1_text_a2d86c3b73f670c0ae206c4f35401a09f}{Text} (const \hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D} \&position, const std\+::string \&content, const \hyperlink{classns_graphics_1_1_r_g_b_acolor}{ns\+Graphics\+::\+R\+G\+B\+Acolor} \&text\+Color, const \hyperlink{classns_gui_1_1_glut_font_aeeeb02d69e7dfc7e57957bd658c465ce}{Glut\+Font\+::\+Glut\+Fonts} \&text\+Font=Glut\+Font\+::\+Glut\+Fonts\+::\+B\+I\+T\+M\+A\+P\+\_\+8\+\_\+\+B\+Y\+\_\+13, const \hyperlink{classns_gui_1_1_text_a78bb37c174a4f37eec2b7d69459ee7dc}{Horizontal\+Alignment} \&horizontal\+Alignment=\hyperlink{classns_gui_1_1_text_a78bb37c174a4f37eec2b7d69459ee7dca7b5a51aac14cb50d1840e3f3de485ac2}{A\+L\+I\+G\+N\+H\+\_\+\+L\+E\+FT}, const \hyperlink{classns_gui_1_1_text_a3b0b5071a55982d5612c457a832f80fa}{Vertical\+Alignment} \&vertical\+Alignment=\hyperlink{classns_gui_1_1_text_a3b0b5071a55982d5612c457a832f80faace396f1024afc2c37173ea637856e25f}{A\+L\+I\+G\+N\+V\+\_\+\+B\+O\+T\+T\+OM})
+\begin{DoxyCompactList}\small\item\em Constructeur pour la classe \hyperlink{classns_gui_1_1_text}{Text}. \end{DoxyCompactList}\item 
+virtual void \hyperlink{classns_gui_1_1_text_ac353893e3b7cce7585c619acbc0e255b}{draw} (\hyperlink{class_min_g_l}{Min\+GL} \&window) const override
+\begin{DoxyCompactList}\small\item\em Fonction pour afficher l\textquotesingle{}objet. \end{DoxyCompactList}\item 
+virtual void \hyperlink{classns_gui_1_1_text_a4e23cbbe0345c0742c228d3ab98967c5}{get\+Values} (const int \&id, std\+::vector$<$ float $>$ \&values) override
+\begin{DoxyCompactList}\small\item\em Récupère des valeurs dans un vecteur de float pour l\textquotesingle{}ID spécifié \end{DoxyCompactList}\item 
+virtual void \hyperlink{classns_gui_1_1_text_ac1145b3ef4722b7cc9ae111372b84576}{set\+Values} (const int \&id, const std\+::vector$<$ float $>$ \&values) override
+\begin{DoxyCompactList}\small\item\em Définit les nouvelles valeurs pour l\textquotesingle{}ID spécifié \end{DoxyCompactList}\item 
+int \hyperlink{classns_gui_1_1_text_a5ad119bf3e6c774c00711bb302f4bb1e}{compute\+Width} () const
+\begin{DoxyCompactList}\small\item\em Calcule la largeur de ce texte. \end{DoxyCompactList}\item 
+int \hyperlink{classns_gui_1_1_text_a40e2854b349731f1cdc0574e7297bc50}{compute\+Height} () const
+\begin{DoxyCompactList}\small\item\em Calcule la hauteur de ce texte. \end{DoxyCompactList}\item 
+\hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D} \hyperlink{classns_gui_1_1_text_aa05c15547863bb237374487fe9ccfd2e}{compute\+Visible\+Position} () const
+\begin{DoxyCompactList}\small\item\em Calcule la position visible du texte, calculée avec l\textquotesingle{}alignement vertical et horizontal. \end{DoxyCompactList}\item 
+\hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D} \hyperlink{classns_gui_1_1_text_af8a352a5cb3b4f849eda7badc11fbb31}{compute\+Visible\+End\+Position} () const
+\begin{DoxyCompactList}\small\item\em Calcule la position de fin visible du texte, calculée avec l\textquotesingle{}alignement vertical et horizontal. \end{DoxyCompactList}\item 
+const std\+::string \& \hyperlink{classns_gui_1_1_text_adea76711a628669e54020b282152e389}{get\+Content} () const
+\begin{DoxyCompactList}\small\item\em Récupère le contenu du texte. \end{DoxyCompactList}\item 
+void \hyperlink{classns_gui_1_1_text_a930caeda954e7517aa34bc5965c8709f}{set\+Content} (const std\+::string \&content)
+\begin{DoxyCompactList}\small\item\em Définit le nouveau contenu du texte. \end{DoxyCompactList}\item 
+const \hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D} \& \hyperlink{classns_gui_1_1_text_a1e06796a15191e7682eb4abd0ecc515e}{get\+Position} () const
+\begin{DoxyCompactList}\small\item\em Récupère la position du texte. \end{DoxyCompactList}\item 
+void \hyperlink{classns_gui_1_1_text_ae258c9cd1203c3e52b7728e0211e9daa}{set\+Position} (const \hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D} \&position)
+\begin{DoxyCompactList}\small\item\em Définit la nouvelle position du texte. \end{DoxyCompactList}\item 
+const \hyperlink{classns_graphics_1_1_r_g_b_acolor}{ns\+Graphics\+::\+R\+G\+B\+Acolor} \& \hyperlink{classns_gui_1_1_text_a248f06b3a9a85c05225449424311abd0}{get\+Text\+Color} () const
+\begin{DoxyCompactList}\small\item\em Récupère la couleur du texte. \end{DoxyCompactList}\item 
+void \hyperlink{classns_gui_1_1_text_a9e10bb21647ce95f034a4205562e222a}{set\+Text\+Color} (const \hyperlink{classns_graphics_1_1_r_g_b_acolor}{ns\+Graphics\+::\+R\+G\+B\+Acolor} \&text\+Color)
+\begin{DoxyCompactList}\small\item\em Définit la nouvelle couleur du texte. \end{DoxyCompactList}\item 
+const \hyperlink{classns_gui_1_1_glut_font}{Glut\+Font} \& \hyperlink{classns_gui_1_1_text_af578710341d0afb6c593550cbc94ca64}{get\+Text\+Font} () const
+\begin{DoxyCompactList}\small\item\em Récupère la police du texte. \end{DoxyCompactList}\item 
+void \hyperlink{classns_gui_1_1_text_afa19265ff44bdab288fa2a7100dd9c50}{set\+Text\+Font} (const \hyperlink{classns_gui_1_1_glut_font}{Glut\+Font} \&text\+Font)
+\begin{DoxyCompactList}\small\item\em Définit la nouvelle police du texte. \end{DoxyCompactList}\item 
+\hyperlink{classns_gui_1_1_text_a78bb37c174a4f37eec2b7d69459ee7dc}{Horizontal\+Alignment} \hyperlink{classns_gui_1_1_text_a2e3468bf7a3b43e5e87a68ed7876dcfe}{get\+Horizontal\+Alignment} () const
+\begin{DoxyCompactList}\small\item\em Récupère l\textquotesingle{}alignement horizontal du texte. \end{DoxyCompactList}\item 
+void \hyperlink{classns_gui_1_1_text_a952d6bb9e10c33aa446ff17fd73944a9}{set\+Horizontal\+Alignment} (const \hyperlink{classns_gui_1_1_text_a78bb37c174a4f37eec2b7d69459ee7dc}{Horizontal\+Alignment} \&horizontal\+Alignment)
+\begin{DoxyCompactList}\small\item\em Définit le nouvel alignement horizontal du texte. \end{DoxyCompactList}\item 
+\hyperlink{classns_gui_1_1_text_a3b0b5071a55982d5612c457a832f80fa}{Vertical\+Alignment} \hyperlink{classns_gui_1_1_text_a5118089a93160dde9fb85f2b4b32a5e1}{get\+Vertical\+Alignment} () const
+\begin{DoxyCompactList}\small\item\em Récupère l\textquotesingle{}alignement vertical du texte. \end{DoxyCompactList}\item 
+void \hyperlink{classns_gui_1_1_text_a5b0a3b1a3d31129f2d8aa32b58ea2f8a}{set\+Vertical\+Alignment} (const \hyperlink{classns_gui_1_1_text_a3b0b5071a55982d5612c457a832f80fa}{Vertical\+Alignment} \&vertical\+Alignment)
+\begin{DoxyCompactList}\small\item\em Définit le nouvel alignement vertical du texte. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Gère l\textquotesingle{}affichage d\textquotesingle{}un texte. 
+
+Definition at line 30 of file text.\+h.
+
+
+
+\subsection{Member Enumeration Documentation}
+\mbox{\Hypertarget{classns_gui_1_1_text_a78bb37c174a4f37eec2b7d69459ee7dc}\label{classns_gui_1_1_text_a78bb37c174a4f37eec2b7d69459ee7dc}} 
+\index{ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}!Horizontal\+Alignment@{Horizontal\+Alignment}}
+\index{Horizontal\+Alignment@{Horizontal\+Alignment}!ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}}
+\subsubsection{\texorpdfstring{Horizontal\+Alignment}{HorizontalAlignment}}
+{\footnotesize\ttfamily enum \hyperlink{classns_gui_1_1_text_a78bb37c174a4f37eec2b7d69459ee7dc}{ns\+Gui\+::\+Text\+::\+Horizontal\+Alignment}}
+
+
+
+Horizontal\+Alignment \+: Liste de tout les alignements horizontaux supportés. 
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{A\+L\+I\+G\+N\+H\+\_\+\+L\+E\+FT@{A\+L\+I\+G\+N\+H\+\_\+\+L\+E\+FT}!ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}}\index{ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}!A\+L\+I\+G\+N\+H\+\_\+\+L\+E\+FT@{A\+L\+I\+G\+N\+H\+\_\+\+L\+E\+FT}}}\mbox{\Hypertarget{classns_gui_1_1_text_a78bb37c174a4f37eec2b7d69459ee7dca7b5a51aac14cb50d1840e3f3de485ac2}\label{classns_gui_1_1_text_a78bb37c174a4f37eec2b7d69459ee7dca7b5a51aac14cb50d1840e3f3de485ac2}} 
+A\+L\+I\+G\+N\+H\+\_\+\+L\+E\+FT&Le texte sera aligné horizontalement a gauche \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{A\+L\+I\+G\+N\+H\+\_\+\+C\+E\+N\+T\+ER@{A\+L\+I\+G\+N\+H\+\_\+\+C\+E\+N\+T\+ER}!ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}}\index{ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}!A\+L\+I\+G\+N\+H\+\_\+\+C\+E\+N\+T\+ER@{A\+L\+I\+G\+N\+H\+\_\+\+C\+E\+N\+T\+ER}}}\mbox{\Hypertarget{classns_gui_1_1_text_a78bb37c174a4f37eec2b7d69459ee7dca79703335d1d5367bd5ee2387413c17a9}\label{classns_gui_1_1_text_a78bb37c174a4f37eec2b7d69459ee7dca79703335d1d5367bd5ee2387413c17a9}} 
+A\+L\+I\+G\+N\+H\+\_\+\+C\+E\+N\+T\+ER&Le texte sera aligné horizontalement au centre \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{A\+L\+I\+G\+N\+H\+\_\+\+R\+I\+G\+HT@{A\+L\+I\+G\+N\+H\+\_\+\+R\+I\+G\+HT}!ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}}\index{ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}!A\+L\+I\+G\+N\+H\+\_\+\+R\+I\+G\+HT@{A\+L\+I\+G\+N\+H\+\_\+\+R\+I\+G\+HT}}}\mbox{\Hypertarget{classns_gui_1_1_text_a78bb37c174a4f37eec2b7d69459ee7dca464315bc1bcc242334d76eb8b0d1e8f6}\label{classns_gui_1_1_text_a78bb37c174a4f37eec2b7d69459ee7dca464315bc1bcc242334d76eb8b0d1e8f6}} 
+A\+L\+I\+G\+N\+H\+\_\+\+R\+I\+G\+HT&Le texte sera aligné horizontalement a droite \\
+\hline
+
+\end{DoxyEnumFields}
+
+
+Definition at line 54 of file text.\+h.
+
+\mbox{\Hypertarget{classns_gui_1_1_text_a5fa355035f5afc9c896fa8138c29ea09}\label{classns_gui_1_1_text_a5fa355035f5afc9c896fa8138c29ea09}} 
+\index{ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}!Transition\+Ids@{Transition\+Ids}}
+\index{Transition\+Ids@{Transition\+Ids}!ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}}
+\subsubsection{\texorpdfstring{Transition\+Ids}{TransitionIds}}
+{\footnotesize\ttfamily enum \hyperlink{classns_gui_1_1_text_a5fa355035f5afc9c896fa8138c29ea09}{ns\+Gui\+::\+Text\+::\+Transition\+Ids}}
+
+
+
+Transition\+Ids \+: Liste de toutes les transitions que cet élément peut exécuter. 
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+C\+O\+L\+O\+R\+\_\+\+R\+GB@{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+C\+O\+L\+O\+R\+\_\+\+R\+GB}!ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}}\index{ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}!T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+C\+O\+L\+O\+R\+\_\+\+R\+GB@{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+C\+O\+L\+O\+R\+\_\+\+R\+GB}}}\mbox{\Hypertarget{classns_gui_1_1_text_a5fa355035f5afc9c896fa8138c29ea09a91cb0804f8ea9e7353a36a52d89fc492}\label{classns_gui_1_1_text_a5fa355035f5afc9c896fa8138c29ea09a91cb0804f8ea9e7353a36a52d89fc492}} 
+T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+C\+O\+L\+O\+R\+\_\+\+R\+GB&Transition pour la couleur R\+GB \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+C\+O\+L\+O\+R\+\_\+\+A\+L\+P\+HA@{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+C\+O\+L\+O\+R\+\_\+\+A\+L\+P\+HA}!ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}}\index{ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}!T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+C\+O\+L\+O\+R\+\_\+\+A\+L\+P\+HA@{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+C\+O\+L\+O\+R\+\_\+\+A\+L\+P\+HA}}}\mbox{\Hypertarget{classns_gui_1_1_text_a5fa355035f5afc9c896fa8138c29ea09a508f66b682f94f547d3f56062aa1fb3f}\label{classns_gui_1_1_text_a5fa355035f5afc9c896fa8138c29ea09a508f66b682f94f547d3f56062aa1fb3f}} 
+T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+C\+O\+L\+O\+R\+\_\+\+A\+L\+P\+HA&Transition pour la transparence \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+P\+O\+S\+I\+T\+I\+ON@{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+P\+O\+S\+I\+T\+I\+ON}!ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}}\index{ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}!T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+P\+O\+S\+I\+T\+I\+ON@{T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+P\+O\+S\+I\+T\+I\+ON}}}\mbox{\Hypertarget{classns_gui_1_1_text_a5fa355035f5afc9c896fa8138c29ea09a83fc6bac538e3af4f423c8a4cd0585b8}\label{classns_gui_1_1_text_a5fa355035f5afc9c896fa8138c29ea09a83fc6bac538e3af4f423c8a4cd0585b8}} 
+T\+R\+A\+N\+S\+I\+T\+I\+O\+N\+\_\+\+P\+O\+S\+I\+T\+I\+ON&Transition pour la position \\
+\hline
+
+\end{DoxyEnumFields}
+
+
+Definition at line 36 of file text.\+h.
+
+\mbox{\Hypertarget{classns_gui_1_1_text_a3b0b5071a55982d5612c457a832f80fa}\label{classns_gui_1_1_text_a3b0b5071a55982d5612c457a832f80fa}} 
+\index{ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}!Vertical\+Alignment@{Vertical\+Alignment}}
+\index{Vertical\+Alignment@{Vertical\+Alignment}!ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}}
+\subsubsection{\texorpdfstring{Vertical\+Alignment}{VerticalAlignment}}
+{\footnotesize\ttfamily enum \hyperlink{classns_gui_1_1_text_a3b0b5071a55982d5612c457a832f80fa}{ns\+Gui\+::\+Text\+::\+Vertical\+Alignment}}
+
+
+
+Vertical\+Alignment \+: Liste de tout les alignements verticaux supportés. 
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{A\+L\+I\+G\+N\+V\+\_\+\+T\+OP@{A\+L\+I\+G\+N\+V\+\_\+\+T\+OP}!ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}}\index{ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}!A\+L\+I\+G\+N\+V\+\_\+\+T\+OP@{A\+L\+I\+G\+N\+V\+\_\+\+T\+OP}}}\mbox{\Hypertarget{classns_gui_1_1_text_a3b0b5071a55982d5612c457a832f80faa3cfba6c9f9e078a9fcd6c4133ecb4c30}\label{classns_gui_1_1_text_a3b0b5071a55982d5612c457a832f80faa3cfba6c9f9e078a9fcd6c4133ecb4c30}} 
+A\+L\+I\+G\+N\+V\+\_\+\+T\+OP&Le texte sera aligné verticallement en haut \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{A\+L\+I\+G\+N\+V\+\_\+\+C\+E\+N\+T\+ER@{A\+L\+I\+G\+N\+V\+\_\+\+C\+E\+N\+T\+ER}!ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}}\index{ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}!A\+L\+I\+G\+N\+V\+\_\+\+C\+E\+N\+T\+ER@{A\+L\+I\+G\+N\+V\+\_\+\+C\+E\+N\+T\+ER}}}\mbox{\Hypertarget{classns_gui_1_1_text_a3b0b5071a55982d5612c457a832f80faa37d3b49647821b7b1808dcd159867a45}\label{classns_gui_1_1_text_a3b0b5071a55982d5612c457a832f80faa37d3b49647821b7b1808dcd159867a45}} 
+A\+L\+I\+G\+N\+V\+\_\+\+C\+E\+N\+T\+ER&Le texte sera aligné verticallement au centre \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{A\+L\+I\+G\+N\+V\+\_\+\+B\+O\+T\+T\+OM@{A\+L\+I\+G\+N\+V\+\_\+\+B\+O\+T\+T\+OM}!ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}}\index{ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}!A\+L\+I\+G\+N\+V\+\_\+\+B\+O\+T\+T\+OM@{A\+L\+I\+G\+N\+V\+\_\+\+B\+O\+T\+T\+OM}}}\mbox{\Hypertarget{classns_gui_1_1_text_a3b0b5071a55982d5612c457a832f80faace396f1024afc2c37173ea637856e25f}\label{classns_gui_1_1_text_a3b0b5071a55982d5612c457a832f80faace396f1024afc2c37173ea637856e25f}} 
+A\+L\+I\+G\+N\+V\+\_\+\+B\+O\+T\+T\+OM&Le texte sera aligné verticallement en bas \\
+\hline
+
+\end{DoxyEnumFields}
+
+
+Definition at line 45 of file text.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classns_gui_1_1_text_a2d86c3b73f670c0ae206c4f35401a09f}\label{classns_gui_1_1_text_a2d86c3b73f670c0ae206c4f35401a09f}} 
+\index{ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}!Text@{Text}}
+\index{Text@{Text}!ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}}
+\subsubsection{\texorpdfstring{Text()}{Text()}}
+{\footnotesize\ttfamily ns\+Gui\+::\+Text\+::\+Text (\begin{DoxyParamCaption}\item[{const \hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D} \&}]{position,  }\item[{const std\+::string \&}]{content,  }\item[{const \hyperlink{classns_graphics_1_1_r_g_b_acolor}{ns\+Graphics\+::\+R\+G\+B\+Acolor} \&}]{text\+Color,  }\item[{const \hyperlink{classns_gui_1_1_glut_font_aeeeb02d69e7dfc7e57957bd658c465ce}{Glut\+Font\+::\+Glut\+Fonts} \&}]{text\+Font = {\ttfamily GlutFont\+:\+:GlutFonts\+:\+:BITMAP\+\_\+8\+\_\+BY\+\_\+13},  }\item[{const \hyperlink{classns_gui_1_1_text_a78bb37c174a4f37eec2b7d69459ee7dc}{Horizontal\+Alignment} \&}]{horizontal\+Alignment = {\ttfamily \hyperlink{classns_gui_1_1_text_a78bb37c174a4f37eec2b7d69459ee7dca7b5a51aac14cb50d1840e3f3de485ac2}{A\+L\+I\+G\+N\+H\+\_\+\+L\+E\+FT}},  }\item[{const \hyperlink{classns_gui_1_1_text_a3b0b5071a55982d5612c457a832f80fa}{Vertical\+Alignment} \&}]{vertical\+Alignment = {\ttfamily \hyperlink{classns_gui_1_1_text_a3b0b5071a55982d5612c457a832f80faace396f1024afc2c37173ea637856e25f}{A\+L\+I\+G\+N\+V\+\_\+\+B\+O\+T\+T\+OM}} }\end{DoxyParamCaption})}
+
+
+
+Constructeur pour la classe \hyperlink{classns_gui_1_1_text}{Text}. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em position} & \+: Position du texte \\
+\hline
+\mbox{\tt in}  & {\em content} & \+: Contenu du texte \\
+\hline
+\mbox{\tt in}  & {\em text\+Color} & \+: Couleur du texte \\
+\hline
+\mbox{\tt in}  & {\em text\+Font} & \+: Police du texte (8x13 Bitmap par défaut) \\
+\hline
+\mbox{\tt in}  & {\em horizontal\+Alignment} & \+: Alignement horizontal du texte (Alignement a gauche par défaut) \\
+\hline
+\mbox{\tt in}  & {\em vertical\+Alignment} & \+: Alignement vertical du texte (Alignement en bas par défaut) \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classns_gui_1_1_text_a40e2854b349731f1cdc0574e7297bc50}\label{classns_gui_1_1_text_a40e2854b349731f1cdc0574e7297bc50}} 
+\index{ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}!compute\+Height@{compute\+Height}}
+\index{compute\+Height@{compute\+Height}!ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}}
+\subsubsection{\texorpdfstring{compute\+Height()}{computeHeight()}}
+{\footnotesize\ttfamily int ns\+Gui\+::\+Text\+::compute\+Height (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Calcule la hauteur de ce texte. 
+
+\begin{DoxyReturn}{Returns}
+La hauteur du texte 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classns_gui_1_1_text_af8a352a5cb3b4f849eda7badc11fbb31}\label{classns_gui_1_1_text_af8a352a5cb3b4f849eda7badc11fbb31}} 
+\index{ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}!compute\+Visible\+End\+Position@{compute\+Visible\+End\+Position}}
+\index{compute\+Visible\+End\+Position@{compute\+Visible\+End\+Position}!ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}}
+\subsubsection{\texorpdfstring{compute\+Visible\+End\+Position()}{computeVisibleEndPosition()}}
+{\footnotesize\ttfamily \hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D} ns\+Gui\+::\+Text\+::compute\+Visible\+End\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Calcule la position de fin visible du texte, calculée avec l\textquotesingle{}alignement vertical et horizontal. 
+
+\begin{DoxyReturn}{Returns}
+La position visible, en bas a droite 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classns_gui_1_1_text_aa05c15547863bb237374487fe9ccfd2e}\label{classns_gui_1_1_text_aa05c15547863bb237374487fe9ccfd2e}} 
+\index{ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}!compute\+Visible\+Position@{compute\+Visible\+Position}}
+\index{compute\+Visible\+Position@{compute\+Visible\+Position}!ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}}
+\subsubsection{\texorpdfstring{compute\+Visible\+Position()}{computeVisiblePosition()}}
+{\footnotesize\ttfamily \hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D} ns\+Gui\+::\+Text\+::compute\+Visible\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Calcule la position visible du texte, calculée avec l\textquotesingle{}alignement vertical et horizontal. 
+
+\begin{DoxyReturn}{Returns}
+La position visible, en haut a gauche 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classns_gui_1_1_text_a5ad119bf3e6c774c00711bb302f4bb1e}\label{classns_gui_1_1_text_a5ad119bf3e6c774c00711bb302f4bb1e}} 
+\index{ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}!compute\+Width@{compute\+Width}}
+\index{compute\+Width@{compute\+Width}!ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}}
+\subsubsection{\texorpdfstring{compute\+Width()}{computeWidth()}}
+{\footnotesize\ttfamily int ns\+Gui\+::\+Text\+::compute\+Width (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Calcule la largeur de ce texte. 
+
+\begin{DoxyReturn}{Returns}
+La largeur du texte 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classns_gui_1_1_text_ac353893e3b7cce7585c619acbc0e255b}\label{classns_gui_1_1_text_ac353893e3b7cce7585c619acbc0e255b}} 
+\index{ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}!draw@{draw}}
+\index{draw@{draw}!ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}}
+\subsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily virtual void ns\+Gui\+::\+Text\+::draw (\begin{DoxyParamCaption}\item[{\hyperlink{class_min_g_l}{Min\+GL} \&}]{window }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Fonction pour afficher l\textquotesingle{}objet. 
+
+
+
+Implements \hyperlink{classns_graphics_1_1_i_drawable_abed8a61e1d507d31e76f0891f3bf9c51}{ns\+Graphics\+::\+I\+Drawable}.
+
+\mbox{\Hypertarget{classns_gui_1_1_text_adea76711a628669e54020b282152e389}\label{classns_gui_1_1_text_adea76711a628669e54020b282152e389}} 
+\index{ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}!get\+Content@{get\+Content}}
+\index{get\+Content@{get\+Content}!ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}}
+\subsubsection{\texorpdfstring{get\+Content()}{getContent()}}
+{\footnotesize\ttfamily const std\+::string \& ns\+Gui\+::\+Text\+::get\+Content (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Récupère le contenu du texte. 
+
+\begin{DoxyReturn}{Returns}
+Une référence constante vers m\+\_\+content 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classns_gui_1_1_text_a2e3468bf7a3b43e5e87a68ed7876dcfe}\label{classns_gui_1_1_text_a2e3468bf7a3b43e5e87a68ed7876dcfe}} 
+\index{ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}!get\+Horizontal\+Alignment@{get\+Horizontal\+Alignment}}
+\index{get\+Horizontal\+Alignment@{get\+Horizontal\+Alignment}!ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}}
+\subsubsection{\texorpdfstring{get\+Horizontal\+Alignment()}{getHorizontalAlignment()}}
+{\footnotesize\ttfamily \hyperlink{classns_gui_1_1_text_a78bb37c174a4f37eec2b7d69459ee7dc}{Horizontal\+Alignment} ns\+Gui\+::\+Text\+::get\+Horizontal\+Alignment (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Récupère l\textquotesingle{}alignement horizontal du texte. 
+
+\mbox{\Hypertarget{classns_gui_1_1_text_a1e06796a15191e7682eb4abd0ecc515e}\label{classns_gui_1_1_text_a1e06796a15191e7682eb4abd0ecc515e}} 
+\index{ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}!get\+Position@{get\+Position}}
+\index{get\+Position@{get\+Position}!ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}}
+\subsubsection{\texorpdfstring{get\+Position()}{getPosition()}}
+{\footnotesize\ttfamily const \hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D} \& ns\+Gui\+::\+Text\+::get\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Récupère la position du texte. 
+
+\mbox{\Hypertarget{classns_gui_1_1_text_a248f06b3a9a85c05225449424311abd0}\label{classns_gui_1_1_text_a248f06b3a9a85c05225449424311abd0}} 
+\index{ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}!get\+Text\+Color@{get\+Text\+Color}}
+\index{get\+Text\+Color@{get\+Text\+Color}!ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}}
+\subsubsection{\texorpdfstring{get\+Text\+Color()}{getTextColor()}}
+{\footnotesize\ttfamily const \hyperlink{classns_graphics_1_1_r_g_b_acolor}{ns\+Graphics\+::\+R\+G\+B\+Acolor} \& ns\+Gui\+::\+Text\+::get\+Text\+Color (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Récupère la couleur du texte. 
+
+\mbox{\Hypertarget{classns_gui_1_1_text_af578710341d0afb6c593550cbc94ca64}\label{classns_gui_1_1_text_af578710341d0afb6c593550cbc94ca64}} 
+\index{ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}!get\+Text\+Font@{get\+Text\+Font}}
+\index{get\+Text\+Font@{get\+Text\+Font}!ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}}
+\subsubsection{\texorpdfstring{get\+Text\+Font()}{getTextFont()}}
+{\footnotesize\ttfamily const \hyperlink{classns_gui_1_1_glut_font}{Glut\+Font} \& ns\+Gui\+::\+Text\+::get\+Text\+Font (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Récupère la police du texte. 
+
+\mbox{\Hypertarget{classns_gui_1_1_text_a4e23cbbe0345c0742c228d3ab98967c5}\label{classns_gui_1_1_text_a4e23cbbe0345c0742c228d3ab98967c5}} 
+\index{ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}!get\+Values@{get\+Values}}
+\index{get\+Values@{get\+Values}!ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}}
+\subsubsection{\texorpdfstring{get\+Values()}{getValues()}}
+{\footnotesize\ttfamily virtual void ns\+Gui\+::\+Text\+::get\+Values (\begin{DoxyParamCaption}\item[{const int \&}]{id,  }\item[{std\+::vector$<$ float $>$ \&}]{values }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Récupère des valeurs dans un vecteur de float pour l\textquotesingle{}ID spécifié 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em id} & ID des valeurs a récupérer \\
+\hline
+\mbox{\tt in,out}  & {\em values} & Vecteur de valeurs a peupler \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{classns_transition_1_1_i_transitionable_a5871a16fd47c1e5c8bacdd5da8597ed9}{ns\+Transition\+::\+I\+Transitionable}.
+
+\mbox{\Hypertarget{classns_gui_1_1_text_a5118089a93160dde9fb85f2b4b32a5e1}\label{classns_gui_1_1_text_a5118089a93160dde9fb85f2b4b32a5e1}} 
+\index{ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}!get\+Vertical\+Alignment@{get\+Vertical\+Alignment}}
+\index{get\+Vertical\+Alignment@{get\+Vertical\+Alignment}!ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}}
+\subsubsection{\texorpdfstring{get\+Vertical\+Alignment()}{getVerticalAlignment()}}
+{\footnotesize\ttfamily \hyperlink{classns_gui_1_1_text_a3b0b5071a55982d5612c457a832f80fa}{Vertical\+Alignment} ns\+Gui\+::\+Text\+::get\+Vertical\+Alignment (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Récupère l\textquotesingle{}alignement vertical du texte. 
+
+\mbox{\Hypertarget{classns_gui_1_1_text_a930caeda954e7517aa34bc5965c8709f}\label{classns_gui_1_1_text_a930caeda954e7517aa34bc5965c8709f}} 
+\index{ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}!set\+Content@{set\+Content}}
+\index{set\+Content@{set\+Content}!ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}}
+\subsubsection{\texorpdfstring{set\+Content()}{setContent()}}
+{\footnotesize\ttfamily void ns\+Gui\+::\+Text\+::set\+Content (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{content }\end{DoxyParamCaption})}
+
+
+
+Définit le nouveau contenu du texte. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em content} & \+: Nouveau contenu \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classns_gui_1_1_text_a952d6bb9e10c33aa446ff17fd73944a9}\label{classns_gui_1_1_text_a952d6bb9e10c33aa446ff17fd73944a9}} 
+\index{ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}!set\+Horizontal\+Alignment@{set\+Horizontal\+Alignment}}
+\index{set\+Horizontal\+Alignment@{set\+Horizontal\+Alignment}!ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}}
+\subsubsection{\texorpdfstring{set\+Horizontal\+Alignment()}{setHorizontalAlignment()}}
+{\footnotesize\ttfamily void ns\+Gui\+::\+Text\+::set\+Horizontal\+Alignment (\begin{DoxyParamCaption}\item[{const \hyperlink{classns_gui_1_1_text_a78bb37c174a4f37eec2b7d69459ee7dc}{Horizontal\+Alignment} \&}]{horizontal\+Alignment }\end{DoxyParamCaption})}
+
+
+
+Définit le nouvel alignement horizontal du texte. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em horizontal\+Alignment} & \+: Nouvel alignement horizontal \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classns_gui_1_1_text_ae258c9cd1203c3e52b7728e0211e9daa}\label{classns_gui_1_1_text_ae258c9cd1203c3e52b7728e0211e9daa}} 
+\index{ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}!set\+Position@{set\+Position}}
+\index{set\+Position@{set\+Position}!ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}}
+\subsubsection{\texorpdfstring{set\+Position()}{setPosition()}}
+{\footnotesize\ttfamily void ns\+Gui\+::\+Text\+::set\+Position (\begin{DoxyParamCaption}\item[{const \hyperlink{classns_graphics_1_1_vec2_d}{ns\+Graphics\+::\+Vec2D} \&}]{position }\end{DoxyParamCaption})}
+
+
+
+Définit la nouvelle position du texte. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em position} & \+: Nouvelle position \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classns_gui_1_1_text_a9e10bb21647ce95f034a4205562e222a}\label{classns_gui_1_1_text_a9e10bb21647ce95f034a4205562e222a}} 
+\index{ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}!set\+Text\+Color@{set\+Text\+Color}}
+\index{set\+Text\+Color@{set\+Text\+Color}!ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}}
+\subsubsection{\texorpdfstring{set\+Text\+Color()}{setTextColor()}}
+{\footnotesize\ttfamily void ns\+Gui\+::\+Text\+::set\+Text\+Color (\begin{DoxyParamCaption}\item[{const \hyperlink{classns_graphics_1_1_r_g_b_acolor}{ns\+Graphics\+::\+R\+G\+B\+Acolor} \&}]{text\+Color }\end{DoxyParamCaption})}
+
+
+
+Définit la nouvelle couleur du texte. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em text\+Color} & \+: Nouvelle couleur \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classns_gui_1_1_text_afa19265ff44bdab288fa2a7100dd9c50}\label{classns_gui_1_1_text_afa19265ff44bdab288fa2a7100dd9c50}} 
+\index{ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}!set\+Text\+Font@{set\+Text\+Font}}
+\index{set\+Text\+Font@{set\+Text\+Font}!ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}}
+\subsubsection{\texorpdfstring{set\+Text\+Font()}{setTextFont()}}
+{\footnotesize\ttfamily void ns\+Gui\+::\+Text\+::set\+Text\+Font (\begin{DoxyParamCaption}\item[{const \hyperlink{classns_gui_1_1_glut_font}{Glut\+Font} \&}]{text\+Font }\end{DoxyParamCaption})}
+
+
+
+Définit la nouvelle police du texte. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em text\+Font} & \+: Nouvelle police \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classns_gui_1_1_text_ac1145b3ef4722b7cc9ae111372b84576}\label{classns_gui_1_1_text_ac1145b3ef4722b7cc9ae111372b84576}} 
+\index{ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}!set\+Values@{set\+Values}}
+\index{set\+Values@{set\+Values}!ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}}
+\subsubsection{\texorpdfstring{set\+Values()}{setValues()}}
+{\footnotesize\ttfamily virtual void ns\+Gui\+::\+Text\+::set\+Values (\begin{DoxyParamCaption}\item[{const int \&}]{id,  }\item[{const std\+::vector$<$ float $>$ \&}]{values }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Définit les nouvelles valeurs pour l\textquotesingle{}ID spécifié 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em id} & ID des valeurs a définir \\
+\hline
+\mbox{\tt in}  & {\em values} & Vecteur des nouvelles valeurs a appliquer \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{classns_transition_1_1_i_transitionable_ade37d29f7f2ca4890ed0e2e64d033197}{ns\+Transition\+::\+I\+Transitionable}.
+
+\mbox{\Hypertarget{classns_gui_1_1_text_a5b0a3b1a3d31129f2d8aa32b58ea2f8a}\label{classns_gui_1_1_text_a5b0a3b1a3d31129f2d8aa32b58ea2f8a}} 
+\index{ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}!set\+Vertical\+Alignment@{set\+Vertical\+Alignment}}
+\index{set\+Vertical\+Alignment@{set\+Vertical\+Alignment}!ns\+Gui\+::\+Text@{ns\+Gui\+::\+Text}}
+\subsubsection{\texorpdfstring{set\+Vertical\+Alignment()}{setVerticalAlignment()}}
+{\footnotesize\ttfamily void ns\+Gui\+::\+Text\+::set\+Vertical\+Alignment (\begin{DoxyParamCaption}\item[{const \hyperlink{classns_gui_1_1_text_a3b0b5071a55982d5612c457a832f80fa}{Vertical\+Alignment} \&}]{vertical\+Alignment }\end{DoxyParamCaption})}
+
+
+
+Définit le nouvel alignement vertical du texte. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em vertical\+Alignment} & \+: Nouvel alignement vertical \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+libs/mingl/gui/\hyperlink{text_8h}{text.\+h}\end{DoxyCompactItemize}

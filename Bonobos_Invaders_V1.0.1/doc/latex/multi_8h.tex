@@ -1,0 +1,65 @@
+\hypertarget{multi_8h}{}\section{libs/game/scenes/multi.h File Reference}
+\label{multi_8h}\index{libs/game/scenes/multi.\+h@{libs/game/scenes/multi.\+h}}
+
+
+Gestion du mode de jeu multi.  
+
+
+{\ttfamily \#include \char`\"{}game/scenes/get\+Pseudo.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}game/entities/start\+Game.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}game/score/score.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}game/collision/collision.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}game/wave\+Manager/wave\+Manager.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}game/entities/shield.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}mingl/gui/sprite.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}game/scenes/high\+Score.\+h\char`\"{}}\newline
+Include dependency graph for multi.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{multi_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{multi_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \hyperlink{namespacemulti}{multi}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{namespacemulti_a916253e013641aaa278947378b6c816a}{multi\+::init\+Config} (std\+::map$<$ std\+::string, std\+::string $>$ \&\hyperlink{main_8cpp_ada2160bcc2082e595d02f0eb5a318dd5}{config\+Map})
+\begin{DoxyCompactList}\small\item\em Initialisation du dictionaire de config avec celui créé à partir du ficher config. \end{DoxyCompactList}\item 
+void \hyperlink{namespacemulti_a7d4e2144fca3a548868c821d3d5a17cc}{multi\+::init} (\hyperlink{class_min_g_l}{Min\+GL} \&window)
+\begin{DoxyCompactList}\small\item\em Initialisation de la fenêtre multi et génération des entitées. \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::string $>$ \hyperlink{namespacemulti_a673529b0ff995893d952dd68c10b5764}{multi\+::get\+Score} ()
+\begin{DoxyCompactList}\small\item\em Permet de récupérer le score et le nom des joueurs. \end{DoxyCompactList}\item 
+void \hyperlink{namespacemulti_aaddb7d8c21297c2b3d2c796964b6f561}{multi\+::clear\+All} (\hyperlink{class_min_g_l}{Min\+GL} \&window)
+\begin{DoxyCompactList}\small\item\em Enleève toutes le entitiées présente dans le jeu et remet les joueurs en place. \end{DoxyCompactList}\item 
+unsigned \hyperlink{namespacemulti_a528a68b538d7acc3bb08661522585e4a}{multi\+::update} (\hyperlink{class_min_g_l}{Min\+GL} \&window)
+\begin{DoxyCompactList}\small\item\em Permet de traiter les entrées claviers des joueurs, les collisions et les vagues. \end{DoxyCompactList}\item 
+void \hyperlink{namespacemulti_a2ece1e3aedf924d21b2ef9f2f2f9140c}{multi\+::render} (\hyperlink{class_min_g_l}{Min\+GL} \&window, \hyperlink{classns_gui_1_1_sprite}{ns\+Gui\+::\+Sprite} \&background)
+\begin{DoxyCompactList}\small\item\em Permet d\textquotesingle{}injecter le flux de la scene dans la fenêtre de jeu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Gestion du mode de jeu multi. 
+
+\begin{DoxyAuthor}{Author}
+Alexis M\+A\+R\+I\+O\+T\+TI $\vert$ Marius P\+I\+S\+T\+O\+R\+E\+SI 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+Janvier 2021 
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}

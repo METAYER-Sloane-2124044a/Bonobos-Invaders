@@ -1,0 +1,99 @@
+\hypertarget{classns_graphics_1_1_i_drawable}{}\section{ns\+Graphics\+:\+:I\+Drawable Class Reference}
+\label{classns_graphics_1_1_i_drawable}\index{ns\+Graphics\+::\+I\+Drawable@{ns\+Graphics\+::\+I\+Drawable}}
+
+
+Interface pour un objet affichable.  
+
+
+
+
+{\ttfamily \#include $<$idrawable.\+h$>$}
+
+
+
+Inheritance diagram for ns\+Graphics\+:\+:I\+Drawable\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classns_graphics_1_1_i_drawable__inherit__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual \hyperlink{classns_graphics_1_1_i_drawable_ab7a2ae7682163969bd4627e402ef0867}{$\sim$\+I\+Drawable} ()=default
+\begin{DoxyCompactList}\small\item\em Destructeur pour la classe \hyperlink{classns_graphics_1_1_i_drawable}{I\+Drawable}. \end{DoxyCompactList}\item 
+virtual void \hyperlink{classns_graphics_1_1_i_drawable_abed8a61e1d507d31e76f0891f3bf9c51}{draw} (\hyperlink{class_min_g_l}{Min\+GL} \&window) const =0
+\begin{DoxyCompactList}\small\item\em Fonction pour afficher l\textquotesingle{}objet. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_min_g_l}{Min\+GL} \& \hyperlink{classns_graphics_1_1_i_drawable_a9bb3952d4e675a663f2dbbda11e79395}{operator$<$$<$} (\hyperlink{class_min_g_l}{Min\+GL} \&window, const \hyperlink{classns_graphics_1_1_i_drawable}{I\+Drawable} \&drawable)
+\begin{DoxyCompactList}\small\item\em Surcharge de l\textquotesingle{}opérateur d\textquotesingle{}injection. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Interface pour un objet affichable. 
+
+Definition at line 29 of file idrawable.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classns_graphics_1_1_i_drawable_ab7a2ae7682163969bd4627e402ef0867}\label{classns_graphics_1_1_i_drawable_ab7a2ae7682163969bd4627e402ef0867}} 
+\index{ns\+Graphics\+::\+I\+Drawable@{ns\+Graphics\+::\+I\+Drawable}!````~I\+Drawable@{$\sim$\+I\+Drawable}}
+\index{````~I\+Drawable@{$\sim$\+I\+Drawable}!ns\+Graphics\+::\+I\+Drawable@{ns\+Graphics\+::\+I\+Drawable}}
+\subsubsection{\texorpdfstring{$\sim$\+I\+Drawable()}{~IDrawable()}}
+{\footnotesize\ttfamily ns\+Graphics\+::\+I\+Drawable\+::$\sim$\+I\+Drawable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}, {\ttfamily [default]}}
+
+
+
+Destructeur pour la classe \hyperlink{classns_graphics_1_1_i_drawable}{I\+Drawable}. 
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classns_graphics_1_1_i_drawable_abed8a61e1d507d31e76f0891f3bf9c51}\label{classns_graphics_1_1_i_drawable_abed8a61e1d507d31e76f0891f3bf9c51}} 
+\index{ns\+Graphics\+::\+I\+Drawable@{ns\+Graphics\+::\+I\+Drawable}!draw@{draw}}
+\index{draw@{draw}!ns\+Graphics\+::\+I\+Drawable@{ns\+Graphics\+::\+I\+Drawable}}
+\subsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void ns\+Graphics\+::\+I\+Drawable\+::draw (\begin{DoxyParamCaption}\item[{\hyperlink{class_min_g_l}{Min\+GL} \&}]{window }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Fonction pour afficher l\textquotesingle{}objet. 
+
+
+
+Implemented in \hyperlink{classns_gui_1_1_text_ac353893e3b7cce7585c619acbc0e255b}{ns\+Gui\+::\+Text}, \hyperlink{classns_shape_1_1_rectangle_acbe8ed9e23b67090e7638563f2593735}{ns\+Shape\+::\+Rectangle}, \hyperlink{classns_shape_1_1_arc___circle_a1e789ca962aeefd7dfd861eb0f75a6d7}{ns\+Shape\+::\+Arc\+\_\+\+Circle}, \hyperlink{classns_shape_1_1_triangle_a4b3867fb0e15995b2a6c261d9b0d968d}{ns\+Shape\+::\+Triangle}, \hyperlink{classns_shape_1_1_line_ae14d0de306fa91ee38bafd1d27682beb}{ns\+Shape\+::\+Line}, \hyperlink{classhalf__circle_1_1_half___circle_a46b2ea1d78fcacdf2b79707c6431774b}{half\+\_\+circle\+::\+Half\+\_\+\+Circle}, \hyperlink{classns_shape_1_1_circle_a279581f6104719395091039cea1707e5}{ns\+Shape\+::\+Circle}, and \hyperlink{classns_gui_1_1_sprite_a15157c69a1d792080d2b41519659418c}{ns\+Gui\+::\+Sprite}.
+
+
+
+\subsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{classns_graphics_1_1_i_drawable_a9bb3952d4e675a663f2dbbda11e79395}\label{classns_graphics_1_1_i_drawable_a9bb3952d4e675a663f2dbbda11e79395}} 
+\index{ns\+Graphics\+::\+I\+Drawable@{ns\+Graphics\+::\+I\+Drawable}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!ns\+Graphics\+::\+I\+Drawable@{ns\+Graphics\+::\+I\+Drawable}}
+\subsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily \hyperlink{class_min_g_l}{Min\+GL} \& operator$<$$<$ (\begin{DoxyParamCaption}\item[{\hyperlink{class_min_g_l}{Min\+GL} \&}]{window,  }\item[{const \hyperlink{classns_graphics_1_1_i_drawable}{I\+Drawable} \&}]{drawable }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Surcharge de l\textquotesingle{}opérateur d\textquotesingle{}injection. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em window} & \+: Fenêtre dans laquelle injecter l\textquotesingle{}élément \\
+\hline
+\mbox{\tt in}  & {\em drawable} & \+: Elément a injecter \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 51 of file idrawable.\+h.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+libs/mingl/graphics/\hyperlink{idrawable_8h}{idrawable.\+h}\end{DoxyCompactItemize}
